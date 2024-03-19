@@ -1,0 +1,71 @@
+---
+npc_id: 2259
+constant:
+  accessibility: 0
+  items:
+    - name: "bones"
+      minimum: 1
+      maximum: 1
+common:
+  accessibility: 3
+  items:
+    - name: "steel arrow"
+      minimum: 1
+      maximum: 30
+    - name: "fremennik shield"
+      minimum: 1
+      maximum: 1
+    - name: "fremennik helm"
+      minimum: 1
+      maximum: 1
+    - name: "fremennik blade"
+      minimum: 1
+      maximum: 1
+    - name: "fremennik gloves"
+      minimum: 1
+      maximum: 1
+    - name: "fremennik brown shirt"
+      minimum: 1
+      maximum: 1
+    - name: "fremennik brown cloak"
+      minimum: 1
+      maximum: 1
+    - name: "mithril javelin"
+      minimum: 1
+      maximum: 3
+uncommon:
+  accessibility: 12
+  items:
+    - name: "grimy harralander"
+      minimum: 1
+      maximum: 1
+    - name: "grimy ranarr weed"
+      minimum: 1
+      maximum: 1
+    - name: "grimy irit leaf"
+      minimum: 1
+      maximum: 1
+    - name: "grimy avantoe"
+      minimum: 1
+      maximum: 1
+    - name: "grimy kwuarm"
+      minimum: 1
+      maximum: 1
+rare:
+  accessibility: 80
+  items:
+    - name: "flattened hide"
+      minimum: 1
+      maximum: 1
+    - name: "circular hide"
+      minimum: 1
+      maximum: 1
+    - name: "stretched hide"
+      minimum: 1
+      maximum: 1
+    - name: "spined gloves"
+      minimum: 1
+      maximum: 1
+    - name: "spined boots"
+      minimum: 1
+      maximum: 1

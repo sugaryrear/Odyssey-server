@@ -1,0 +1,244 @@
+---
+id: 9
+name: "Zodian Store"
+items:
+  - id: "7292"
+    amount: 1853000000
+    price: 10
+  - id: "31015"
+    amount: 1853000000
+    price: 1
+  - id: "31016"
+    amount: 1853000000
+    price: 10
+  - id: "31017"
+    amount: 1853000000
+    price: 1
+  - id: "19835"
+    amount: 1853000000
+    price: 15
+  - id: "6199"
+    amount: 1853000000
+    price: 20
+  - id: "12765"
+    amount: 1853000000
+    price: 15
+  - id: "27"
+    amount: 1853000000
+    price: 10
+  - id: "15098"
+    amount: 1853000000
+    price: 15
+  - name: "Infernal cape"
+    amount: 1853000000
+    price: 20
+  - name: "Fighter torso"
+    amount: 1853000000
+    price: 15
+  - name: "Dragon defender"
+    amount: 1853000000
+    price: 15
+  - name: "Dexterous prayer scroll"
+    amount: 1850000000
+    price: 15
+  - id: "13576"
+    amount: 1853000000
+    price: 50
+  - id: "12785"
+    amount: 1850000000
+    price: 15
+  - id: "25752"
+    amount: 1850000000
+    price: 15
+  - id: "19685"
+    amount: 1853000000
+    price: 15
+  - id: "20784"
+    amount: 1853000000
+    price: 15
+  - id: "26233"
+    amount: 1853000000
+    price: 50
+  - id: "27655"
+    amount: 1853000000
+    price: 30
+  - id: "24424"
+    amount: 1853000000
+    price: 10
+  - id: "24425"
+    amount: 1853000000
+    price: 10
+  - id: "19675"
+    amount: 1853000000
+    price: 10
+  - id: "22325"
+    amount: 1853000000
+    price: 20
+  - id: "12926"
+    amount: 1853000000
+    price: 10
+  - id: "12006"
+    amount: 1853000000
+    price: 10
+  - id: "22622"
+    amount: 1853000000
+    price: 10
+  - id: "12809"
+    amount: 1853000000
+    price: 10
+  - id: "26219"
+    amount: 1853000000
+    price: 20
+  - id: "25865"
+    amount: 1853000000
+    price: 100
+  - id: "11283"
+    amount: 1853000000
+    price: 10
+  - id: "12904"
+    amount: 1853000000
+    price: 10
+  - id: "12899"
+    amount: 1853000000
+    price: 10
+  - id: "22325"
+    amount: 1853000000
+    price: 175
+  - name: "amulet of eternal glory"
+    amount: 1853000000
+    price: 5
+  - name: "amulet of fury"
+    amount: 1853000000
+    price: 10
+  - name: "amulet of the damned"
+    amount: 1853000000
+    price: 10
+  - name: "amulet of torture"
+    amount: 1853000000
+    price: 20
+  - name: "necklace of anguish"
+    amount: 1853000000
+    price: 20
+  - name: "brine sabre"
+    amount: 1853000000
+    price: 3
+  - id: "10887"
+    amount: 1853000000
+    price: 10
+  - name: "abyssal bludgeon"
+    amount: 1853000000
+    price: 20
+  - name: "ghrazi rapier"
+    amount: 1853000000
+    price: 150
+  - name: "ivandis flail"
+    amount: 1853000000
+    price: 20
+  - id: "23528"
+    amount: 1853000000
+    price: 20
+  - id: "24417"
+    amount: 1853000000
+    price: 20
+  - name: "zamorakian spear"
+    amount: 1853000000
+    price: 20
+  - id: "19481"
+    amount: 1853000000
+    price: 10
+  - name: "twisted bow"
+    amount: 1853000000
+    price: 200
+  - id: "22550"
+    amount: 1853000000
+    price: 50
+  - name: "dragon hunter crossbow"
+    amount: 1853000000
+    price: 20
+  - id: "21015"
+    amount: 1853000000
+    price: 20
+  - name: "chaos gauntlets"
+    amount: 1853000000
+    price: 3
+  - name: "ferocious gloves"
+    amount: 1853000000
+    price: 50
+  - name: "boots of brimstone"
+    amount: 1853000000
+    price: 10
+  - name: "primordial boots"
+    amount: 1853000000
+    price: 20
+  - name: "treasonous ring"
+    amount: 1853000000
+    price: 20
+  - name: "brimstone ring"
+    amount: 1853000000
+    price: 20
+  - id: "11772"
+    amount: 1853000000
+    price: 20
+  - id: "12691"
+    amount: 1853000000
+    price: 20
+  - name: "robin hood hat"
+    amount: 1853000000
+    price: 10
+  - id: "27226"
+    amount: 1853000000
+    price: 40
+  - name: "ranger boots"
+    amount: 1853000000
+    price: 10
+  - name: "pegasian boots"
+    amount: 1853000000
+    price: 20
+  - id: "26235"
+    amount: 1853000000
+    price: 20
+  - id: "27229"
+    amount: 1853000000
+    price: 40
+  - id: "27232"
+    amount: 1853000000
+    price: 40
+  - id: "21000"
+    amount: 1853000000
+    price: 20
+  - name: "tormented bracelet"
+    amount: 1853000000
+    price: 20
+  - id: "25865"
+    amount: 1853000000
+    price: 20
+  - id: "23995"
+    amount: 1853000000
+    price: 20
+  - id: "23975"
+    amount: 1853000000
+    price: 20
+  - id: "23971"
+    amount: 1853000000
+    price: 20
+  - id: "23979"
+    amount: 1853000000
+    price: 20
+  - id: "11283"
+    amount: 1853000000
+    price: 20
+  - id: "12899"
+    amount: 1853000000
+    price: 20
+  - id: "27275"
+    amount: 1853000000
+    price: 20
+
+
+
+
+
+
+
+
+

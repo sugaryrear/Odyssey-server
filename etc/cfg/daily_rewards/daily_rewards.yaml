@@ -1,0 +1,44 @@
+---
+identifier: "11_2022"
+date: [2023, 11, 1]
+rewards:
+- id: 2528
+  amount: 1
+- name: Buldging coin bag
+  amount: 3
+- name: Mystery box
+  amount: 1
+- id: 7629
+  amount: 3
+- id: 21046
+  amount: 5
+- id: 24315
+  amount: 1
+- name: Buldging coin bag
+  amount: 9
+- id: 2528
+  amount: 3
+- id: 6792
+  amount: 2
+- id: 24460
+  amount: 2
+- id: 24317
+  amount: 1
+- name: Buldging coin bag
+  amount: 12
+- id: 7968
+  amount: 2
+- id: 24319
+  amount: 1
+- id: 6199
+  amount: 3
+- name: Buldging coin bag
+  amount: 20
+- name: coins
+  amount: 15000000
+- name: super mystery box
+  amount: 1
+- name: ultra mystery box
+  amount: 1
+- id: 26258
+  amount: 1

@@ -1,0 +1,18 @@
+---
+id: 138
+name: "Zaff's Superior Staffs!"
+items:
+  - name: "battlestaff"
+    amount: 5
+  - name: "staff"
+    amount: 5
+  - name: "magic staff"
+    amount: 5
+  - name: "staff of air"
+    amount: 2
+  - name: "staff of water"
+    amount: 2
+  - name: "staff of earth"
+    amount: 2
+  - name: "staff of fire"
+    amount: 2

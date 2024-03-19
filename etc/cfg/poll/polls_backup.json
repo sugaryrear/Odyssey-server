@@ -1,0 +1,22 @@
+[
+  {
+    "question": "Should item weight affect run speed?",
+    "hours": 350,
+    "totalVotes": 4,
+    "answers": [
+      "Yes",
+      "No"
+    ],
+    "votes": [
+      2,
+      1
+    ],
+    "voters": [
+      "g22",
+      "rihana",
+      "rihanasd"
+    ],
+    "startTime": 1709978385295,
+    "right": "PLAYER"
+  }
+]

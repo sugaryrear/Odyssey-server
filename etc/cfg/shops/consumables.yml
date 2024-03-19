@@ -1,0 +1,20 @@
+---
+id: 113
+name: "Consumables"
+items:
+  - name: "attack potion3"
+    amount: 100
+  - name: "strength potion3"
+    amount: 100
+  - name: "defence potion3"
+    amount: 100
+  - name: "saradomin brew3"
+    amount: 100
+  - name: "divine super combat potion3"
+    amount: 100
+  - name: "divine ranging potion3"
+    amount: 100
+  - name: "divine magic potion3"
+    amount: 100
+
+

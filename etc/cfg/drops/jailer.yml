@@ -1,0 +1,13 @@
+---
+npc_id:
+  - 300
+  - 301
+constant:
+  accessibility: 0
+  items:
+    - name: "bones"
+      minimum: 1
+      maximum: 1
+    - name: "jail key"
+      minimum: 1
+      maximum: 1

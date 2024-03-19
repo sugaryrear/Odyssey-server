@@ -1,0 +1,28 @@
+---
+id: 141
+name: "Dommik's Crafting Store"
+items:
+  - name: "chisel"
+    amount: 2
+  - name: "ring mould"
+    amount: 4
+  - name: "Necklace mould"
+    amount: 2
+  - name: "Amulet mould"
+    amount: 2
+  - name: "Needle"
+    amount: 3
+  - name: "Thread"
+    amount: 100
+  - name: "ball of wool"
+    amount: 10
+  - name: "Holy mould"
+    amount: 3
+  - name: "Sickle mould"
+    amount: 6
+  - name: "Tiara mould"
+    amount: 10
+  - name: "Bolt mould"
+    amount: 10
+  - name: "bracelet mould"
+    amount: 5

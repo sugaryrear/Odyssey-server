@@ -1,0 +1,140 @@
+---
+id: 293
+name: "Magic"
+items:
+  - id: "579"
+    price: -1
+  - name: "ghostly hood"
+    price: -1
+  - name: "splitbark helm"
+    amount: 1
+    price: 8000
+  - name: "skeletal helm"
+    amount: 1
+    price: 91000
+  - name: "lunar helm"
+    amount: 1
+    price: 8000
+  - name: "enchanted hat"
+    amount: 1
+    price: 9000
+  - name: "mystic hat"
+    amount: 1
+  - name: "farseer helm"
+    amount: 1
+  - name: "infinity hat"
+    amount: 1850000000
+    price: 10
+  - name: "third age mage hat"
+    amount: 1
+    price: 17000000
+  - name: "ancestral hat"
+    amount: 1850000000
+    price: 50
+  - name: "ghostly cloak"
+    price: -1
+  - name: "third age druidic cloak"
+    amount: 1
+    price: 682000000
+  - id: "577"
+    price: -1
+  - id: "6107"
+    price: -1
+  - name: "splitbark body"
+    amount: 1
+    price: 22000
+  - name: "skeletal top"
+    amount: 1
+    price: 22000
+  - name: "lunar torso"
+    amount: 1
+    price: 22000
+  - name: "enchanted top"
+    amount: 1
+    price: 76000
+  - name: "mystic robe top"
+    amount: 1
+  - name: "infinity top"
+    amount: 1
+    price: 2222000
+  - name: "third age robe top"
+    amount: 1
+    price: 76000000
+  - name: "ancestral robe top"
+    amount: 1850000000
+    price: 10
+  - name: "broodoo shield"
+    price: 6000
+  - id: "20716"
+    price: 688000
+  - id: "25576"
+    price: 295000
+  - id: "3839"
+    price: -1
+  - id: "3841"
+    price: -1
+  - id: "3843"
+    price: -1
+  - name: "malediction ward"
+    amount: 1
+    price: 1100000
+  - name: "ancient wyvern shield"
+    amount: 1
+    price: 2100000
+  - name: "mages book"
+    amount: 1
+    price: 3300000
+  - name: "arcane spirit shield"
+    amount: 1850000000
+    price: 10
+  - id: "27251"
+    amount: 1850000000
+    price: 50
+  - id: "6108"
+    price: -1
+  - name: "skeletal bottoms"
+    price: 26000
+  - name: "splitbark legs"
+    price: 16000
+  - name: "enchanted robe"
+    price: 46000
+  - name: "mystic robe bottom"
+  - name: "infinity bottoms"
+    amount: 1850000000
+    price: 5
+  - name: "third age robe"
+    price: 23000000
+  - name: "ancestral robe bottom"
+    amount: 1850000000
+    price: 50
+  - name: "ghostly gloves"
+    price: -1
+  - name: "splitbark gauntlets"
+    price: 18000
+  - name: "mystic gloves"
+  - name: "infinity gloves"
+    amount: 1850000000
+    price: 5
+  - name: "ghostly boots"
+    price: -1
+  - name: "splitbark boots"
+    price: 18000
+  - name: "mystic boots"
+  - name: "wizard boots"
+    amount: 1
+    price: 150000
+  - name: "infinity boots"
+    amount: 1850000000
+    price: 5
+  - name: "seers ring"
+    amount: 1
+    price: 460000
+  - id: "11770"
+    amount: 1
+    price: 460000
+  - name: "brimstone ring"
+    amount: 1850000000
+    price: 10
+  - id: "13235"
+    amount: 1850000000
+    price: 50

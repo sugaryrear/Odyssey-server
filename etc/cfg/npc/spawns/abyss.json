@@ -1,0 +1,207 @@
+[
+
+  //Abyssal Walker
+  { "id":2586,
+    "position": {"x":3016, "y": 4832,"height":0},
+    "walkingType": "WALK " },
+  //Abyssal Walker
+  { "id":2586,
+    "position": {"x":3018, "y": 4820,"height":0},
+    "walkingType": "WALK " },
+  //Abyssal Walker
+  { "id":2586,
+    "position": {"x":3021, "y": 4814,"height":0},
+    "walkingType": "WALK " },
+  //Abyssal Walker
+  { "id":2586,
+    "position": {"x":3023, "y": 4811,"height":0},
+    "walkingType": "WALK " },
+  //Abyssal Walker
+  { "id":2586,
+    "position": {"x":3026, "y": 4810,"height":0},
+    "walkingType": "WALK " },
+  //Abyssal Walker
+  { "id":2586,
+    "position": {"x":3034, "y": 4808,"height":0},
+    "walkingType": "WALK " },
+  //Abyssal Walker
+  { "id":2586,
+    "position": {"x":3041, "y": 4810,"height":0},
+    "walkingType": "WALK " },
+  //Abyssal Walker
+  { "id":2586,
+    "position": {"x":3041, "y": 4810,"height":0},
+    "walkingType": "WALK " },
+  //Abyssal Walker
+  { "id":2586,
+    "position": {"x":3047, "y": 4812,"height":0},
+    "walkingType": "WALK " },
+  //Abyssal Walker
+  { "id":2586,
+    "position": {"x":3055, "y": 4814,"height":0},
+    "walkingType": "WALK " },
+  //Abyssal Walker
+  { "id":2586,
+    "position": {"x":3062, "y": 4813,"height":0},
+    "walkingType": "WALK " },
+  //Abyssal Walker
+  { "id":2586,
+    "position": {"x":3056, "y": 4812,"height":0},
+    "walkingType": "WALK " },
+  //Abyssal Walker
+  { "id":2586,
+    "position": {"x":3059, "y": 4820,"height":0},
+    "walkingType": "WALK " },
+  //Abyssal Walker
+  { "id":2586,
+    "position": {"x":3060, "y": 4826,"height":0},
+    "walkingType": "WALK " },
+  //Abyssal Walker
+  { "id":2586,
+    "position": {"x":3063, "y": 4834,"height":0},
+    "walkingType": "WALK " },
+  //Abyssal Walker
+  { "id":2586,
+    "position": {"x":3060, "y": 4840,"height":0},
+    "walkingType": "WALK " },
+  //Abyssal Walker
+  { "id":2586,
+    "position": {"x":3052, "y": 4857,"height":0},
+    "walkingType": "WALK " },
+  //Abyssal Walker
+  { "id":2586,
+    "position": {"x":3021, "y": 4853,"height":0},
+    "walkingType": "WALK " },
+  //Dark Mage
+  { "id":2583,
+    "position": {"x":3039, "y": 4834,"height":0},
+    "walkingType": "FACE_SOUTH"},
+  //Abyssal Guardian
+  { "id":2585,
+    "position": {"x":3016, "y": 4849,"height":0},
+    "walkingType": "WALK " },
+  //Abyssal Guardian
+  { "id":2585,
+    "position": {"x":3015, "y": 4826,"height":0},
+    "walkingType": "WALK " },
+  //Abyssal Guardian
+  { "id":2585,
+    "position": {"x":3028, "y": 4807,"height":0},
+    "walkingType": "WALK " },
+  //Abyssal Guardian
+  { "id":2585,
+    "position": {"x":3057, "y": 4814,"height":0},
+    "walkingType": "WALK " },
+  //Abyssal Guardian
+  { "id":2585,
+    "position": {"x":3059, "y": 4820,"height":0},
+    "walkingType": "WALK " },
+  //Abyssal Guardian
+  { "id":2585,
+    "position": {"x":3059, "y": 4824,"height":0},
+    "walkingType": "WALK " },
+  //Abyssal Guardian
+  { "id":2585,
+    "position": {"x":3062, "y": 4830,"height":0},
+    "walkingType": "WALK " },
+  //Abyssal Guardian
+  { "id":2585,
+    "position": {"x":3063, "y": 4838,"height":0},
+    "walkingType": "WALK " },
+  //Abyssal Guardian
+  { "id":2585,
+    "position": {"x":3060, "y": 4846,"height":0},
+    "walkingType": "WALK " },
+  //Abyssal Guardian
+  { "id":2585,
+    "position": {"x":3056, "y": 4852,"height":0},
+    "walkingType": "WALK " },
+  //Abyssal Guardian
+  { "id":2585,
+    "position": {"x":3050, "y": 4851,"height":0},
+    "walkingType": "WALK " },
+  //Abyssal Guardian
+  { "id":2585,
+    "position": {"x":3039, "y": 4857,"height":0},
+    "walkingType": "WALK " },
+  //Abyssal Leech
+  { "id":2584,
+    "position": {"x":3027, "y": 4851,"height":0},
+    "walkingType": "WALK " },
+  //Abyssal Leech
+  { "id":2584,
+    "position": {"x":3029, "y": 4856,"height":0},
+    "walkingType": "WALK " },
+  //Abyssal Leech
+  { "id":2584,
+    "position": {"x":3034, "y": 4855,"height":0},
+    "walkingType": "WALK " },
+  //Abyssal Leech
+  { "id":2584,
+    "position": {"x":3043, "y": 4855,"height":0},
+    "walkingType": "WALK " },
+  //Abyssal Leech
+  { "id":2584,
+    "position": {"x":3047, "y": 4853,"height":0},
+    "walkingType": "WALK " },
+  //Abyssal Leech
+  { "id":2584,
+    "position": {"x":3057, "y": 4850,"height":0},
+    "walkingType": "WALK " },
+  //Abyssal Leech
+  { "id":2584,
+    "position": {"x":3060, "y": 4842,"height":0},
+    "walkingType": "WALK " },
+  //Abyssal Leech
+  { "id":2584,
+    "position": {"x":3064, "y": 4826,"height":0},
+    "walkingType": "WALK " },
+  //Abyssal Leech
+  { "id":2584,
+    "position": {"x":3060, "y": 4820,"height":0},
+    "walkingType": "WALK " },
+  //Abyssal Leech
+  { "id":2584,
+    "position": {"x":3054, "y": 4814,"height":0},
+    "walkingType": "WALK " },
+  //Abyssal Leech
+  { "id":2584,
+    "position": {"x":3042, "y": 4810,"height":0},
+    "walkingType": "WALK " },
+  //Abyssal Leech
+  { "id":2584,
+    "position": {"x":3030, "y": 4811,"height":0},
+    "walkingType": "WALK " },
+  //Abyssal Leech
+  { "id":2584,
+    "position": {"x":3023, "y": 4814,"height":0},
+    "walkingType": "WALK " },
+  //Abyssal Leech
+  { "id":2584,
+    "position": {"x":3020, "y": 4819,"height":0},
+    "walkingType": "WALK " },
+  //Abyssal Leech
+  { "id":2584,
+    "position": {"x":3017, "y": 4823,"height":0},
+    "walkingType": "WALK " },
+  //Abyssal Leech
+  { "id":2584,
+    "position": {"x":3014, "y": 4828,"height":0},
+    "walkingType": "WALK " },
+  //Abyssal Leech
+  { "id":2584,
+    "position": {"x":3014, "y": 4834,"height":0},
+    "walkingType": "WALK " },
+  //Abyssal Leech
+  { "id":2584,
+    "position": {"x":3018, "y": 4840,"height":0},
+    "walkingType": "WALK " },
+  //Abyssal Leech
+  { "id":2584,
+    "position": {"x":3020, "y": 4845,"height":0},
+    "walkingType": "WALK " },
+  //Abyssal Leech
+  { "id":2584,
+    "position": {"x":3020, "y": 4848,"height":0},
+    "walkingType": "WALK " }
+]

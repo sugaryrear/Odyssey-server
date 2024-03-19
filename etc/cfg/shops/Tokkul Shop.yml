@@ -1,0 +1,52 @@
+---
+id: 29
+name: "TzHaar-Hur-Lek's Ore and Gem Store"
+items:
+  - name: "tin ore"
+    amount: 5
+    price: 4
+  - name: "copper ore"
+    amount: 5
+    price: 4
+  - name: "iron ore"
+    amount: 2
+    price: 25
+  - name: "silver ore"
+    amount: 0
+    price: 112
+  - name: "coal"
+    amount: 0
+    price: 67
+  - name: "gold ore"
+    amount: 0
+    price: 225
+  - name: "mithril ore"
+    amount: 0
+    price: 243
+  - name: "adamantite ore"
+    amount: 0
+    price: 600
+  - name: "runite ore"
+    amount: 0
+    price: 4800
+  - name: "uncut sapphire"
+    amount: 1
+    price: 37
+  - name: "uncut emerald"
+    amount: 2
+    price: 75
+  - name: "uncut ruby"
+    amount: 0
+    price: 150
+  - name: "uncut diamond"
+    amount: 0
+    price: 300
+  - name: "uncut dragonstone"
+    amount: 0
+    price: 1500
+  - name: "uncut onyx"
+    amount: 1
+    price: 300000
+  - name: "onyx bolt tips"
+    amount: 50
+    price: 1500

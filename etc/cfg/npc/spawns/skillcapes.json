@@ -1,0 +1,124 @@
+[
+
+
+  //Surgeon General Tafani
+  { "id":3343,
+    "position": {"x":3371, "y": 3274,"height":0},
+    "walkingType": "WALK " },
+  //Cap'n Izzy No-Beard
+  { "id":5789,
+    "position": {"x":2808, "y": 3192,"height":0},
+    "walkingType": "WALK " },
+  //Estate Agent
+  { "id":3097,
+    "position": {"x":3239, "y": 3476,"height":0},
+    "walkingType": "WALK " },
+  //Estate Agent
+  { "id":3097,
+    "position": {"x":2983, "y": 3368,"height":0},
+    "walkingType": "WALK " },
+  //Estate Agent
+  { "id":3097,
+    "position": {"x":2735, "y": 3504,"height":0},
+    "walkingType": "WALK " },
+  //Estate Agent
+  { "id":3097,
+    "position": {"x":2640, "y": 3291,"height":0},
+    "walkingType": "WALK " },
+  //Estate Agent
+  { "id":3097,
+    "position": {"x":1782, "y": 3628,"height":0},
+    "walkingType": "WALK " },
+  //Head Chef
+  { "id":2658,
+    "position": {"x":3141, "y": 3447,"height":0},
+    "walkingType": "WALK " },
+  //Master Crafter
+  { "id":5810,
+    "position": {"x":2935, "y": 3282,"height":0},
+    "walkingType": "WALK " },
+  //Melee Combat Tutor
+  { "id":3216,
+    "position": {"x":3217, "y": 3239,"height":0},
+    "walkingType": "WALK " },
+  //Ranged Combat Tutor
+  { "id":3217,
+    "position": {"x":3216, "y": 3238,"height":0},
+    "walkingType": "WALK " },
+  //Magic Combat Tutor
+  { "id":3218,
+    "position": {"x":3218, "y": 3238,"height":0},
+    "walkingType": "WALK " },
+  //Martin The Master Gardener
+  { "id":5832,
+    "position": {"x":3076, "y": 3261,"height":0},
+    "walkingType": "WALK " },
+  //Ignatius Vulcan
+  { "id":118,
+    "position": {"x":2720, "y": 3432,"height":0},
+    "walkingType": "WALK " },
+  //Master Fisher
+  { "id":2913,
+    "position": {"x":2613, "y": 3393,"height":0},
+    "walkingType": "WALK " },
+  //Hickton
+  { "id":3212,
+    "position": {"x":2823, "y": 3445,"height":0},
+    "walkingType": "WALK " },
+  //Hunting Expert
+  { "id":1504,
+    "position": {"x":2524, "y": 2915,"height":0},
+    "walkingType": "WALK " },
+  //Wizard Sinina
+  { "id":3249,
+    "position": {"x":2595, "y": 3087,"height":1},
+    "walkingType": "WALK " },
+  //Gadrin
+  { "id":7716,
+    "position": {"x":3022, "y": 3338,"height":0},
+    "walkingType": "WALK " },
+  //Brother Jered
+  { "id":2578,
+    "position": {"x":3052, "y": 3499,"height":1},
+    "walkingType": "WALK " },
+  //Armour Salesman
+  { "id":6059,
+    "position": {"x":2667, "y": 3437,"height":0},
+    "walkingType": "WALK " },
+  //Duradel
+  { "id":405,
+    "position": {"x":2869, "y": 2982,"height":1},
+    "walkingType": "WALK " },
+  //Thurgo
+  { "id":4733,
+    "position": {"x":3000, "y": 3143,"height":0},
+    "walkingType": "WALK " },
+  //Martin Thwait
+  { "id":3193,
+    "position": {"x":3049, "y": 4973,"height":1},
+    "walkingType": "WALK " },
+  //Woodsman Tutor
+  { "id":3226,
+    "position": {"x":3228, "y": 3245,"height":0},
+    "walkingType": "WALK " },
+  //Wise Old Man
+  { "id":8409,
+    "position": {"x":3092, "y": 3255,"height":0},
+    "walkingType": "WALK " },
+  //Wise Old Man
+  { "id":2108,
+    "position": {"x":3092, "y": 3255,"height":0},
+    "walkingType": "WALK " },
+  //Twiggy O'Korn
+  { "id":5527,
+    "position": {"x":3097, "y": 3225,"height":0},
+    "walkingType": "WALK " },
+  //Olaf The Bard
+  { "id":802,
+    "position": {"x":2668, "y": 3685,"height":0},
+    "walkingType": "WALK " },
+  //Mac
+  { "id":6481,
+    "position": {"x":2792, "y": 3539,"height":0},
+    "walkingType": "WALK " }
+]

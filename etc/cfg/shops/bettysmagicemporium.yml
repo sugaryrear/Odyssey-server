@@ -1,0 +1,42 @@
+---
+id: 139
+name: "Betty's Magic Emporium"
+items:
+  - name: "air rune"
+    amount: 50000
+  - name: "fire rune"
+    amount: 50000
+  - name: "earth rune"
+    amount: 50000
+  - name: "water rune"
+    amount: 50000
+  - name: "mind rune"
+    amount: 50000
+  - name: "chaos rune"
+    amount: 25000
+  - name: "death rune"
+    amount: 25000
+  - name: "wrath rune"
+    amount: 5000
+  - name: "fire rune pack"
+    amount: 80
+  - name: "air rune pack"
+    amount: 80
+  - name: "water rune pack"
+    amount: 80
+  - name: "air rune pack"
+    amount: 80
+  - name: "earth rune pack"
+    amount: 80
+  - name: "mind rune pack"
+    amount: 40
+  - name: "chaos rune pack"
+    amount: 35
+  - name: "eye of newt"
+    amount: 300
+  - name: "eye of newt pack"
+    amount: 60
+  - name: "blue wizard hat"
+    amount: 2
+  - name: "wizard hat"
+    amount: 1

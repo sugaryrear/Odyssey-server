@@ -1,0 +1,57 @@
+---
+id: 66
+name: "Slayer Equipment"
+items:
+- name: "enchanted gem"
+  amount: 5000
+  price: -1
+- name: "spiny helmet"
+  amount: 5000
+- id: 24942
+  amount: 5000
+- id: 8901
+  amount: 5000
+- name: "facemask"
+  amount: 5000
+- name: "earmuffs"
+  amount: 5000
+- name: "bag of salt"
+  amount: 5000
+- name: "fishing explosive"
+  amount: 5000
+- name: "unlit bug lantern"
+  amount: 5000
+- name: "witchwood icon"
+  amount: 5000
+- name: "insulated boots"
+  amount: 5000
+- name: "slayer bell"
+  amount: 5000
+- name: "slayer gloves"
+  amount: 5000
+- name: "boots of stone"
+  amount: 5000
+- name: "leaf bladed spear"
+  amount: 5000
+- name: "slayers staff"
+  amount: 5000
+- name: "broad arrows"
+  amount: 5000
+- name: "broad bolts"
+  amount: 5000
+- name: "broad arrowheads"
+  amount: 5000
+- name: "unfinished broad bolts"
+  amount: 5000
+- name: "broad arrowhead pack"
+  amount: 5000
+- name: "fungicide spray 10"
+  amount: 5000
+- name: "fungicide"
+  amount: 5000
+- name: "nose peg"
+  amount: 5000
+- name: "rock hammer"
+  amount: 5000
+- name: "rock thrownhammer"
+  amount: 5000

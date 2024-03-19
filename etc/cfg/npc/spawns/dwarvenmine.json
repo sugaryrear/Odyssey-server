@@ -1,0 +1,25 @@
+[
+
+
+  //hura
+  {
+    "id": 2785,
+    "position": {
+      "x": 3002,
+      "y": 9798,
+      "height": 0
+    },
+    "walkingType": "WALK"
+  },
+
+  //drogo
+  {
+    "id": 2785,
+    "position": {
+      "x": 3034,
+      "y": 9846,
+      "height": 0
+    },
+    "walkingType": "WALK"
+  }
+]

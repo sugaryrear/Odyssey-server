@@ -1,0 +1,27 @@
+---
+npc_id:
+  - 9021
+  - 9022
+  - 9023
+  - 9024
+constant:
+  accessibility: 0
+  items:
+    - name: "bones"
+      minimum: 1
+      maximum: 1
+common:
+  accessibility: 100
+  items:
+    - name: "crystal helm"
+      minimum: 1
+      maximum: 1
+    - name: "crystal body"
+      minimum: 1
+      maximum: 1
+    - name: "crystal legs"
+      minimum: 1
+      maximum: 1
+    - name: "blade of saeldor"
+      minimum: 1
+      maximum: 1

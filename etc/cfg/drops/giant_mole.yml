@@ -1,0 +1,74 @@
+---
+npc_id: 5779
+constant:
+  accessibility: 1
+  items:
+  - name: "big bones"
+    minimum: 1
+    maximum: 1
+  - name: "mole claw"
+    minimum: 1
+    maximum: 1
+  - name: "mole skin"
+    minimum: 1
+    maximum: 3
+common:
+  accessibility: 18
+  items:
+  - name: "adamant longsword"
+    minimum: 1
+    maximum: 1
+  - name: "mithril platebody"
+    minimum: 1
+    maximum: 1
+  - name: "amulet of strength"
+    minimum: 1
+    maximum: 1
+  - name: "air rune"
+    minimum: 1
+    maximum: 105
+  - name: "blood rune"
+    minimum: 1
+    maximum: 15
+  - name: "fire rune"
+    minimum: 1
+    maximum: 105
+  - name: "iron arrow"
+    minimum: 1
+    maximum: 690
+  - name: "yew logs noted"
+    minimum: 1
+    maximum: 100
+uncommon:
+  accessibility: 64
+  items:
+  - name: "mithril axe"
+    minimum: 1
+    maximum: 1
+  - name: "law rune"
+    minimum: 1
+    maximum: 15
+  - name: "death rune"
+    minimum: 1
+    maximum: 7
+  - name: "shark"
+    minimum: 1
+    maximum: 4
+  - name: "mithril bar"
+    minimum: 1
+    maximum: 1
+  - name: "iron ore noted"
+    minimum: 1
+    maximum: 100
+rare:
+  accessibility: 128
+  items:
+  - name: "rune med helm"
+    minimum: 1
+    maximum: 1
+  - name: "mithril battleaxe"
+    minimum: 1
+    maximum: 1
+  - name: "oyster pearls"
+    minimum: 1
+    maximum: 1

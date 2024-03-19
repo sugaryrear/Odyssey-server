@@ -1,0 +1,13 @@
+---
+id: 121
+name: "Boss Points Shop"
+items:
+  - id: 26080
+    amount: 1
+    price: 50
+  - id: 26083
+    amount: 1
+    price: 50
+  - id: 26071
+    amount: 1
+    price: 50

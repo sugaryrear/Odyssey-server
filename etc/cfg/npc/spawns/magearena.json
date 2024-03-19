@@ -1,0 +1,38 @@
+[
+  {
+    "id": 1603,
+    "position": {
+      "x": 2542,
+      "y": 4716,
+      "height": 0
+    },
+    "walkingType": "WALK"
+  },
+  {
+    "id": 1601,
+    "position": {
+      "x": 2533,
+      "y": 4718,
+      "height": 0
+    },
+    "walkingType": "FACE_SOUTH"
+  },
+  {
+    "id": 1602,
+    "position": {
+      "x": 2535,
+      "y": 4719,
+      "height": 0
+    },
+    "walkingType": "FACE_SOUTH"
+  },
+  {
+    "id": 1600,
+    "position": {
+      "x": 2532,
+      "y": 4713,
+      "height": 0
+    },
+    "walkingType": "FACE_EAST"
+  }
+]

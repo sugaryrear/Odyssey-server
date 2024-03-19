@@ -1,0 +1,24 @@
+---
+id: 126
+name: "Cassie's Shield Shop"
+items:
+  - name: "anti dragon shield"
+    amount: 1
+  - name: "Wooden shield"
+    amount: 5
+  - name: "Bronze sq shield"
+    amount: 3
+  - name: "Bronze kiteshield"
+    amount: 3
+  - name: "Iron sq shield"
+    amount: 2
+  - name: "Iron kiteshield"
+    amount: 0
+  - name: "Steel sq shield"
+    amount: 0
+  - name: "Steel kiteshield"
+    amount: 0
+  - name: "Mithril sq shield"
+    amount: 0
+  - name: "rune sq shield"
+    amount: 0

@@ -1,0 +1,14 @@
+[
+
+
+  //cook
+  {
+    "id": 225,
+    "position": {
+      "x": 3207,
+      "y": 3215,
+      "height": 0
+    },
+    "walkingType": "WALK"
+  }
+]

@@ -1,0 +1,15 @@
+[
+
+
+
+  //breive
+  {
+    "id": 7654,
+    "position": {
+      "x": 2414,
+      "y": 3060,
+      "height": 0
+    },
+    "walkingType": "FACE_SOUTH"
+  }
+]

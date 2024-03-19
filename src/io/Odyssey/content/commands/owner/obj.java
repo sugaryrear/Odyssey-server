@@ -1,0 +1,32 @@
+package io.Odyssey.content.commands.owner;
+
+import io.Odyssey.content.commands.Command;
+import io.Odyssey.model.entity.player.Player;
+import io.Odyssey.model.entity.player.PlayerHandler;
+
+import java.util.Arrays;
+
+/**
+ * Spawn a specific Object.
+ * 
+ * @author Emiel
+ *
+ */
+public class obj extends Command {
+
+	@Override
+	public void execute(Player c, String commandName, String input) {
+		String[] args = input.split(" ");
+		int objId = Integer.parseInt(args[0]);
+		int type = args.length > 1 ? Integer.parseInt(args[1]) : 10;
+		int face = args.length > 2 ? Integer.parseInt(args[2]) : 0;
+		
+		Arrays.stream(PlayerHandler.players).forEach(p -> {
+			if (p != null) {
+				p.getPA().object(objId, c.absX, c.absY, face, type, true);
+			}
+		});
+		
+		c.sendMessage(String.format("Object spawned [Id: %s] [Type: %s] [Face: %s]", objId, type, face));
+	}
+}

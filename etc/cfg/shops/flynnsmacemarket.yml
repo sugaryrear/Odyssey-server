@@ -1,0 +1,14 @@
+---
+id: 137
+name: "Flynn's Mace Market"
+items:
+  - name: "Bronze mace"
+    amount: 5
+  - name: "Iron mace"
+    amount: 4
+  - name: "steel mace"
+    amount: 4
+  - name: "mithril mace"
+    amount: 3
+  - name: "adamant mace"
+    amount: 2

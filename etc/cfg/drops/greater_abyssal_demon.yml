@@ -1,0 +1,59 @@
+---
+npc_id: 7410
+rare:
+  accessibility: 50
+  items:
+  - name: "mist battlestaff"
+    minimum: 1
+    maximum: 1
+  - item: 12750
+    minimum: 1
+    maximum: 1
+  - name: "dust battlestaff"
+    minimum: 1
+    maximum: 1
+  - name: "rune 2h sword"
+    minimum: 1
+    maximum: 1
+  - name: "rune chainbody"
+    minimum: 1
+    maximum: 1
+  - name: "rune battleaxe"
+    minimum: 1
+    maximum: 1
+  - name: "rune full helm"
+    minimum: 1
+    maximum: 1
+  - name: "dragon arrowtips"
+    minimum: 30
+    maximum: 80
+  - name: "dragon dart tip"
+    minimum: 30
+    maximum: 80
+  - name: "dragon javelin heads"
+    minimum: 10
+    maximum: 50
+  - name: "cave nightshade"
+    minimum: 3
+    maximum: 6
+  - name: "snape grass noted"
+    minimum: 15
+    maximum: 400
+very_rare:
+  accessibility: 500
+  items:
+  - name: "imbued heart"
+    minimum: 1
+    maximum: 1
+  - name: "abyssal whip"
+    minimum: 1
+    maximum: 1
+  - name: "abyssal head"
+    minimum: 1
+    maximum: 1
+  - name: "abyssal dagger"
+    minimum: 1
+    maximum: 1
+  - item: 12756
+    minimum: 1
+    maximum: 3

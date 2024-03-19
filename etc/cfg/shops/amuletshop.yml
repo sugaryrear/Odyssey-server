@@ -1,0 +1,14 @@
+---
+id: 146
+name: "Davon's Amulet Store"
+items:
+  - name: "holy symbol"
+    amount: 0
+  - name: "amulet of magic"
+    amount: 1
+  - name: "amulet of defence"
+    amount: 1
+  - name: "amulet of strength"
+    amount: 1
+  - name: "amulet of power"
+    amount: 0

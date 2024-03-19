@@ -1,0 +1,26 @@
+---
+id: 140
+name: "Frenita's Cookery Shop"
+items:
+  - name: "pie dish"
+    amount: 5
+  - name: "Cooking apple"
+    amount: 2
+  - name: "Cake tin"
+    amount: 2
+  - name: "potato"
+    amount: 5
+  - name: "Tinderbox"
+    amount: 4
+  - name: "jug"
+    amount: 1
+  - name: "empty jug pack"
+    amount: 3
+  - name: "pot"
+    amount: 8
+  - name: "chocolate bar"
+    amount: 2
+  - name: "pot of flour"
+    amount: 8
+  - name: "empty cup"
+    amount: 20

@@ -1,0 +1,14 @@
+[
+
+
+ //temple guardian
+  {
+    "id": 7620,
+    "position": {
+      "x": 3421,
+      "y": 9894,
+      "height": 0
+    },
+    "walkingType": "WALK"
+  }
+]

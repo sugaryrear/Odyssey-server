@@ -1,0 +1,38 @@
+---
+id: 173
+name: "Shantay Pass"
+items:
+  - name: "waterskin4"
+    amount: 100
+  - name: "waterskin2"
+    amount: 100
+  - name: "jug of water"
+    amount: 10
+  - name: "knife"
+    amount: 10
+  - name: "Desert shirt"
+    amount: 10
+  - name: "Desert robe"
+    amount: 10
+  - name: "Desert boots"
+    amount: 10
+  - name: "Bronze bar"
+    amount: 10
+  - name: "Feather"
+    amount: 500
+  - name: "Feather pack"
+    amount: 50
+  - name: "Hammer"
+    amount: 10
+  - name: "bucket"
+    amount: 0
+  - name: "bowl"
+    amount: 0
+  - name: "jug"
+    amount: 0
+  - name: "empty jug pack"
+    amount: 0
+  - name: "shantay pass"
+    amount: 500
+  - name: "rope"
+    amount: 200

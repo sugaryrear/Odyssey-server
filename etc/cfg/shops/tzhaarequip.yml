@@ -1,0 +1,25 @@
+---
+id: 241
+name: "TzHaar-Hur-Tel's Equipment Store"
+items:
+  - name: "Toktz xil ul"
+    amount: 500
+    price: 375
+  - name: "Toktz xil ak"
+    amount: 1
+    price: 60000
+  - name: "Toktz xil ek"
+    amount: 1
+    price: 37500
+  - name: "Tzhaar ket om"
+    amount: 1
+    price: 75001
+  - name: "Toktz mej tal"
+    amount: 1
+    price: 45000
+  - name: "obsidian cape"
+    amount: 1
+    price: 90000
+  - name: "Toktz ket xil"
+    amount: 1
+    price: 67500

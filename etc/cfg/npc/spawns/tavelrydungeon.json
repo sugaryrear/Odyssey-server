@@ -1,0 +1,308 @@
+[
+  //Ghost
+  { "id":85,
+    "position": {"x":2897, "y": 9849,"height":0},
+    "walkingType": "WALK " },
+  //Ghost
+  { "id":85,
+    "position": {"x":2905, "y": 9849,"height":0},
+    "walkingType": "WALK " },
+  //Ghost
+  { "id":85,
+    "position": {"x":2913, "y": 9849,"height":0},
+    "walkingType": "WALK " },
+  //Ghost
+  { "id":85,
+    "position": {"x":2921, "y": 9851,"height":0},
+    "walkingType": "WALK " },
+  //Ghost
+  { "id":85,
+    "position": {"x":2932, "y": 9839,"height":0},
+    "walkingType": "WALK " },
+  //Ghost
+  { "id":85,
+    "position": {"x":2936, "y": 9837,"height":0},
+    "walkingType": "WALK " },
+  //Ghost
+  { "id":85,
+    "position": {"x":2921, "y": 9819,"height":0},
+    "walkingType": "WALK " },
+  //Ghost
+  { "id":85,
+    "position": {"x":2911, "y": 9819,"height":0},
+    "walkingType": "WALK " },
+  //Ghost
+  { "id":85,
+    "position": {"x":2907, "y": 9819,"height":0},
+    "walkingType": "WALK " },
+  //Ghost
+  { "id":85,
+    "position": {"x":2901, "y": 9818,"height":0},
+    "walkingType": "WALK " },
+  //Chaos Dwarf
+  { "id":291,
+    "position": {"x":2937, "y": 9792,"height":0},
+    "walkingType": "WALK " },
+  //Chaos Dwarf
+  { "id":291,
+    "position": {"x":2933, "y": 9789,"height":0},
+    "walkingType": "WALK " },
+  //Poison Scorpion
+  { "id":3025,
+    "position": {"x":2941, "y": 9780,"height":0},
+    "walkingType": "WALK " },
+  //Poison Scorpion
+  { "id":3025,
+    "position": {"x":2936, "y": 9777,"height":0},
+    "walkingType": "WALK " },
+  //Poison Scorpion
+  { "id":3025,
+    "position": {"x":2934, "y": 9772,"height":0},
+    "walkingType": "WALK " },
+  //Poison Scorpion
+  { "id":3025,
+    "position": {"x":2935, "y": 9760,"height":0},
+    "walkingType": "WALK " },
+  //Poison Scorpion
+  { "id":3025,
+    "position": {"x":2925, "y": 9750,"height":0},
+    "walkingType": "WALK " },
+  //Blue Dragon
+  { "id":268,
+    "position": {"x":2905, "y": 9788,"height":0},
+    "walkingType": "WALK " },
+  //Blue Dragon
+  { "id":268,
+    "position": {"x":2903, "y": 9783,"height":0},
+    "walkingType": "WALK " },
+  //Blue Dragon
+  { "id":268,
+    "position": {"x":2907, "y": 9776,"height":0},
+    "walkingType": "WALK " },
+  //Blue Dragon
+  { "id":268,
+    "position": {"x":2913, "y": 9781,"height":0},
+    "walkingType": "WALK " },
+  //Blue Dragon
+  { "id":268,
+    "position": {"x":2910, "y": 9789,"height":0},
+    "walkingType": "WALK " },
+  //Blue Dragon
+  { "id":268,
+    "position": {"x":2920, "y": 9787,"height":0},
+    "walkingType": "WALK " },
+  //Baby Blue Dragon
+  { "id":241,
+    "position": {"x":2923, "y": 9794,"height":0},
+    "walkingType": "WALK " },
+  //Baby Blue Dragon
+  { "id":241,
+    "position": {"x":2901, "y": 9765,"height":0},
+    "walkingType": "WALK " },
+  //Baby Blue Dragon
+  { "id":241,
+    "position": {"x":2893, "y": 9767,"height":0},
+    "walkingType": "WALK " },
+  //Baby Blue Dragon
+  { "id":241,
+    "position": {"x":2895, "y": 9772,"height":0},
+    "walkingType": "WALK " },
+
+  { "id":4928,
+    "position": {"x":2891, "y": 9766,"height":0},
+    "walkingType": "FACE_EAST" },
+
+  { "id":4928,
+    "position": {"x":2889, "y": 9766,"height":0},
+    "walkingType": "FACE_EAST"},
+
+  { "id":4928,
+    "position": {"x":2887, "y": 9766,"height":0},
+    "walkingType": "FACE_EAST"},
+  //Black Knight
+  { "id":517,
+    "position": {"x":2899, "y": 9702,"height":0},
+    "walkingType": "WALK " },
+  //Black Knight
+  { "id":517,
+    "position": {"x":2894, "y": 9710,"height":0},
+    "walkingType": "WALK " },
+  //Black Knight
+  { "id":517,
+    "position": {"x":2892, "y": 9709,"height":0},
+    "walkingType": "WALK " },
+  //Black Knight
+  { "id":517,
+    "position": {"x":2891, "y": 9702,"height":0},
+    "walkingType": "WALK " },
+  //Black Knight
+  { "id":517,
+    "position": {"x":2890, "y": 9693,"height":0},
+    "walkingType": "WALK " },
+  //Black Knight
+  { "id":517,
+    "position": {"x":2894, "y": 9694,"height":0},
+    "walkingType": "WALK " },
+  //Black Knight
+  { "id":517,
+    "position": {"x":2900, "y": 9689,"height":0},
+    "walkingType": "WALK " },
+  //Black Knight
+  { "id":517,
+    "position": {"x":2905, "y": 9689,"height":0},
+    "walkingType": "WALK " },
+  //Black Knight
+  { "id":517,
+    "position": {"x":2911, "y": 9689,"height":0},
+    "walkingType": "WALK " },
+  //Black Knight
+  { "id":517,
+    "position": {"x":2913, "y": 9683,"height":0},
+    "walkingType": "WALK " },
+  //Black Knight
+  { "id":517,
+    "position": {"x":2919, "y": 9681,"height":0},
+    "walkingType": "WALK " },
+  //Black Knight
+  { "id":517,
+    "position": {"x":2912, "y": 9676,"height":0},
+    "walkingType": "WALK " },
+  //Black Knight
+  { "id":517,
+    "position": {"x":2904, "y": 9672,"height":0},
+    "walkingType": "WALK " },
+  //Black Knight
+  { "id":517,
+    "position": {"x":2898, "y": 9678,"height":0},
+    "walkingType": "WALK " },
+  //Black Knight
+  { "id":517,
+    "position": {"x":2916, "y": 9694,"height":0},
+    "walkingType": "WALK " },
+  //Black Knight
+  { "id":517,
+    "position": {"x":2920, "y": 9703,"height":0},
+    "walkingType": "WALK " },
+  //Black Knight
+  { "id":517,
+    "position": {"x":2914, "y": 9704,"height":0},
+    "walkingType": "WALK " },
+  //Jailer
+  { "id":300,
+    "position": {"x":2928, "y": 9692,"height":0},
+    "walkingType": "WALK " },
+  //Velrak The Explorer
+  { "id":4925,
+    "position": {"x":2931, "y": 9686,"height":0},
+    "walkingType": "WALK " },
+  //Dwarf
+  { "id":290,
+    "position": {"x":2930, "y": 9703,"height":0},
+    "walkingType": "WALK " },
+  //Dwarf
+  { "id":290,
+    "position": {"x":2931, "y": 9700,"height":0},
+    "walkingType": "WALK " },
+
+  //Slieve
+  { "id":7653,
+    "position": {"x":2873, "y": 9828,"height":1},
+    "walkingType": "FACE_EAST" },
+
+  //Baby Black Dragon
+  { "id":1871,
+    "position": {"x":2858, "y": 9829,"height":1},
+    "walkingType": "WALK " },
+  //Baby Black Dragon
+  { "id":1871,
+    "position": {"x":2853, "y": 9826,"height":1},
+    "walkingType": "WALK " },
+  //Baby Black Dragon
+  { "id":1871,
+    "position": {"x":2826, "y": 9820,"height":1},
+    "walkingType": "WALK " },
+  //Baby Black Dragon
+  { "id":1871,
+    "position": {"x":2820, "y": 9819,"height":1},
+    "walkingType": "WALK " },
+  //Baby Black Dragon
+  { "id":1871,
+    "position": {"x":2815, "y": 9818,"height":1},
+    "walkingType": "WALK " },
+  //Black Dragon
+  { "id":259,
+    "position": {"x":2809, "y": 9816,"height":1},
+    "walkingType": "WALK " },
+  //Black Dragon
+  { "id":259,
+    "position": {"x":2803, "y": 9810,"height":1},
+    "walkingType": "WALK " },
+  //Black Dragon
+  { "id":259,
+    "position": {"x":2797, "y": 9820,"height":1},
+    "walkingType": "WALK " },
+  //Black Dragon
+  { "id":259,
+    "position": {"x":2781, "y": 9807,"height":1},
+    "walkingType": "WALK " },
+  //Black Dragon
+  { "id":259,
+    "position": {"x":2776, "y": 9817,"height":1},
+    "walkingType": "WALK " },
+  //Black Dragon
+  { "id":259,
+    "position": {"x":2785, "y": 9826,"height":1},
+    "walkingType": "WALK " },
+  //Black Dragon
+  { "id":259,
+    "position": {"x":2780, "y": 9836,"height":1},
+    "walkingType": "WALK " },
+  //Black Dragon
+  { "id":259,
+    "position": {"x":2797, "y": 9843,"height":1},
+    "walkingType": "WALK " },
+  //Black Dragon
+  { "id":259,
+    "position": {"x":2799, "y": 9828,"height":1},
+    "walkingType": "WALK " },
+  //Eve
+  { "id":7672,
+    "position": {"x":2906, "y": 9815,"height":1},
+    "walkingType": "FACE_NORTH" },
+  //Blue Dragon
+  { "id":268,
+    "position": {"x":2953, "y": 9818,"height":1},
+    "walkingType": "WALK " },
+  //Blue Dragon
+  { "id":268,
+    "position": {"x":2948, "y": 9824,"height":1},
+    "walkingType": "WALK " },
+  //Blue Dragon
+  { "id":268,
+    "position": {"x":2945, "y": 9813,"height":1},
+    "walkingType": "WALK " },
+  //Blue Dragon
+  { "id":268,
+    "position": {"x":2928, "y": 9812,"height":1},
+    "walkingType": "WALK " },
+  //Blue Dragon
+  { "id":268,
+    "position": {"x":2916, "y": 9814,"height":1},
+    "walkingType": "WALK " },
+  //Blue Dragon
+  { "id":268,
+    "position": {"x":2923, "y": 9811,"height":1},
+    "walkingType": "WALK " },
+  //Blue Dragon
+  { "id":268,
+    "position": {"x":2893, "y": 9814,"height":1},
+    "walkingType": "WALK " },
+  //Blue Dragon
+  { "id":268,
+    "position": {"x":2890, "y": 9810,"height":1},
+    "walkingType": "WALK " },
+  //Blue Dragon
+  { "id":268,
+    "position": {"x":2890, "y": 9805,"height":1},
+    "walkingType": "WALK " }
+]

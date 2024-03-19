@@ -1,0 +1,22 @@
+---
+id: 10
+name: "Slayer Store"
+items:
+- name: "looting bag"
+  amount: 5000
+  price: 10
+- name: "broad bolts"
+  amount: 5000
+  price: 35
+- name: "broad arrows"
+  amount: 5000
+  price: 35
+- id: 11866
+  amount: 5000
+  price: 75
+- id: 13226
+  amount: 5000
+  price: 750
+- id: 11941
+  amount: 5000
+  price: 750

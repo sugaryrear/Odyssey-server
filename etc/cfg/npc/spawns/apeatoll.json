@@ -1,0 +1,11 @@
+[
+
+  //daga
+  { "id":5250,
+    "position": {"x":2761, "y": 2775,"height":0},
+    "walkingType": "WALK " },
+  //oobapohk
+  { "id":7120,
+    "position": {"x":2774, "y": 2778,"height":0},
+    "walkingType": "WALK " }
+]

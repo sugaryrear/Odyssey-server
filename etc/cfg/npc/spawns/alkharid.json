@@ -1,0 +1,75 @@
+[
+
+
+  {
+    "id": 5520,
+    "position": {
+      "x": 3300,
+      "y": 3121,
+      "height": 0
+    },
+    "walkingType": "WALK"
+  },
+  {
+    "id": 2874,
+    "position": {
+      "x": 3287,
+      "y": 3209,
+      "height": 0
+    },
+    "walkingType": "WALK"
+  },
+  {
+    "id": 2878,
+    "position": {
+      "x": 3315,
+      "y": 3162,
+      "height": 0
+    },
+    "walkingType": "WALK"
+  },
+
+  {
+    "id": 2879,
+    "position": {
+      "x": 3320,
+      "y": 3194,
+      "height": 0
+    },
+    "walkingType": "WALK"
+  },
+  {
+    "id": 2876,
+    "position": {
+      "x": 3315,
+      "y": 3175,
+      "height": 0
+    },
+    "walkingType": "WALK"
+  },
+  {
+    "id": 4642,
+    "position": {
+      "x": 3303,
+      "y": 3124,
+      "height": 0
+    },
+    "walkingType": "WALK"
+  },
+  //Border Guard
+  { "id":4287,
+    "position": {"x":3267, "y": 3229,"height":0},
+    "walkingType": "FACE_WEST"},
+  //Border Guard
+  { "id":4288,
+    "position": {"x":3267, "y": 3226,"height":0},
+    "walkingType": "FACE_WEST"},
+  //Border Guard
+  { "id":4288,
+    "position": {"x":3268, "y": 3226,"height":0},
+    "walkingType": "FACE_EAST"},
+  //Border Guard
+  { "id":4287,
+    "position": {"x":3268, "y": 3229,"height":0},
+    "walkingType": "FACE_EAST"}
+]

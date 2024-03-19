@@ -1,0 +1,16 @@
+---
+id: 26
+name: "Gaius Two Handed Shop"
+items:
+  - name: "bronze 2h sword"
+    amount: 4
+  - name: "iron 2h sword"
+    amount: 3
+  - name: "steel 2h sword"
+    amount: 2
+  - name: "black 2h sword"
+    amount: 1
+  - name: "mithril 2h sword"
+    amount: 1
+  - name: "adamant 2h sword"
+    amount: 1

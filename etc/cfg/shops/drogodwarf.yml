@@ -1,0 +1,20 @@
+---
+id: 147
+name: "Drogo's Mining Emporium"
+items:
+  - name: "hammer"
+    amount: 4
+  - name: "bronze pickaxe"
+    amount: 4
+  - name: "copper ore"
+    amount: 0
+  - name: "tin ore"
+    amount: 0
+  - name: "coal"
+    amount: 0
+  - name: "bronze bar"
+    amount: 1
+  - name: "iron bar"
+    amount: 1
+  - name: "gold bar"
+    amount: 1

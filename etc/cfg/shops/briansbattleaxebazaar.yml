@@ -1,0 +1,16 @@
+---
+id: 130
+name: "Brian's Battleaxe Bazaar"
+items:
+  - name: "Bronze battleaxe"
+    amount: 4
+  - name: "Iron battleaxe"
+    amount: 3
+  - name: "Steel battleaxe"
+    amount: 2
+  - name: "Black battleaxe"
+    amount: 1
+  - name: "Mithril battleaxe"
+    amount: 1
+  - name: "adamant battleaxe"
+    amount: 1

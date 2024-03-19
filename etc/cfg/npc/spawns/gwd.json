@@ -1,0 +1,103 @@
+[
+
+  //Ashuelot Reis
+  { "id":11289,
+    "position": {"x":2904, "y": 5203,"height":0},
+    "walkingType": "WALK " },
+  //Spiritual Mage
+  { "id":11292,
+    "position": {"x":2888, "y": 5204,"height":0},
+    "walkingType": "WALK " },
+  //Spiritual Mage
+  { "id":11292,
+    "position": {"x":2881, "y": 5207,"height":0},
+    "walkingType": "WALK " },
+  //Spiritual Mage
+  { "id":11292,
+    "position": {"x":2884, "y": 5222,"height":0},
+    "walkingType": "WALK " },
+  //Spiritual Mage
+  { "id":11292,
+    "position": {"x":2889, "y": 5221,"height":0},
+    "walkingType": "WALK " },
+  //Spiritual Mage
+  { "id":11292,
+    "position": {"x":2874, "y": 5221,"height":0},
+    "walkingType": "WALK " },
+  //Spiritual Mage
+  { "id":11292,
+    "position": {"x":2865, "y": 5215,"height":0},
+    "walkingType": "WALK " },
+  //Spiritual Mage
+  { "id":11292,
+    "position": {"x":2862, "y": 5210,"height":0},
+    "walkingType": "WALK " },
+  //Spiritual Mage
+  { "id":11292,
+    "position": {"x":2862, "y": 5199,"height":0},
+    "walkingType": "WALK " },
+  //Spiritual Mage
+  { "id":11292,
+    "position": {"x":2854, "y": 5204,"height":0},
+    "walkingType": "WALK " },
+  //Spiritual Warrior
+  { "id":11290,
+    "position": {"x":2893, "y": 5202,"height":0},
+    "walkingType": "WALK " },
+  //Farmer
+  { "id":11290,
+    "position": {"x":2890, "y": 5213,"height":0},
+    "walkingType": "WALK " },
+  //Farmer
+  { "id":11290,
+    "position": {"x":2879, "y": 5215,"height":0},
+    "walkingType": "WALK " },
+  //Farmer
+  { "id":11290,
+    "position": {"x":2884, "y": 5207,"height":0},
+    "walkingType": "WALK " },
+  //Farmer
+  { "id":11290,
+    "position": {"x":2871, "y": 5204,"height":0},
+    "walkingType": "WALK " },
+  //Farmer
+  { "id":11290,
+    "position": {"x":2860, "y": 5203,"height":0},
+    "walkingType": "WALK " },
+  //Farmer
+  { "id":11290,
+    "position": {"x":2852, "y": 5209,"height":0},
+    "walkingType": "WALK " },
+  //Farmer
+  { "id":11290,
+    "position": {"x":2868, "y": 5212,"height":0},
+    "walkingType": "WALK " },
+  //Farmer
+  { "id":11290,
+    "position": {"x":2866, "y": 5221,"height":0},
+    "walkingType": "WALK " },
+  //Farmer
+  { "id":11290,
+    "position": {"x":2880, "y": 5218,"height":0},
+    "walkingType": "WALK " },
+  //Spiritual Mage
+  { "id":11292,
+    "position": {"x":2885, "y": 5211,"height":0},
+    "walkingType": "WALK " },
+  //Spiritual Mage
+  { "id":11292,
+    "position": {"x":2879, "y": 5219,"height":0},
+    "walkingType": "WALK " },
+  //Spiritual Mage
+  { "id":11292,
+    "position": {"x":2875, "y": 5223,"height":0},
+    "walkingType": "WALK " },
+  //Spiritual Mage
+  { "id":11292,
+    "position": {"x":2864, "y": 5212,"height":0},
+    "walkingType": "WALK " },
+  //Spiritual Mage
+  { "id":11292,
+    "position": {"x":2867, "y": 5206,"height":0},
+    "walkingType": "WALK " }
+]

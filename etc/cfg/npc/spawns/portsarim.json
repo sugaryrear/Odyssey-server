@@ -1,0 +1,28 @@
+[
+
+  //squire
+  {
+    "id": 1759,
+    "position": {
+      "x": 3040,
+      "y": 3202,
+      "height": 0
+    },
+    "walkingType": "FACE_NORTH"
+  },
+  //brian
+  { "id":2892,
+    "position": {"x":3027, "y": 3247,"height":0},
+    "walkingType": "WALK " },
+
+
+  //betty
+  { "id":1788,
+    "position": {"x":3014, "y": 3258,"height":0},
+    "walkingType": "WALK " },
+
+  //gerrant
+  { "id":1790,
+    "position": {"x":3014, "y": 3223,"height":0},
+    "walkingType": "WALK " }
+]

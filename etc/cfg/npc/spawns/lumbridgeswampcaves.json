@@ -1,0 +1,134 @@
+[
+
+//wall beast
+  {
+    "id": 476,
+    "position": {
+      "x": 3162,
+      "y": 9574,
+      "height": 0
+    },
+    "walkingType": "FACE_SOUTH"
+  },
+  {
+    "id": 476,
+    "position": {
+      "x": 3164,
+      "y": 9556,
+      "height": 0
+    },
+    "walkingType": "FACE_SOUTH"
+  },
+
+  {
+    "id": 1828,
+    "position": {
+      "x": 3248,
+      "y": 9562,
+      "height": 0
+    },
+    "walkingType": "WALK"
+  },
+
+
+  {
+    "id": 477,
+    "position": {
+      "x": 3254,
+      "y": 9576,
+      "height": 0
+    },
+    "walkingType": "WALK"
+  },
+
+
+  {
+    "id": 4136,
+    "position": {
+      "x": 3223,
+      "y": 9580,
+      "height": 0
+    },
+    "walkingType": "WALK"
+  },
+
+
+  {
+    "id": 4136,
+    "position": {
+      "x": 3267,
+      "y": 9577,
+      "height": 0
+    },
+    "walkingType": "WALK"
+  },
+
+
+  {
+    "id": 481,
+    "position": {
+      "x": 3208,
+      "y": 9589,
+      "height": 0
+    },
+    "walkingType": "WALK"
+  },
+
+
+
+  {
+    "id": 481,
+    "position": {
+      "x": 3189,
+      "y": 9552,
+      "height": 0
+    },
+    "walkingType": "WALK"
+  },
+
+
+
+  {
+    "id": 480,
+    "position": {
+      "x": 3189,
+      "y": 9552,
+      "height": 0
+    },
+    "walkingType": "WALK"
+  },
+
+
+
+  {
+    "id": 480,
+    "position": {
+      "x": 3154,
+      "y": 9574,
+      "height": 0
+    },
+    "walkingType": "WALK"
+  },
+
+
+  {
+    "id": 1434,
+    "position": {
+      "x": 3193,
+      "y": 9572,
+      "height": 0
+    },
+    "walkingType": "WALK"
+  },
+
+
+  {
+    "id": 406,
+    "position": {
+      "x": 3190,
+      "y": 9574,
+      "height": 0
+    },
+    "walkingType": "WALK"
+  }
+]

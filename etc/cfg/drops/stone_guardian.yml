@@ -1,0 +1,20 @@
+---
+npc_id:
+- 8064
+- 8065
+- 8066
+constant:
+  accessibility: 3
+  items:
+  - name: "guardian fragments"
+    minimum: 6
+    maximum: 20
+common:
+  accessibility: 3
+  items:
+  - name: "uncharged cell"
+    minimum: 1
+    maximum: 3
+  - name: "resource boxlarge"
+    minimum: 1
+    maximum: 1

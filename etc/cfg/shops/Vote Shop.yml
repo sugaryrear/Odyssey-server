@@ -1,0 +1,8 @@
+---
+id: 77
+name: "Vote Shop"
+items:
+- id: 88
+  price: 10
+  amount: 100
+

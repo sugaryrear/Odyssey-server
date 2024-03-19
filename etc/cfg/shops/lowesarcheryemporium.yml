@@ -1,0 +1,42 @@
+---
+id: 123
+name: "Lowe's Archery Emporium"
+items:
+  - name: "leather cowl"
+    amount: 100
+  - name: "Bronze arrow"
+    amount: 20000
+  - name: "Iron arrow"
+    amount: 15000
+  - name: "Steel arrow"
+    amount: 10000
+  - name: "Mithril arrow"
+    amount: 8000
+  - name: "Adamant arrow"
+    amount: 6000
+  - name: "rune arrow"
+    amount: 4000
+  - name: "dragon arrow"
+    amount: 2000
+  - name: "Bronze bolts"
+    amount: 15000
+  - name: "Shortbow"
+    amount: 4
+  - name: "Longbow"
+    amount: 4
+  - name: "Oak shortbow"
+    amount: 3
+  - name: "Oak longbow"
+    amount: 23
+  - name: "Willow shortbow"
+    amount: 2
+  - name: "Willow longbow"
+    amount: 2
+  - name: "Maple shortbow"
+    amount: 1
+  - name: "Maple longbow"
+    amount: 1
+  - name: "magic shortbow"
+    amount: 1
+  - name: "Crossbow"
+    amount: 2

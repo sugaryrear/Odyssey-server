@@ -1,0 +1,28 @@
+---
+id: 128
+name: "Blades by Urbi"
+items:
+  - name: "Bronze dagger"
+    amount: 1
+  - name: "Iron dagger"
+    amount: 1
+  - name: "Steel dagger"
+    amount: 1
+  - name: "Black dagger"
+    amount: 0
+  - name: "Mithril dagger"
+    amount: 1
+  - name: "Adamant dagger"
+    amount: 1
+  - name: "Rune dagger"
+    amount: 1
+  - name: "Dragon dagger"
+    amount: 0
+  - name: "Bronze scimitar"
+    amount: 1
+  - name: "Iron scimitar"
+    amount: 1
+  - name: "Steel scimitar"
+    amount: 1
+  - name: "rune scimitar"
+    amount: 1

@@ -1,0 +1,14 @@
+---
+id: 131
+name: "Daga's Scimitar Smithy"
+items:
+  - name: "Bronze scimitar"
+    amount: 10
+  - name: "Iron scimitar"
+    amount: 10
+  - name: "Steel scimitar"
+    amount: 8
+  - name: "Mithril scimitar"
+    amount: 6
+  - name: "Dragon scimitar"
+    amount: 4

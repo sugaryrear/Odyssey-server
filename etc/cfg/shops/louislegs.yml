@@ -1,0 +1,18 @@
+---
+id: 136
+name: "Louie's Armoured Legs Bazaar"
+items:
+  - name: "Bronze platelegs"
+    amount: 5
+  - name: "Iron platelegs"
+    amount: 3
+  - name: "steel platelegs"
+    amount: 2
+  - name: "black platelegs"
+    amount: 1
+  - name: "mithril platelegs"
+    amount: 1
+  - name: "adamant platelegs"
+    amount: 1
+  - name: "rune platelegs"
+    amount: 1

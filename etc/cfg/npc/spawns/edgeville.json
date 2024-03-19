@@ -1,0 +1,74 @@
+[
+  //Oziach
+  { "id":822,
+    "position": {"x":3069, "y": 3517,"height":0},
+    "walkingType": "WALK " },
+
+  //emblem trader
+  {
+    "id": 308,
+    "position": {
+      "x": 3095,
+      "y": 3502,
+      "height": 0
+    },
+    "walkingType": "WALK"
+  },
+  //krystillia
+  {
+    "id": 7663,
+    "position": {
+      "x": 3108,
+      "y": 3516,
+      "height": 0
+    },
+    "walkingType": "FACE_SOUTH"
+  },
+  //pkp
+
+  {
+    "id": 2118,
+    "position": {
+      "x": 3096,
+      "y": 3492,
+      "height": 0
+    },
+    "walkingType": "FACE_NORTH"
+  },
+  {
+    "id": 2633,
+    "position": {
+      "x": 3096,
+      "y": 3491,
+      "height": 0
+    },
+    "walkingType": "FACE_WEST"
+  },
+  {
+    "id": 2633,
+    "position": {
+      "x": 3096,
+      "y": 3489,
+      "height": 0
+    },
+    "walkingType": "FACE_WEST"
+  },
+  {
+    "id": 2117,
+    "position": {
+      "x": 3098,
+      "y": 3492,
+      "height": 0
+    },
+    "walkingType": "FACE_WEST"
+  },
+  {
+    "id": 403,
+    "position": {
+      "x": 3148,
+      "y": 9914,
+      "height": 0
+    },
+    "walkingType": "FACE_NORTH"
+  }
+]

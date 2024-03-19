@@ -1,0 +1,103 @@
+---
+npc_id:
+- 7931
+- 7932
+- 7933
+- 7934
+- 7935
+- 7936
+- 7937
+- 7881
+constant:
+  accessibility: 0
+  items:
+  - name: "revenant ether"
+    minimum: 2
+    maximum: 8
+common:
+  accessibility: 100
+  items:
+  - name: "death rune"
+    minimum: 30
+    maximum: 60
+  - name: "blood rune"
+    minimum: 50
+    maximum: 100
+  - name: "law rune"
+    minimum: 20
+    maximum: 45
+  - name: "dragonstone bolt tips"
+    minimum: 20
+    maximum: 40
+  - name: "onyx bolt tips"
+    minimum: 3
+    maximum: 6
+  - name: "coal noted"
+    minimum: 30
+    maximum: 60
+  - item: 24589
+    maximum: 1
+    minimum: 1
+  - name: "yew logs noted"
+    minimum: 20
+    maximum: 40
+  - name: "magic logs noted"
+    minimum: 8
+    maximum: 16
+  - name: "black dragonhide noted"
+    minimum: 1
+    maximum: 4
+  - name: "runite ore noted"
+    minimum: 2
+    maximum: 4
+  - name: "runite bar noted"
+    minimum: 2
+    maximum: 4
+  - name: "adamantite bar noted"
+    minimum: 4
+    maximum: 6
+uncommon:
+  accessibility: 275
+  items:
+  - item: 24613
+    minimum: 1
+    maximum: 1
+  - name: "blighted teleport spell sack"
+    minimum: 1
+    maximum: 1
+  - name: "blighted vengeance sack"
+    maximum: 10
+    minimum: 1
+  - name: "blighted karambwan"
+    minimum: 1
+    maximum: 1
+  - name: "blighted super restore 4"
+    minimum: 1
+    maximum: 1
+  - name: "blighted manta ray"
+    minimum: 1
+    maximum: 1
+  - name: "blighted anglerfish"
+    minimum: 1
+    maximum: 2
+rare:
+  accessibility: 275
+  items:
+    - name: "ancient emblem"
+      minimum: 1
+      maximum: 1
+very_rare:
+  accessibility: 250
+  items:
+    - name: "amulet of avarice"
+      minimum: 1
+      maximum: 1
+    - name: "thammarons sceptre u"
+      minimum: 1
+      maximum: 1
+    - name: "viggoras chainmace u"
+      minimum: 1
+      maximum: 1
+    - name: "craws bow u"
+      minimum: 1
+      maximum: 1

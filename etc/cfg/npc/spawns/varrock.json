@@ -1,0 +1,35 @@
+[
+
+
+  //lowe
+  {
+    "id": 2883,
+    "position": {
+      "x": 3095,
+      "y": 3502,
+      "height": 0
+    },
+    "walkingType": "WALK"
+  },
+//toby
+  {
+    "id": 5525,
+    "position": {
+      "x": 3228,
+      "y": 3413,
+      "height": 0
+    },
+    "walkingType": "WALK"
+  },
+
+  //zaff
+  {
+    "id": 2880,
+    "position": {
+      "x": 3202,
+      "y": 3432,
+      "height": 0
+    },
+    "walkingType": "WALK"
+  }
+]

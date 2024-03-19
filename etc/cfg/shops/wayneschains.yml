@@ -1,0 +1,18 @@
+---
+id: 127
+name: "Wayne's Chains! - Chainmail specialist"
+items:
+  - name: "Bronze chainbody"
+    amount: 3
+  - name: "Iron chainbody"
+    amount: 2
+  - name: "Steel chainbody"
+    amount: 1
+  - name: "Black chainbody"
+    amount: 1
+  - name: "Mithril chainbody"
+    amount: 1
+  - name: "Adamant chainbody"
+    amount: 1
+  - name: "rune chainbody"
+    amount: 1

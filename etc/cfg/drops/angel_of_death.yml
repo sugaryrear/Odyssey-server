@@ -1,0 +1,95 @@
+---
+npc_id: 11299
+constant:
+  accessibility: 0
+  items:
+    - name: "coins"
+      minimum: 500000
+      maximum: 50000000
+    - name: "revenant ether"
+      minimum: 6000
+      maximum: 25000
+common:
+  accessibility: 1
+  items:
+    - item: 30106
+      minimum: 1
+      maximum: 1
+    - item: 30107
+      minimum: 1
+      maximum: 1
+    - item: 30109
+      minimum: 1
+      maximum: 1
+    - item: 30110
+      minimum: 1
+      maximum: 30
+    - item: 30111
+      minimum: 1
+      maximum: 1
+uncommon:
+  accessibility: 200
+  items:
+    - item: 6792
+      maximum: 3
+      minimum: 2
+    - item: 4185
+      maximum: 3
+      minimum: 2
+rare:
+  accessibility: 400
+  items:
+    - name: "ancient emblem"
+      minimum: 5
+      maximum: 40
+    - item: 2996
+      maximum: 100
+      minimum: 60
+    - item: 4088
+      minimum: 1
+      maximum: 50
+    - item: 4586
+      minimum: 1
+      maximum: 50
+very_rare:
+  accessibility: 100
+  items:
+    - name: "thammarons sceptre u"
+      minimum: 1
+      maximum: 1
+    - name: "viggoras chainmace u"
+      minimum: 1
+      maximum: 1
+    - name: "craws bow u"
+      minimum: 1
+      maximum: 1
+mega_rare:
+  accessibility: 200
+  items:
+    - item: 995
+      maximum: 100000000
+      minimum: 50000000
+    - item: 8818
+      maximum: 1
+      minimum: 1
+    - item: 8815
+      maximum: 1
+      minimum: 1
+    - item: 23900
+      maximum: 1
+      minimum: 1
+    - item: 25487
+      maximum: 1
+      minimum: 1
+    - item: 25485
+      maximum: 1
+      minimum: 1
+    - item: 25489
+      maximum: 1
+      minimum: 1
+    - item: 27374
+      maximum: 1
+      minimum: 1
+    - item: 22305
+      minimum: 1
+      maximum: 1

@@ -1,0 +1,22 @@
+---
+id: 165
+name: "Lighthouse"
+items:
+  - id: 3839
+    amount: 1
+    price: 5000
+  - id: 3841
+    amount: 1
+    price: 5000
+  - id: 3843
+    amount: 1
+    price: 5000
+  - id: 13149
+    amount: 1850000000
+    price: 5
+  - id: 13151
+    amount: 1850000000
+    price: 5
+  - id: 13153
+    amount: 1850000000
+    price: 5

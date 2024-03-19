@@ -1,0 +1,65 @@
+---
+npc_id:
+  - 2584
+  - 2585
+  - 2586
+constant:
+  accessibility: 0
+  items:
+    - name: "ashes"
+      minimum: 1
+      maximum: 1
+common:
+  accessibility: 7
+  items:
+    - name: "pure essence noted"
+      minimum: 1
+      maximum: 5
+uncommon:
+  accessibility: 51
+  items:
+    - name: "air talisman"
+      minimum: 1
+      maximum: 1
+    - name: "water talisman"
+      minimum: 1
+      maximum: 1
+    - name: "earth talisman"
+      minimum: 1
+      maximum: 1
+    - name: "fire talisman"
+      minimum: 1
+      maximum: 1
+    - name: "mind talisman"
+      minimum: 1
+      maximum: 1
+    - name: "body talisman"
+      minimum: 1
+      maximum: 1
+    - name: "small pouch"
+      minimum: 1
+      maximum: 1
+    - name: "medium pouch"
+      minimum: 1
+      maximum: 1
+    - name: "large pouch"
+      minimum: 1
+      maximum: 1
+    - name: "giant pouch"
+      minimum: 1
+      maximum: 1
+rare:
+  accessibility: 128
+  items:
+    - name: "cosmic talisman"
+      minimum: 1
+      maximum: 1
+    - name: "chaos talisman"
+      minimum: 1
+      maximum: 1
+    - name: "nature talisman"
+      minimum: 1
+      maximum: 1
+    - name: "wrath talisman"
+      minimum: 1
+      maximum: 1

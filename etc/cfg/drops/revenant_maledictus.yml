@@ -1,0 +1,141 @@
+---
+npc_id:
+  - 11246
+constant:
+  accessibility: 0
+  items:
+    - name: "coins"
+      minimum: 500000
+      maximum: 50000000
+    - name: "revenant ether"
+      minimum: 6000
+      maximum: 25000
+common:
+  accessibility: 1
+  items:
+    - name: "bracelet of ethereum"
+      minimum: 1
+      maximum: 5
+    - item: 1202
+      minimum: 1
+      maximum: 5
+    - item: 1163
+      minimum: 1
+      maximum: 5
+    - item: 1127
+      minimum: 1
+      maximum: 5
+    - item: 1216
+      minimum: 5
+      maximum: 30
+    - item: 1306
+      minimum: 3
+      maximum: 30
+    - item: 1392
+      minimum: 25
+      maximum: 100
+    - name: "death rune"
+      minimum: 700
+      maximum: 10000
+    - name: "blood rune"
+      minimum: 5000
+      maximum: 15000
+    - name: "law rune"
+      minimum: 3000
+      maximum: 4000
+    - name: "dragonstone bolt tips"
+      minimum: 1500
+      maximum: 3000
+    - name: "onyx bolt tips"
+      minimum: 2000
+      maximum: 4000
+    - name: "coal noted"
+      minimum: 3000
+      maximum: 5000
+    - name: "manta ray noted"
+      minimum: 750
+      maximum: 1000
+    - name: "yew logs noted"
+      minimum: 5000
+      maximum: 10000
+    - name: "magic logs noted"
+      minimum: 1000
+      maximum: 3000
+    - name: "black dragonhide noted"
+      minimum: 750
+      maximum: 2000
+    - name: "runite ore noted"
+      minimum: 150
+      maximum: 400
+    - name: "runite bar noted"
+      minimum: 250
+      maximum: 500
+    - name: "adamantite bar noted"
+      minimum: 500
+      maximum: 1000
+uncommon:
+  accessibility: 200
+  items:
+    - item: 6792
+      maximum: 3
+      minimum: 2
+    - item: 4185
+      maximum: 3
+      minimum: 2
+rare:
+  accessibility: 400
+  items:
+    - name: "ancient emblem"
+      minimum: 5
+      maximum: 40
+    - item: 2996
+      maximum: 100
+      minimum: 60
+    - item: 4088
+      minimum: 1
+      maximum: 50
+    - item: 4586
+      minimum: 1
+      maximum: 50
+very_rare:
+  accessibility: 100
+  items:
+    - name: "thammarons sceptre u"
+      minimum: 1
+      maximum: 1
+    - name: "viggoras chainmace u"
+      minimum: 1
+      maximum: 1
+    - name: "craws bow u"
+      minimum: 1
+      maximum: 1
+mega_rare:
+  accessibility: 200
+  items:
+    - item: 995
+      maximum: 100000000
+      minimum: 50000000
+    - item: 8818
+      maximum: 1
+      minimum: 1
+    - item: 8815
+      maximum: 1
+      minimum: 1
+    - item: 23900
+      maximum: 1
+      minimum: 1
+    - item: 25487
+      maximum: 1
+      minimum: 1
+    - item: 25485
+      maximum: 1
+      minimum: 1
+    - item: 25489
+      maximum: 1
+      minimum: 1
+    - item: 27374
+      maximum: 1
+      minimum: 1
+    - item: 22305
+      minimum: 1
+      maximum: 1

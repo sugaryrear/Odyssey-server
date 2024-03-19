@@ -1,0 +1,8 @@
+---
+npc_id: 6371
+constant:
+  accessibility: 0
+  items:
+    - name: "chocolate bar"
+      minimum: 1
+      maximum: 1

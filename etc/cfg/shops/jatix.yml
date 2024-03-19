@@ -1,0 +1,18 @@
+---
+id: 27
+name: "Jatix's Herblore Shop"
+items:
+  - name: "vial"
+    amount: 800
+  - name: "empty vial pack"
+    amount: 800
+  - name: "vial of water"
+    amount: 750
+  - name: "water filled vial pack"
+    amount: 750
+  - name: "pestle and mortar"
+    amount: 3
+  - name: "eye of newt"
+    amount: 800
+  - name: "eye of newt pack"
+    amount: 100

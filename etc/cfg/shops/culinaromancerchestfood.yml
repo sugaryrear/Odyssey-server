@@ -1,0 +1,24 @@
+---
+id: 157
+name: "Culinaromancer's Chest"
+items:
+  - name: "chocolate bar"
+    amount: 5
+  - name: "tomato"
+    amount: 2
+  - name: "grapes"
+    amount: 2
+  - name: "pizza base"
+    amount: 5
+  - name: "bucket of milk"
+    amount: 4
+  - name: "pat of butter"
+    amount: 1
+  - name: "pie dish"
+    amount: 3
+  - name: "bowl"
+    amount: 8
+  - name: "bucket"
+    amount: 8
+  - name: "rock cake"
+    amount: 1

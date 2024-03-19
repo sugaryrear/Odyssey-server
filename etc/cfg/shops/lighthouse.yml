@@ -1,0 +1,48 @@
+---
+id: 159
+name: "Lighthouse"
+items:
+  - name: "pot"
+    amount: 5
+  - name: "jug"
+    amount: 2
+  - name: "empty jug pack"
+    amount: 5
+  - name: "shears"
+    amount: 2
+  - name: "knife"
+    amount: 5
+  - name: "bucket"
+    amount: 3
+  - name: "empty bucket pack"
+    amount: 3
+  - name: "bowl"
+    amount: 2
+  - name: "cake tin"
+    amount: 2
+  - name: "tinderbox"
+    amount: 2
+  - name: "chisel"
+    amount: 2
+  - name: "spade"
+    amount: 2
+  - name: "hammer"
+    amount: 2
+  - name: "rope"
+    amount: 5
+  - name: "enchanted gem"
+    amount: 10
+  - name: "lockpick"
+    amount: 100
+  - name: "pestle and mortar"
+    amount: 5
+  - name: "mith grapple"
+    amount: 1
+  - name: "candle"
+    amount: 100
+  - name: "small fishing net"
+    amount: 5
+  - name: "harpoon"
+    amount: 5
+  - name: "lobster pot"
+    amount: 5

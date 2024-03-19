@@ -1,0 +1,13 @@
+[
+
+  //Mazchna
+  {
+    "id": 402,
+    "position": {
+      "x": 3510,
+      "y": 3509,
+      "height": 0
+    },
+    "walkingType": "FACE_SOUTH"
+  }
+]

@@ -1,0 +1,12 @@
+---
+id: 168
+name: "Baker"
+items:
+  - name: "bread"
+    amount: 10
+  - name: "cake"
+    amount: 3
+  - name: "chocolate slice"
+    amount: 6
+  - name: "chocolate bar"
+    amount: 9

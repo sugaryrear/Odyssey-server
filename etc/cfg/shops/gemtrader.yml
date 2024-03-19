@@ -1,0 +1,20 @@
+---
+id: 145
+name: "Gem Trader"
+items:
+  - name: "uncut sapphire"
+    amount: 1
+  - name: "uncut emerald"
+    amount: 1
+  - name: "uncut ruby"
+    amount: 0
+  - name: "uncut diamond"
+    amount: 0
+  - name: "sapphire"
+    amount: 1
+  - name: "emerald"
+    amount: 1
+  - name: "ruby"
+    amount: 0
+  - name: "diamond"
+    amount: 0

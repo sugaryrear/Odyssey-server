@@ -1,0 +1,20 @@
+---
+id: 129
+name: "Iorwerth's Arms"
+items:
+  - name: "Adamant dagger"
+    amount: 4
+  - name: "Rune dagger"
+    amount: 3
+  - name: "Dragon dagger"
+    amount: 2
+  - name: "Adamant scimitar"
+    amount: 2
+  - name: "rune scimitar"
+    amount: 1
+  - name: "Adamant halberd"
+    amount: 7
+  - name: "Rune halberd"
+    amount: 7
+  - name: "dragon halberd"
+    amount: 5

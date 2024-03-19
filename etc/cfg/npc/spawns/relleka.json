@@ -1,0 +1,31 @@
+[
+  {
+    "id": 5937,
+    "position": {
+      "x": 2620,
+      "y": 3683,
+      "height": 0
+    },
+    "walkingType": "FACE_SOUTH"
+  },
+//torfin
+  {
+    "id": 8131,
+    "position": {
+      "x": 2640,
+      "y": 3697,
+      "height": 0
+    },
+    "walkingType": "FACE_SOUTH"
+  },
+  //torfin
+  {
+    "id": 8131,
+    "position": {
+      "x": 2276,
+      "y": 4036,
+      "height": 0
+    },
+    "walkingType": "FACE_SOUTH"
+  }
+]

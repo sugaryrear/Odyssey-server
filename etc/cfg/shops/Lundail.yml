@@ -1,0 +1,20 @@
+---
+id: 189
+name: "Lundail's Arena-side Rune Shop."
+items:
+  - name: "air rune"
+  - name: "fire rune"
+  - name: "mind rune"
+  - name: "earth rune"
+  - name: "water rune"
+  - name: "death rune"
+  - name: "blood rune"
+  - name: "soul rune"
+  - name: "astral rune"
+  - name: "chaos rune"
+  - name: "nature rune"
+  - name: "law rune"
+  - name: "blood rune"
+    amount: 300
+  - name: "wrath rune"
+    amount: 300

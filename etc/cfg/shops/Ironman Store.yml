@@ -1,0 +1,150 @@
+---
+id: 41
+name: "Ironman Store"
+items:
+- name: "enchanted gem"
+  amount: 1
+- name: "tinderbox"
+  amount: 1
+- name: "hammer"
+  amount: 1
+- name: "spade"
+  amount: 1
+- name: "knife"
+  amount: 1
+- name: "anti dragon shield"
+  amount: 1
+- name: "bronze pickaxe"
+  amount: 1
+- name: "bronze axe"
+  amount: 1
+- name: "vial of water noted"
+  amount: 1
+- name: "desert shirt"
+  amount: 1
+- name: "desert robe"
+  amount: 1
+- name: "desert boots"
+  amount: 1
+- name: "climbing boots"
+  amount: 1
+- name: "bucket"
+  amount: 1
+- name: "cleaning cloth"
+  amount: 1
+- name: "chisel"
+  amount: 1
+- name: "glassblowing pipe"
+  amount: 1
+- name: "molten glass noted"
+  amount: 1
+- name: "pestle and mortar"
+  amount: 1
+- name: "newly made crystal"
+  amount: 1
+- name: "cave nightshade"
+  amount: 1
+- name: "elemental shield"
+  amount: 1
+- name: "rake"
+  amount: 1
+- name: "seed dibber"
+  amount: 1
+- name: "secateurs"
+  amount: 1
+- name: "watering can8"
+  amount: 1
+- name: "eye of newt noted"
+  amount: 1
+- name: "guam seed"
+  amount: 1
+- name: "proselyte sallet"
+  amount: 1
+- name: "proselyte hauberk"
+  amount: 1
+- name: "proselyte cuisse"
+  amount: 1
+- name: "adamant scimitar"
+  amount: 1
+- name: "staff of air"
+  amount: 1
+- name: "bow string"
+  amount: 1
+- name: "ring of recoil"
+  amount: 1
+- name: "feather"
+  amount: 100
+- name: "bronze arrow"
+  amount: 100000
+- name: "shortbow"
+  amount: 1
+- name: "uncut opal noted"
+  amount: 1
+- name: "amulet of strength"
+  amount: 1
+- name: "thread"
+  amount: 1
+- name: "needle"
+  amount: 1
+- name: "fire rune"
+  amount: 5000
+- name: "water rune"
+  amount: 5000
+- name: "air rune"
+  amount: 5000
+- name: "earth rune"
+  amount: 5000
+- name: "mind rune"
+  amount: 5000
+- name: "body rune"
+  amount: 5000
+- name: "chaos rune"
+  amount: 5000
+- name: "blood rune"
+  amount: 5000
+- name: "nature rune"
+  amount: 5000
+- name: "death rune"
+  amount: 5000
+- name: "cosmic rune"
+  amount: 5000
+- name: "soul rune"
+  amount: 5000
+- name: "astral rune"
+  amount: 50000
+- name: "strip of cloth"
+  amount: 1
+- name: "ecumenical key"
+  amount: 1
+- name: "sinew noted"
+  amount: 1
+- name: "cannon base"
+  amount: 1
+- name: "cannon stand"
+  amount: 1
+- name: "cannon barrels"
+  amount: 1
+- name: "cannon furnace"
+  amount: 1
+- name: "cannonball"
+  amount: 5000
+- name: "shield right half"
+  amount: 1
+- name: "mith grapple"
+  amount: 1
+- id: "4675"
+  amount: 1
+- id: "4156"
+  amount: 1
+- name: "staff of fire"
+  amount: 1
+- name: "dragon arrow"
+  amount: 1
+- id: "23877"
+  amount: 1
+- name: "shears"
+  amount: 1
+- name: "compost"
+  amount: 1
+- id: "9242"
+  amount: 1

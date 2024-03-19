@@ -1,0 +1,24 @@
+---
+id: 156
+name: "Culinaromancer's Chest"
+items:
+  - name: "hardleather gloves"
+    amount: 5
+  - name: "bronze gloves"
+    amount: 2
+  - name: "iron gloves"
+    amount: 2
+  - name: "steel gloves"
+    amount: 5
+  - name: "black gloves"
+    amount: 4
+  - name: "mithril gloves"
+    amount: 1
+  - name: "adamant gloves"
+    amount: 3
+  - name: "rune gloves"
+    amount: 8
+  - name: "dragon gloves"
+    amount: 2
+  - name: "barrows gloves"
+    amount: 8

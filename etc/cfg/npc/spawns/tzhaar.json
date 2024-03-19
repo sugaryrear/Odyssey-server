@@ -1,0 +1,238 @@
+[
+
+  {
+    "id": 7677,
+    "position": {
+      "x": 2445,
+      "y": 5178,
+      "height": 0
+    },
+    "walkingType": "WALK "
+  },
+  //TzHaar-Hur-Rin
+  { "id":7689,
+    "position": {"x":2524, "y": 5073,"height":0},
+    "walkingType": "WALK " },
+  {
+    "id": 2184,
+    "position": {
+      "x": 2464,
+      "y": 5149,
+      "height": 0
+    },
+    "walkingType": "FACE_SOUTH"
+  },
+  //TzHaar-Hur-Tel
+  { "id":2183,
+    "position": {"x":2477, "y": 5147,"height":0},
+    "walkingType": "WALK " },
+
+  //TzHaar-Hur-Tel
+  { "id":2183,
+    "position": {"x":2477, "y": 5147,"height":0},
+    "walkingType": "WALK " },
+  //TzHaar-Ket
+  { "id":7679,
+    "position": {"x":2491, "y": 5142,"height":0},
+    "walkingType": "WALK " },
+  //TzHaar-Ket
+  { "id":7679,
+    "position": {"x":2485, "y": 5138,"height":0},
+    "walkingType": "WALK " },
+  //TzHaar-Ket
+  { "id":7679,
+    "position": {"x":2476, "y": 5128,"height":0},
+    "walkingType": "WALK " },
+  //TzHaar-Ket
+  { "id":7679,
+    "position": {"x":2476, "y": 5122,"height":0},
+    "walkingType": "WALK " },
+  //TzHaar-Ket
+  { "id":7679,
+    "position": {"x":2476, "y": 5114,"height":0},
+    "walkingType": "WALK " },
+  //TzHaar-Ket
+  { "id":7679,
+    "position": {"x":2483, "y": 5104,"height":0},
+    "walkingType": "WALK " },
+  //TzHaar-Ket
+  { "id":7679,
+    "position": {"x":2493, "y": 5102,"height":0},
+    "walkingType": "WALK " },
+  //TzHaar-Ket
+  { "id":7679,
+    "position": {"x":2503, "y": 5102,"height":0},
+    "walkingType": "WALK " },
+  //TzHaar-Ket
+  { "id":7679,
+    "position": {"x":2513, "y": 5109,"height":0},
+    "walkingType": "WALK " },
+  //TzHaar-Ket
+  { "id":7679,
+    "position": {"x":2513, "y": 5117,"height":0},
+    "walkingType": "WALK " },
+  //TzHaar-Ket
+  { "id":7679,
+    "position": {"x":2517, "y": 5129,"height":0},
+    "walkingType": "WALK " },
+  //TzHaar-Ket
+  { "id":7679,
+    "position": {"x":2510, "y": 5141,"height":0},
+    "walkingType": "WALK " },
+  //TzHaar-Ket
+  { "id":7679,
+    "position": {"x":2498, "y": 5141,"height":0},
+    "walkingType": "WALK " },
+  //TzHaar-Ket
+  { "id":7679,
+    "position": {"x":2509, "y": 5163,"height":0},
+    "walkingType": "WALK " },
+  //TzHaar-Ket
+  { "id":7679,
+    "position": {"x":2521, "y": 5153,"height":0},
+    "walkingType": "WALK " },
+  //TzHaar-Ket
+  { "id":7679,
+    "position": {"x":2532, "y": 5142,"height":0},
+    "walkingType": "WALK " },
+  //TzHaar-Ket
+  { "id":7679,
+    "position": {"x":2528, "y": 5134,"height":0},
+    "walkingType": "WALK " },
+  //TzHaar-Ket
+  { "id":7679,
+    "position": {"x":2538, "y": 5127,"height":0},
+    "walkingType": "WALK " },
+  //TzHaar-Ket
+  { "id":7679,
+    "position": {"x":2539, "y": 5114,"height":0},
+    "walkingType": "WALK " },
+  //TzHaar-Ket
+  { "id":7679,
+    "position": {"x":2533, "y": 5106,"height":0},
+    "walkingType": "WALK " },
+  //TzHaar-Ket
+  { "id":7679,
+    "position": {"x":2533, "y": 5096,"height":0},
+    "walkingType": "WALK " },
+  //TzHaar-Ket
+  { "id":7679,
+    "position": {"x":2524, "y": 5090,"height":0},
+    "walkingType": "WALK " },
+  //TzHaar-Ket
+  { "id":7679,
+    "position": {"x":2517, "y": 5082,"height":0},
+    "walkingType": "WALK " },
+  //TzHaar-Ket
+  { "id":7679,
+    "position": {"x":2517, "y": 5076,"height":0},
+    "walkingType": "WALK " },
+  //TzHaar-Ket
+  { "id":7679,
+    "position": {"x":2510, "y": 5072,"height":0},
+    "walkingType": "WALK " },
+  //TzHaar-Ket
+  { "id":7679,
+    "position": {"x":2502, "y": 5077,"height":0},
+    "walkingType": "WALK " },
+  //TzHaar-Ket
+  { "id":7679,
+    "position": {"x":2498, "y": 5083,"height":0},
+    "walkingType": "WALK " },
+  //TzHaar-Ket
+  { "id":7679,
+    "position": {"x":2488, "y": 5081,"height":0},
+    "walkingType": "WALK " },
+  //TzHaar-Ket
+  { "id":7679,
+    "position": {"x":2473, "y": 5091,"height":0},
+    "walkingType": "WALK " },
+  //TzHaar-Ket
+  { "id":7679,
+    "position": {"x":2464, "y": 5098,"height":0},
+    "walkingType": "WALK " },
+  //TzHaar-Ket
+  { "id":7679,
+    "position": {"x":2459, "y": 5113,"height":0},
+    "walkingType": "WALK " },
+  //TzHaar-Ket
+  { "id":7679,
+    "position": {"x":2442, "y": 5112,"height":0},
+    "walkingType": "WALK " },
+  //TzHaar-Mej
+  { "id":2154,
+    "position": {"x":2482, "y": 5157,"height":0},
+    "walkingType": "WALK " },
+  //TzHaar-Mej
+  { "id":2154,
+    "position": {"x":2472, "y": 5149,"height":0},
+    "walkingType": "WALK " },
+  //TzHaar-Mej
+  { "id":2154,
+    "position": {"x":2459, "y": 5143,"height":0},
+    "walkingType": "WALK " },
+  //TzHaar-Mej
+  { "id":2154,
+    "position": {"x":2438, "y": 5114,"height":0},
+    "walkingType": "WALK " },
+  //TzHaar-Mej
+  { "id":2154,
+    "position": {"x":2446, "y": 5111,"height":0},
+    "walkingType": "WALK " },
+  //TzHaar-Mej
+  { "id":2154,
+    "position": {"x":2464, "y": 5100,"height":0},
+    "walkingType": "WALK " },
+  //TzHaar-Mej
+  { "id":2154,
+    "position": {"x":2480, "y": 5084,"height":0},
+    "walkingType": "WALK " },
+  //TzHaar-Mej
+  { "id":2154,
+    "position": {"x":2503, "y": 5080,"height":0},
+    "walkingType": "WALK " },
+  //TzHaar-Mej
+  { "id":2154,
+    "position": {"x":2513, "y": 5086,"height":0},
+    "walkingType": "WALK " },
+  //TzHaar-Mej
+  { "id":2154,
+    "position": {"x":2505, "y": 5099,"height":0},
+    "walkingType": "WALK " },
+  //TzHaar-Mej
+  { "id":2154,
+    "position": {"x":2515, "y": 5112,"height":0},
+    "walkingType": "WALK " },
+  //TzHaar-Mej
+  { "id":2154,
+    "position": {"x":2518, "y": 5127,"height":0},
+    "walkingType": "WALK " },
+  //TzHaar-Mej
+  { "id":2154,
+    "position": {"x":2532, "y": 5139,"height":0},
+    "walkingType": "WALK " },
+  //TzHaar-Mej
+  { "id":2154,
+    "position": {"x":2537, "y": 5128,"height":0},
+    "walkingType": "WALK " },
+  //TzHaar-Xil
+  { "id":2167,
+    "position": {"x":2521, "y": 5087,"height":0},
+    "walkingType": "WALK " },
+  //TzHaar-Xil
+  { "id":2169,
+    "position": {"x":2500, "y": 5081,"height":0},
+    "walkingType": "WALK " },
+  //TzHaar-Ket-Yil
+  { "id":7678,
+    "position": {"x":2541, "y": 5140,"height":0},
+    "walkingType": "WALK " },
+  //Rod Fishing Spot
+  { "id":7676,
+    "position": {"x":2536, "y": 5086,"height":0},
+    "walkingType": "FACE_SOUTH"},
+  //Rod Fishing Spot
+  { "id":7676,
+    "position": {"x":2479, "y": 5078,"height":0},
+    "walkingType": "FACE_SOUTH"}
+]

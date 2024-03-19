@@ -1,0 +1,18 @@
+[
+  //Cave Horror
+  { "id":1047,
+    "position": {"x":3740, "y": 9373,"height":0},
+    "walkingType": "WALK " },
+  //Cave Horror
+  { "id":1047,
+    "position": {"x":3743, "y": 9385,"height":0},
+    "walkingType": "WALK " },
+  //Cave Horror
+  { "id":1047,
+    "position": {"x":3737, "y": 9394,"height":0},
+    "walkingType": "WALK " },
+  //Cave Horror
+  { "id":1047,
+    "position": {"x":3728, "y": 9369,"height":0},
+    "walkingType": "WALK " }
+]

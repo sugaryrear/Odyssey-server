@@ -1,0 +1,58 @@
+---
+id: 292
+name: "Magic"
+items:
+  - name: "staff of air"
+  - name: "staff of earth"
+  - name: "staff of fire"
+  - name: "staff of water"
+  - id: "1409"
+    price: 200000
+  - id: "6562"
+    price: 23000
+  - name: "beginner wand"
+    price: 166000
+  - name: "apprentice wand"
+    price: 580000
+  - name: "teacher wand"
+    price: 1400000
+  - name: "master wand"
+    price: 3300000
+  - name: "third age wand"
+    price: 133000000
+  - name: "saradomin staff"
+    price: 80000
+  - name: "guthix staff"
+    price: 80000
+  - name: "zamorak staff"
+    price: 80000
+  - name: "ancient staff"
+    price: 50000
+  - name: "Ahrims staff"
+    price: 126000
+  - name: "third age druidic staff"
+    price: 300000000
+  - id: "22555"
+    amount: 1850000000
+    price: 5
+  - id: "22370"
+    amount: 1850000000
+    price: 5
+  - id: "11907"
+    amount: 1850000000
+    price: 5
+  - name: "trident of the swamp"
+    amount: 1850000000
+    price: 5
+  - name: "staff of light"
+    amount: 1850000000
+    price: 5
+  - name: "nightmare staff"
+    amount: 1850000000
+    price: 30
+  - name: "sanguinesti staff"
+    amount: 1850000000
+    price: 30
+  - name: "kodai wand"
+    amount: 1850000000
+    price: 50

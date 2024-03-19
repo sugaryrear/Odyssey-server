@@ -1,0 +1,29 @@
+---
+npc_id: 7398
+rare:
+  accessibility: 28
+  items:
+  - name: "mist battlestaff"
+    minimum: 1
+    maximum: 1
+  - name: "dust battlestaff"
+    minimum: 1
+    maximum: 1
+  - name: "blood rune"
+    minimum: 100
+    maximum: 500
+  - name: "death rune"
+    minimum: 100
+    maximum: 500
+  - item: 12750
+    minimum: 1
+    maximum: 1
+very_rare:
+  accessibility: 500
+  items:
+  - name: "imbued heart"
+    minimum: 1
+    maximum: 1
+  - item: 12756
+    minimum: 1
+    maximum: 1

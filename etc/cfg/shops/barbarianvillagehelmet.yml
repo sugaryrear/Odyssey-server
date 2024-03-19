@@ -1,0 +1,22 @@
+---
+id: 135
+name: "Helmet Shop"
+items:
+  - name: "Bronze med helm"
+    amount: 5
+  - name: "Iron med helm"
+    amount: 3
+  - name: "Steel med helm"
+    amount: 3
+  - name: "Mithril med helm"
+    amount: 1
+  - name: "Bronze full helm"
+    amount: 4
+  - name: "Iron full helm"
+    amount: 3
+  - name: "steel full helm"
+    amount: 2
+  - name: "mithril full helm"
+    amount: 1
+  - name: "adamant full helm"
+    amount: 1

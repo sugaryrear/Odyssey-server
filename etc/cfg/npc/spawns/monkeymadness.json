@@ -1,0 +1,38 @@
+[
+
+
+  //king nardone shareen
+  {
+    "id": 8019,
+    "position": {
+      "x": 2465,
+      "y": 3495,
+      "height": 0
+    },
+    "walkingType": "WALK"
+  },
+
+
+  //captain erddo
+  {
+    "id": 6088,
+    "position": {
+      "x": 2465,
+      "y": 3501,
+      "height": 3
+    },
+    "walkingType": "FACE_SOUTH"
+  },
+
+
+//garkor
+  {
+    "id": 1434,
+    "position": {
+      "x": 2806,
+      "y": 2761,
+      "height": 0
+    },
+    "walkingType": "FACE_SOUTH"
+  }
+]

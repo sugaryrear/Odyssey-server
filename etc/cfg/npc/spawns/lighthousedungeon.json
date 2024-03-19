@@ -1,0 +1,56 @@
+[
+  //Dagannoth
+  {
+    "id": 7259,
+    "position": {
+      "x": 2514,
+      "y": 4642,
+      "height": 0
+    },
+    "walkingType": "WALK"
+  },
+  //Dagannoth
+  { "id":7259,
+    "position": {"x":2522, "y": 4645,"height":0},
+    "walkingType": "WALK " },
+  //Dagannoth
+  { "id":7259,
+    "position": {"x":2525, "y": 4648,"height":0},
+    "walkingType": "WALK " },
+  //Dagannoth
+  { "id":7259,
+    "position": {"x":2535, "y": 4653,"height":0},
+    "walkingType": "WALK " },
+  //Dagannoth
+  { "id":7259,
+    "position": {"x":2524, "y": 4659,"height":0},
+    "walkingType": "WALK " },
+  //Dagannoth
+  { "id":7259,
+    "position": {"x":2521, "y": 4653,"height":0},
+    "walkingType": "WALK " },
+  //Dagannoth
+  { "id":7259,
+    "position": {"x":2513, "y": 4649,"height":0},
+    "walkingType": "WALK " },
+  //Dagannoth
+  { "id":7259,
+    "position": {"x":2514, "y": 4643,"height":0},
+    "walkingType": "WALK " },
+  //Dagannoth
+  { "id":7259,
+    "position": {"x":2521, "y": 4641,"height":0},
+    "walkingType": "WALK " },
+  //Dagannoth
+  { "id":7260,
+    "position": {"x":2519, "y": 4640,"height":0},
+    "walkingType": "WALK " },
+  //Dagannoth
+  { "id":7260,
+    "position": {"x":2519, "y": 4650,"height":0},
+    "walkingType": "WALK " },
+  //Dagannoth
+  { "id":7260,
+    "position": {"x":2533, "y": 4650,"height":0},
+    "walkingType": "WALK " }
+]

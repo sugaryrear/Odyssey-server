@@ -1,0 +1,42 @@
+---
+id: 22
+name: "Gerrant's Fishy Business"
+items:
+  - name: "Small fishing net"
+    amount: 5
+  - name: "fishing rod"
+    amount: 5
+  - name: "fly fishing rod"
+    amount: 5
+  - name: "harpoon"
+    amount: 2
+  - name: "lobster pot"
+    amount: 2
+  - name: "fishing bait"
+    amount: 1500
+  - name: "bait pack"
+    amount: 80
+  - name: "feather"
+    amount: 1000
+  - name: "feather pack"
+    amount: 100
+  - name: "raw shrimps"
+    amount: 0
+  - name: "raw sardine"
+    amount: 200
+  - name: "raw herring"
+    amount: 0
+  - name: "raw anchovies"
+    amount: 0
+  - name: "raw trout"
+    amount: 0
+  - name: "raw pike"
+    amount: 0
+  - name: "raw salmon"
+    amount: 0
+  - name: "raw tuna"
+    amount: 0
+  - name: "raw lobster"
+    amount: 0
+  - name: "raw swordfish"
+    amount: 0

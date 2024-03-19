@@ -1,0 +1,19 @@
+[
+
+  //cassie
+  { "id":3214,
+    "position": {"x":2975, "y": 3382,"height":0},
+    "walkingType": "WALK" },
+  //wayne
+  { "id":5897,
+    "position": {"x":2972, "y": 3312,"height":0},
+    "walkingType": "WALK" },
+  //FLYNN
+  { "id":5896,
+    "position": {"x":2949, "y": 3387,"height":0},
+    "walkingType": "WALK" },
+  //Wyson The Gardener
+  { "id":5422,
+    "position": {"x":3025, "y": 3378,"height":0},
+    "walkingType": "WALK" }
+]

@@ -1,0 +1,26 @@
+---
+id: 148
+name: "Skulgrimen's Battlegear"
+items:
+- name: "Bronze warhammer"
+  amount: 5
+- name: "iron warhammer"
+  amount: 4
+- name: "steel warhammer"
+  amount: 3
+- name: "black warhammer"
+  amount: 3
+- name: "mithril warhammer"
+  amount: 2
+- name: "adamant warhammer"
+  amount: 1
+- name: "rune warhammer"
+  amount: 0
+- name: "archer helm"
+  amount: 5
+- name: "berserker helm"
+  amount: 5
+- name: "warrior helm"
+  amount: 5
+- name: "farseer helm"
+  amount: 5

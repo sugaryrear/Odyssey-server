@@ -1,0 +1,21 @@
+---
+id: 20
+name: "Crafting Shop"
+items:
+  - name: "chisel"
+  - name: "necklace mould"
+  - name: "ring mould"
+  - name: "amulet mould"
+  - name: "bracelet mould"
+  - name: "uncut sapphire noted"
+    price: 2500
+  - name: "uncut emerald noted"
+    price: 3000
+  - name: "uncut ruby noted"
+    price: 3500
+  - name: "uncut diamond noted"
+    price: 4000
+  - name: "thread"
+  - name: "needle"
+  - name: "molten glass noted"
+  - name: "glassblowing pipe"

@@ -1,0 +1,76 @@
+---
+npc_id:
+  - 100
+  - 5935
+constant:
+  accessibility: 0
+  items:
+    - name: "bones"
+      minimum: 1
+      maximum: 1
+common:
+  accessibility: 1
+  items:
+    - name: "coins"
+      minimum: 1
+      maximum: 50
+    - name: "edible seaweed"
+      minimum: 1
+      maximum: 1
+uncommon:
+  accessibility: 10
+  items:
+    - name: "bronze pickaxe"
+      minimum: 1
+      maximum: 1
+    - name: "iron pickaxe"
+      minimum: 1
+      maximum: 1
+    - name: "tin ore"
+      minimum: 1
+      maximum: 3
+    - name: "iron ore"
+      minimum: 1
+      maximum: 3
+    - name: "coal"
+      minimum: 1
+      maximum: 3
+    - name: "copper ore"
+      minimum: 1
+      maximum: 3
+rare:
+  accessibility: 100
+  items:
+    - name: "uncut sapphire"
+      minimum: 1
+      maximum: 1
+    - name: "uncut emerald"
+      minimum: 1
+      maximum: 1
+    - name: "uncut ruby"
+      minimum: 1
+      maximum: 1
+    - name: "nature talisman"
+      minimum: 1
+      maximum: 1
+    - name: "uncut diamond"
+      minimum: 1
+      maximum: 1
+    - name: "loop half of key"
+      minimum: 1
+      maximum: 1
+    - name: "tooth half of key"
+      minimum: 1
+      maximum: 1
+    - name: "rune javelin"
+      minimum: 1
+      maximum: 5
+    - name: "rune spear"
+      minimum: 1
+      maximum: 1
+    - name: "shield left half"
+      minimum: 1
+      maximum: 1
+    - name: "dragon spear"
+      minimum: 1
+      maximum: 1

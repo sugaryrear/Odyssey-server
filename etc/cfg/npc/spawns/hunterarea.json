@@ -1,0 +1,20 @@
+[
+  //aleck
+  { "id":1501,
+    "position": {"x":1580, "y": 3435,"height":0},
+    "walkingType": "WALK " },
+  //chinchompas
+  { "id":2910,
+    "position": {"x":1578, "y": 3444,"height":0},
+    "walkingType": "WALK " },
+  { "id":2910,
+    "position": {"x":1583, "y": 3444,"height":0},
+    "walkingType": "WALK " },
+
+  { "id":2911,
+    "position": {"x":1580, "y": 3447,"height":0},
+    "walkingType": "WALK " },
+  { "id":2911,
+    "position": {"x":1583, "y": 3450,"height":0},
+    "walkingType": "WALK " }
+]

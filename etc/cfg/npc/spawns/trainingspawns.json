@@ -1,0 +1,112 @@
+[
+  //Chaos Druid
+  { "id":520,
+    "position": {"x":2565, "y": 3359,"height":0},
+    "walkingType": "WALK " },
+  //Chaos Druid
+  { "id":520,
+    "position": {"x":2568, "y": 3355,"height":0},
+    "walkingType": "WALK " },
+  //Ogre
+  { "id":2233,
+    "position": {"x":2582, "y": 9737,"height":0},
+    "walkingType": "WALK " },
+  //Ogre
+  { "id":2233,
+    "position": {"x":2588, "y": 9741,"height":0},
+    "walkingType": "WALK " },
+  //Ogre
+  { "id":2233,
+    "position": {"x":2580, "y": 9745,"height":0},
+    "walkingType": "WALK " },
+  //Ogre
+  { "id":2233,
+    "position": {"x":2574, "y": 9746,"height":0},
+    "walkingType": "WALK " },
+  //Ogre
+  { "id":2233,
+    "position": {"x":2587, "y": 9732,"height":0},
+    "walkingType": "WALK " },
+  //Al Kharid Warrior
+  { "id":3292,
+    "position": {"x":3293, "y": 3176,"height":0},
+    "walkingType": "WALK " },
+  //Al Kharid Warrior
+  { "id":3292,
+    "position": {"x":3297, "y": 3171,"height":0},
+    "walkingType": "WALK " },
+  //Al Kharid Warrior
+  { "id":3292,
+    "position": {"x":3294, "y": 3168,"height":0},
+    "walkingType": "WALK " },
+  //Al Kharid Warrior
+  { "id":3292,
+    "position": {"x":3288, "y": 3172,"height":0},
+    "walkingType": "WALK " },
+
+//experiment
+  { "id":1273,
+    "position": {"x":3565, "y": 9960,"height":0},
+    "walkingType": "WALK " },
+  //experiment
+  { "id":1274,
+    "position": {"x":3573, "y": 9958,"height":0},
+    "walkingType": "WALK " },
+  //experiment
+  { "id":1275,
+    "position": {"x":3555, "y": 9947,"height":0},
+    "walkingType": "WALK " },
+
+  //experiment
+  { "id":1273,
+    "position": {"x":3550, "y": 9937,"height":0},
+    "walkingType": "WALK " },
+
+  //experiment
+  { "id":1274,
+    "position": {"x":3554, "y": 9929,"height":0},
+    "walkingType": "WALK " },
+
+
+  //experiment
+  { "id":1274,
+    "position": {"x":3548, "y": 9932,"height":0},
+    "walkingType": "WALK " },
+
+
+  //experiment
+  { "id":1273,
+    "position": {"x":3538, "y": 9928,"height":0},
+    "walkingType": "WALK " },
+
+  //experiment
+  { "id":1274,
+    "position": {"x":3526, "y": 9933,"height":0},
+    "walkingType": "WALK " },
+
+  //experiment
+  { "id":1274,
+    "position": {"x":3551, "y": 9948,"height":0},
+    "walkingType": "WALK " },
+
+  //experiment
+  { "id":1275,
+    "position": {"x":3505, "y": 9926,"height":0},
+    "walkingType": "WALK " },
+
+  //experiment
+  { "id":1273,
+    "position": {"x":3488, "y": 9944,"height":0},
+    "walkingType": "WALK " }
+,
+
+  //experiment
+  { "id":1274,
+    "position": {"x":3481, "y": 9941,"height":0},
+    "walkingType": "WALK " },
+
+  //Chaos Druid
+  { "id":520,
+    "position": {"x":2562, "y": 3355,"height":1},
+    "walkingType": "WALK " }
+]

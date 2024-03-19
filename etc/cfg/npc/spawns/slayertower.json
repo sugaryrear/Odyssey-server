@@ -1,0 +1,58 @@
+[
+  {
+    "id": 487,
+    "position": {
+      "x": 3401,
+      "y": 9932,
+      "height": 3
+    },
+    "walkingType": "WALK"
+  },
+  {
+    "id": 485,
+    "position": {
+      "x": 3419,
+      "y": 3573,
+      "height": 3
+    },
+    "walkingType": "WALK"
+  }
+
+,
+  {
+    "id": 11,
+    "position": {
+      "x": 3403,
+      "y": 9970,
+      "height": 3
+    },
+    "walkingType": "WALK"
+  },
+  {
+    "id": 484,
+    "position": {
+      "x": 3422,
+      "y": 3564,
+      "height": 3
+    },
+    "walkingType": "WALK"
+  },
+  {
+    "id": 487,
+    "position": {
+      "x": 3405,
+      "y": 9942,
+      "height": 3
+    },
+    "walkingType": "WALK"
+  },
+  {
+    "id": 485,
+    "position": {
+      "x": 3419,
+      "y": 3573,
+      "height": 3
+    },
+    "walkingType": "WALK"
+  }
+]

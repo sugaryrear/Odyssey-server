@@ -1,0 +1,38 @@
+---
+npc_id: 2805
+constant:
+  accessibility: 0
+  items:
+  - name: "bones"
+    minimum: 1
+    maximum: 1
+common:
+  accessibility: 1
+  items:
+  - name: "feather"
+    minimum: 1
+    maximum: 2
+  - name: "feather"
+    minimum: 1
+    maximum: 2
+  - name: "feather"
+    minimum: 1
+    maximum: 2
+  - name: "feather"
+    minimum: 1
+    maximum: 2
+uncommon:
+  accessibility: 15
+  items:
+  - name: "feather"
+    minimum: 200
+    maximum: 200
+rare:
+  accessibility: 100
+  items:
+  - name: "feather"
+    minimum: 550
+    maximum: 550
+  - name: "casket"
+    minimum: 1
+    maximum: 1

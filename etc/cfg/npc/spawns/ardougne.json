@@ -1,0 +1,19 @@
+[
+
+  //Baker
+  { "id":3208,
+    "position": {"x":2669, "y": 3310,"height":0},
+    "walkingType": "FACE_SOUTH" },
+  //Guard
+  { "id":5418,
+    "position": {"x":2666, "y": 3311,"height":0},
+    "walkingType": "WALK" },
+  //Guard
+  { "id":5418,
+    "position": {"x":2659, "y": 3306,"height":0},
+    "walkingType": "WALK" },
+  //Guard
+  { "id":5418,
+    "position": {"x":2648, "y": 3308,"height":0},
+    "walkingType": "WALK" }
+]

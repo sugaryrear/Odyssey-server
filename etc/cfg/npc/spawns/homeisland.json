@@ -1,0 +1,642 @@
+[
+  {
+    "id": 2148,
+    "position": {
+      "x": 2017,
+      "y": 3649,
+      "height": 0
+    },
+    "walkingType": "FACE_WEST"
+  },
+  //skill cape shop
+  {
+    "id": 4306,
+    "position": {
+      "x": 2007,
+      "y": 3648,
+      "height": 0
+    },
+    "walkingType": "FACE_SOUTH"
+  },
+  //skullgrimen
+  {
+    "id": 3935,
+    "position": {
+      "x": 1998,
+      "y": 3616,
+      "height": 0
+    },
+    "walkingType": "FACE_WEST"
+  },
+  //max dummy
+  {
+    "id": 7413,
+    "position": {
+      "x": 2034,
+      "y": 3667,
+      "height": 0
+    },
+    "walkingType": "FACE_WEST"
+  },
+  //recruiter
+  {
+    "id": 8973,
+    "position": {
+      "x": 2018,
+      "y": 3642,
+      "height": 0
+    },
+    "walkingType": "FACE_WEST"
+  },
+  //adam
+  {
+    "id": 311,
+    "position": {
+      "x": 2018,
+      "y": 3643,
+      "height": 0
+    },
+    "walkingType": "FACE_WEST"
+  },
+  //ironman shopkeeper
+  {
+    "id": 7913,
+    "position": {
+      "x": 2017,
+      "y": 3644,
+      "height": 0
+    },
+    "walkingType": "FACE_SOUTH"
+  },
+  //perdu
+  {
+    "id": 7456,
+    "position": {
+      "x": 2006,
+      "y": 3648,
+      "height": 0
+    },
+    "walkingType": "FACE_SOUTH"
+  },
+  //Party Pete aka daily rewards
+  { "id":5792,
+    "position": {"x":2016, "y": 3637,"height":0},
+    "walkingType": "FACE_WEST" },
+
+  //urbi
+  {
+    "id": 3891,
+    "position": {
+      "x": 2002,
+      "y": 3616,
+      "height": 0
+    },
+    "walkingType": "FACE_EAST"
+  },
+
+  //daga
+  {
+    "id": 5250,
+    "position": {
+      "x": 2002,
+      "y": 3615,
+      "height": 0
+    },
+    "walkingType": "FACE_EAST"
+  },
+  //celyn
+  {
+    "id": 9156,
+    "position": {
+      "x": 2006,
+      "y": 3618,
+      "height": 0
+    },
+    "walkingType": "FACE_WEST"
+  },
+
+  //jukat
+  {
+    "id": 3201,
+    "position": {
+      "x": 2002,
+      "y": 3618,
+      "height": 0
+    },
+    "walkingType": "FACE_EAST"
+  },
+  {
+    "id": 2892,
+    "position": {
+      "x": 2007,
+      "y": 3616,
+      "height": 0
+    },
+    "walkingType": "FACE_WEST"
+  },
+  //urbi
+  {
+    "id": 5896,
+    "position": {
+      "x": 2007,
+      "y": 3617,
+      "height": 0
+    },
+    "walkingType": "FACE_WEST"
+  },
+//peksa
+  {
+    "id": 2872,
+    "position": {
+      "x": 1998,
+      "y": 3614,
+      "height": 0
+    },
+    "walkingType": "FACE_WEST"
+  },
+  //ranael
+  {
+    "id": 2878,
+    "position": {
+      "x": 1991,
+      "y": 3615,
+      "height": 0
+    },
+    "walkingType": "FACE_EAST"
+  },
+
+  //louis legs
+  {
+    "id": 2876,
+    "position": {
+      "x": 1991,
+      "y": 3616,
+      "height": 0
+    },
+    "walkingType": "FACE_EAST"
+  },
+  //cassie
+  {
+    "id": 3214,
+    "position": {
+      "x": 1993,
+      "y": 3626,
+      "height": 0
+    },
+    "walkingType": "FACE_SOUTH"
+  },
+
+  //wayne
+  {
+    "id": 5897,
+    "position": {
+      "x": 1991,
+      "y": 3623,
+      "height": 0
+    },
+    "walkingType": "FACE_EAST"
+  },
+//hura
+  {
+    "id": 2785,
+    "position": {
+      "x": 2004,
+      "y": 3594,
+      "height": 0
+    },
+    "walkingType": "FACE_EAST"
+  },
+  {
+    "id": 2883,
+    "position": {
+      "x": 2007,
+      "y": 3596,
+      "height": 0
+    },
+    "walkingType": "FACE_EAST"
+  },
+  {
+    "id": 7120,
+    "position": {
+      "x": 2010,
+      "y": 3600,
+      "height": 0
+    },
+    "walkingType": "FACE_SOUTH"
+  },
+
+  //Ava
+  {
+    "id": 4407,
+    "position": {
+      "x": 2012,
+      "y": 3595,
+      "height": 0
+    },
+    "walkingType": "FACE_WEST"
+  },
+  //nulodion
+  {
+    "id": 1400,
+    "position": {
+      "x": 2012,
+      "y": 3597,
+      "height": 0
+    },
+    "walkingType": "FACE_WEST"
+  },
+
+  //zaff
+  {
+    "id": 2880,
+    "position": {
+      "x": 2022,
+      "y": 3624,
+      "height": 0
+    },
+    "walkingType": "FACE_SOUTH"
+  },
+
+
+  //betty
+  {
+    "id": 1788,
+    "position": {
+      "x": 2025,
+      "y": 3621,
+      "height": 0
+    },
+    "walkingType": "FACE_WEST"
+  },
+
+  //frenita
+  {
+    "id": 8685,
+    "position": {
+      "x": 2047,
+      "y": 3643,
+      "height": 0
+    },
+    "walkingType": "FACE_SOUTH"
+  },
+
+  //dommik
+  {
+    "id": 2879,
+    "position": {
+      "x": 2045,
+      "y": 3660,
+      "height": 0
+    },
+    "walkingType": "FACE_SOUTH"
+  },
+
+  //tanner
+  {
+    "id": 5809,
+    "position": {
+      "x": 2047,
+      "y": 3660,
+      "height": 0
+    },
+    "walkingType": "FACE_SOUTH"
+  },
+  //zodian guide
+  {
+    "id": 306,
+    "position": {
+      "x": 2009,
+      "y": 3645,
+      "height": 0
+    },
+    "walkingType": "WALK"
+  },
+  //shopkeeper
+  {
+    "id": 2813,
+    "position": {
+      "x": 2004,
+      "y": 3629,
+      "height": 0
+    },
+    "walkingType": "WALK"
+  },
+  {
+    "id": 2581,
+    "position": {
+      "x": 2022,
+      "y": 3621,
+      "height": 0
+    },
+    "walkingType": "WALK"
+  },
+  {
+    "id": 7284,
+    "position": {
+      "x": 1997,
+      "y": 3591,
+      "height": 0
+    },
+      "walkingType": "FACE_NORTH"
+  },
+  {
+    "id": 15566,
+    "position": {
+      "x": 1989,
+      "y": 3593,
+      "height": 0
+    },
+    "walkingType": "WALK"
+  },
+  {
+    "id": 15567,
+    "position": {
+      "x": 1992,
+      "y": 3596,
+      "height": 0
+    },
+    "walkingType": "WALK"
+  },
+  {
+    "id": 15568,
+    "position": {
+      "x": 1988,
+      "y": 3598,
+      "height": 0
+    },
+    "walkingType": "WALK"
+  },
+
+  //watson
+  {
+    "id": 7303,
+    "position": {
+      "x": 2004,
+      "y": 3646,
+      "height": 0
+    },
+    "walkingType": "FACE_EAST"
+  },
+  //durial321
+  {
+    "id": 15580,
+    "position": {
+      "x": 2018,
+      "y": 3639,
+      "height": 0
+    },
+    "walkingType": "FACE_WEST"
+  },
+  {
+    "id": 8623,
+    "position": {
+      "x": 2036,
+      "y": 3678,
+      "height": 0
+    },
+    "walkingType": "FACE_WEST"
+  },
+  {
+    "id": 390,
+    "position": {
+      "x": 2030,
+      "y": 3681,
+      "height": 0
+    },
+    "walkingType": "FACE_SOUTH"
+  },
+  {
+    "id": 401,
+    "position": {
+      "x": 2032,
+      "y": 3678,
+      "height": 0
+    },
+    "walkingType": "FACE_SOUTH"
+  },
+  {
+    "id": 402,
+    "position": {
+      "x": 2033,
+      "y": 3678,
+      "height": 0
+    },
+    "walkingType": "FACE_SOUTH"
+  },
+  {
+    "id": 403,
+    "position": {
+      "x": 2035,
+      "y": 3677,
+      "height": 0
+    },
+    "walkingType": "FACE_WEST"
+  },
+  {
+    "id": 404,
+    "position": {
+      "x": 2034,
+      "y": 3675,
+      "height": 0
+    },
+    "walkingType": "FACE_NORTH"
+  },
+  {
+    "id": 405,
+    "position": {
+      "x": 2033,
+      "y": 3675,
+      "height": 0
+    },
+    "walkingType": "FACE_NORTH"
+  },
+  {
+    "id": 6797,
+    "position": {
+      "x": 2032,
+      "y": 3675,
+      "height": 0
+    },
+    "walkingType": "FACE_NORTH"
+  },
+  //filamina - donator store
+  {
+    "id": 7204,
+    "position": {
+      "x": 2008,
+      "y": 3654,
+      "height": 0
+    },
+    "walkingType": "FACE_EAST"
+  },
+  //vote shop
+  {
+    "id": 2108,
+    "position": {
+      "x": 2008,
+      "y": 3651,
+      "height": 0
+    },
+    "walkingType": "FACE_EAST"
+  },
+  //gem trader
+  {
+    "id": 2874,
+    "position": {
+      "x": 2044,
+      "y": 3652,
+      "height": 0
+    },
+    "walkingType": "FACE_NORTH"
+  },
+  //davon
+  {
+    "id": 8680,
+    "position": {
+      "x": 2047,
+      "y": 3652,
+      "height": 0
+    },
+    "walkingType": "FACE_NORTH"
+  },
+  //drogo
+  {
+    "id": 5895,
+    "position": {
+      "x": 2051,
+      "y": 3660,
+      "height": 0
+    },
+    "walkingType": "FACE_SOUTH"
+  },
+  {
+  "id": 687,
+  "position": {
+    "x": 2008,
+    "y": 3640,
+    "height": 0
+  },
+  "walkingType": "FACE_EAST"
+},
+
+  //zahur
+  {
+    "id": 4753,
+    "position": {
+      "x": 2043,
+      "y": 3636,
+      "height": 0
+    },
+    "walkingType": "FACE_WEST"
+  },
+
+
+  //jatix
+  {
+    "id": 8532,
+    "position": {
+      "x": 2043,
+      "y": 3637,
+      "height": 0
+    },
+    "walkingType": "FACE_WEST"
+  },
+  //gerrant
+  {
+    "id": 1790,
+    "position": {
+      "x": 2029,
+      "y": 3637,
+      "height": 0
+    },
+    "walkingType": "FACE_WEST"
+  },
+//banker
+  {
+    "id": 6970,
+    "position": {
+      "x": 2020,
+      "y": 3647,
+      "height": 0
+    },
+    "walkingType": "FACE_WEST"
+  },
+  //banker
+  {
+    "id": 6969,
+    "position": {
+      "x": 2020,
+      "y": 3646,
+      "height": 0
+    },
+    "walkingType": "FACE_WEST"
+  },
+  {
+    "id": 6969,
+    "position": {
+      "x": 2016,
+      "y": 2639,
+      "height": 0
+    },
+    "walkingType": "FACE_WEST"
+  },
+
+
+  {
+    "id": 1306,
+    "position": {
+      "x": 2017,
+      "y": 3652,
+      "height": 0
+    },
+    "walkingType": "FACE_WEST"
+  },
+
+  {
+    "id": 3913,
+    "position": {
+      "x": 2040,
+      "y": 3626,
+      "height": 0
+    },
+    "walkingType": "FACE_EAST"
+  },
+  {
+    "id": 1520,
+    "position": {
+      "x": 2041,
+      "y": 3619,
+      "height": 0
+    },
+    "walkingType": "FACE_EAST"
+  },
+  {
+    "id": 3417,
+    "position": {
+      "x": 2038,
+      "y": 3630,
+      "height": 0
+    },
+    "walkingType": "FACE_EAST"
+  },
+  {
+    "id": 3657,
+    "position": {
+      "x": 2034,
+      "y": 3632,
+      "height": 0
+    },
+    "walkingType": "FACE_EAST"
+  },
+
+
+  {
+    "id": 2006,
+    "position": {
+      "x": 2025,
+      "y": 3616,
+      "height": 0
+    },
+    "walkingType": "WALK"
+  }
+]

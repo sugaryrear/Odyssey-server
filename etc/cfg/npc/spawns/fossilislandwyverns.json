@@ -1,0 +1,51 @@
+[
+
+  //Long-tailed Wyvern
+  { "id":7792,
+    "position": {"x":3625, "y": 10290,"height":0},
+    "walkingType": "WALK " },
+  //Long-tailed Wyvern
+  { "id":7792,
+    "position": {"x":3631, "y": 10283,"height":0},
+    "walkingType": "WALK " },
+  //Long-tailed Wyvern
+  { "id":7792,
+    "position": {"x":3638, "y": 10276,"height":0},
+    "walkingType": "WALK " },
+  //Ancient Wyvern
+  { "id":7795,
+    "position": {"x":3634, "y": 10254,"height":0},
+    "walkingType": "WALK " },
+  //Ancient Wyvern
+  { "id":7795,
+    "position": {"x":3640, "y": 10253,"height":0},
+    "walkingType": "WALK " },
+  //Ancient Wyvern
+  { "id":7795,
+    "position": {"x":3636, "y": 10246,"height":0},
+    "walkingType": "WALK " },
+  //Long-tailed Wyvern
+  { "id":7792,
+    "position": {"x":3614, "y": 10252,"height":0},
+    "walkingType": "WALK " },
+  //Long-tailed Wyvern
+  { "id":7792,
+    "position": {"x":3606, "y": 10252,"height":0},
+    "walkingType": "WALK " },
+  //Long-tailed Wyvern
+  { "id":7792,
+    "position": {"x":3594, "y": 10262,"height":0},
+    "walkingType": "WALK " },
+  //Spitting Wyvern
+  { "id":7794,
+    "position": {"x":3614, "y": 10278,"height":0},
+    "walkingType": "WALK " },
+  //Spitting Wyvern
+  { "id":7794,
+    "position": {"x":3607, "y": 10274,"height":0},
+    "walkingType": "WALK " },
+  //Spitting Wyvern
+  { "id":7794,
+    "position": {"x":3605, "y": 10268,"height":0},
+    "walkingType": "WALK " }
+]

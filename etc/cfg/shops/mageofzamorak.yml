@@ -1,0 +1,32 @@
+---
+id: 143
+name: "Mage of Zamorak"
+items:
+  - name: "air rune"
+    amount: 5000
+  - name: "fire rune"
+    amount: 5000
+  - name: "earth rune"
+    amount: 5000
+  - name: "water rune"
+    amount: 5000
+  - name: "mind rune"
+    amount: 5000
+  - name: "chaos rune"
+    amount: 250
+  - name: "death rune"
+    amount: 250
+  - name: "fire rune pack"
+    amount: 80
+  - name: "air rune pack"
+    amount: 80
+  - name: "water rune pack"
+    amount: 80
+  - name: "air rune pack"
+    amount: 80
+  - name: "earth rune pack"
+    amount: 80
+  - name: "mind rune pack"
+    amount: 40
+  - name: "chaos rune pack"
+    amount: 35

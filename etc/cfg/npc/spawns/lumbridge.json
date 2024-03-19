@@ -1,0 +1,104 @@
+[
+
+
+  //Man
+  { "id":6987,
+    "position": {"x":3208, "y": 3228,"height":0},
+    "walkingType": "WALK " },
+  //Man
+  { "id":6987,
+    "position": {"x":3215, "y": 3219,"height":0},
+    "walkingType": "WALK " },
+  //Man
+  { "id":6987,
+    "position": {"x":3224, "y": 3221,"height":0},
+    "walkingType": "WALK " },
+  //Man
+  { "id":6987,
+    "position": {"x":3235, "y": 3218,"height":0},
+    "walkingType": "WALK " },
+  //Man
+  { "id":6987,
+    "position": {"x":3231, "y": 3207,"height":0},
+    "walkingType": "WALK " },
+  //Man
+  { "id":6987,
+    "position": {"x":3235, "y": 3202,"height":0},
+    "walkingType": "WALK " },
+  //Man
+  { "id":6987,
+    "position": {"x":3232, "y": 3220,"height":0},
+    "walkingType": "WALK " },
+  //Man
+  { "id":6987,
+    "position": {"x":3218, "y": 3236,"height":0},
+    "walkingType": "WALK " },
+  //Man
+  { "id":6987,
+    "position": {"x":3222, "y": 3242,"height":0},
+    "walkingType": "WALK " },
+  //Woman
+  { "id":6990,
+    "position": {"x":3217, "y": 3208,"height":0},
+    "walkingType": "WALK " },
+  //Woman
+  { "id":6990,
+    "position": {"x":3236, "y": 3205,"height":0},
+    "walkingType": "WALK " },
+  //Woman
+  { "id":6990,
+    "position": {"x":3237, "y": 3201,"height":0},
+    "walkingType": "WALK " },
+  //Woman
+  { "id":6990,
+    "position": {"x":3243, "y": 3211,"height":0},
+    "walkingType": "WALK " },
+  //Hatius Cosaintus
+  { "id":5523,
+    "position": {"x":3233, "y": 3211,"height":0},
+    "walkingType": "WALK " },
+  //Farmer
+  { "id":3114,
+    "position": {"x":3204, "y": 3278,"height":0},
+    "walkingType": "WALK " },
+  //Farmer
+  { "id":3114,
+    "position": {"x":3228, "y": 3291,"height":0},
+    "walkingType": "WALK " },
+  //Farmer
+  { "id":3114,
+    "position": {"x":3232, "y": 3310,"height":0},
+    "walkingType": "WALK " },
+  //Farmer
+  { "id":3114,
+    "position": {"x":3242, "y": 3307,"height":0},
+    "walkingType": "WALK " },
+  //Farmer
+  { "id":3114,
+    "position": {"x":3263, "y": 3325,"height":0},
+    "walkingType": "WALK " },
+  //Farmer
+  { "id":3114,
+    "position": {"x":3187, "y": 3325,"height":0},
+    "walkingType": "WALK " },
+  //Farmer
+  { "id":3114,
+    "position": {"x":3165, "y": 3326,"height":0},
+    "walkingType": "WALK " },
+  //Farmer
+  { "id":3114,
+    "position": {"x":3161, "y": 3338,"height":0},
+    "walkingType": "WALK " },
+  //Farmer
+  { "id":3114,
+    "position": {"x":3163, "y": 3289,"height":0},
+    "walkingType": "WALK " },
+  //Farmer
+  { "id":3114,
+    "position": {"x":3152, "y": 3295,"height":0},
+    "walkingType": "WALK " },
+  //Farmer
+  { "id":3114,
+    "position": {"x":3146, "y": 3281,"height":0},
+    "walkingType": "WALK " }
+]

@@ -1,0 +1,42 @@
+---
+id: 124
+name: "Crossbow Shop"
+items:
+  - name: "Wooden stock"
+    amount: 5
+  - name: "Oak stock"
+    amount: 5
+  - name: "Willow stock"
+    amount: 5
+  - name: "Teak stock"
+    amount: 5
+  - name: "Maple stock"
+    amount: 5
+  - name: "Mahogany stock"
+    amount: 0
+  - name: "yew stock"
+    amount: 0
+  - name: "Bronze limbs"
+    amount: 5
+  - name: "Iron limbs"
+    amount: 5
+  - name: "Steel limbs"
+    amount: 5
+  - name: "mithril limbs"
+    amount: 5
+  - name: "Adamantite limbs"
+    amount: 0
+  - name: "Runite limbs"
+    amount: 0
+  - name: "bronze crossbow"
+    amount: 0
+  - name: "Iron crossbow"
+    amount: 0
+  - name: "Steel crossbow"
+    amount: 0
+  - name: "Mith crossbow"
+    amount: 0
+  - name: "Adamant crossbow"
+    amount: 0
+  - name: "Rune crossbow"
+    amount: 0
