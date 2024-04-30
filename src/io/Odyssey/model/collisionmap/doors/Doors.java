@@ -61,32 +61,21 @@ public class Doors {
         return null;
     }
 
-    public boolean handleDoor(GlobalObject object, int id, int x, int y, int z) {
- Optional<WorldObject> object_real = object.getRegionProvider().get(x, y).getWorldObject(id, x, y, z);
-//if(object_real.isPresent()){
-//    System.out.println("it is.");
-//}
-//        /**
-//         * Debug
-//         */
-//        //player.sendMessage("Chance="+playerChance+" rolled="+chance+" slashBonus="+slashBonus+" FaceDirection="+obj.get().getFace()+" - "+obj.get().type);
-//
-//        /**
-//         * Boolean check for when the player is sucessful.
-//         */
-//        if (playerChance >= chance) {
-//            player.sendMessage("You slash the web apart.");
-//            Server.getGlobalObjects().add(new GlobalObject(734, objectX, objectY, obj.get().getHeight(), obj.get().getFace(), obj.get().getType(), 20, 733));
-//        } else
-//            player.sendMessage("You fail to cut through the web.");
-//    }
-
-        ObjectDef def = ObjectDef.getObjectDef(object.getObjectId());
+    public boolean handleDoor(int id, int x, int y, int z) {
+        GlobalObject object2 = Server.getGlobalObjects().get(id,x,y,z);
+        if (object2 != null ) {
+           // System.out.println("we have it!");
+        } else {
+         //   System.out.println("nope?");
+            return false;
+        }
+        ObjectDef def = ObjectDef.getObjectDef(object2.getObjectId());
 
        // System.out.println("def.n: "+def.name);
         if ((def != null ? def.name : null) != null && def.name.toLowerCase().contains("door")) {
 //
        //     System.out.println("solid: "+def.aBoolean767+" impenetrable: "+def.aBoolean757+" shad: "+def.aBoolean779);
+
         Doors d = getDoor(id, x, y, z);
         if (d == null) {
             if (DoubleDoors.getSingleton().handleDoor( id, x, y, z)) {
@@ -94,14 +83,7 @@ public class Doors {
             }
             return false;
         }
-//            id = object.getObjectId();
-//            x = x;
-//            y = y;
-//            z = z;
-//            int face = object.getFace();
-//            int type = object.getType();
-//            Doors d = new Doors(id, x, y, z, face, 0, 0);
-//            System.out.println("door face: " + face + "  and type: " + type);
+
             int xAdjustment = 0, yAdjustment = 0;
             if (d.type == 0) {
                 if (d.open == 0) {//originally closed door
@@ -148,34 +130,20 @@ public class Doors {
                     }
                 }
             }
+//Optional<WorldObject> object_real = object2.getRegionProvider().get(x, y).getWorldObject(id, x, y, z);
             if (xAdjustment != 0 || yAdjustment != 0) {
 
-              //  GlobalObject o = new GlobalObject(-1, d.doorX, d.doorY, d.doorZ, d.originalFace, 0);//remove it? yes.
-             //   Server.getGlobalObjects().add(o);
-            //    System.out.println("id: "+object_real.get().id+" x:"+object_real.get().x+" y: "+object_real.get().y+" f: "+object_real.get().face+"  type: "+object_real.get().type);
-            //    System.out.println("from door file: id: "+d.doorId+" x:"+d.doorX+" y: "+d.doorY+" f: "+d.currentFace+"  type: "+d.type);
-//Optional<WorldObject> thedoor = object.getRegionProvider().get(c.absX, c.absY).getWorldObject(objectType,obX,obY,c.getHeight());
-//GlobalObject theobject1560 = new GlobalObject(object_real1560.get().id, object_real1560.get().x, object_real1560.get().y, object_real1560.get().height, object_real1560.get().face, object_real1560.get().type);
+ Server.getGlobalObjects().remove(object2);
 
 
-
-GlobalObject theobject = new GlobalObject( object_real.get().id, object_real.get().x, object_real.get().y, object_real.get().height, object_real.get().face, 0);
- Server.getGlobalObjects().add_door(theobject);
-//Server.getGlobalObjects().remove(theobject);
-              //  Server.getGlobalObjects().updateObject(theobject, object_real.get().id);
             }
             if (d.doorX == d.originalX && d.doorY == d.originalY) {
                 d.doorX += xAdjustment;
                 d.doorY += yAdjustment;
+            //    System.out.println("here original door.");
             } else {
-                GlobalObject theobject = new GlobalObject( object_real.get().id, object_real.get().x, object_real.get().y, object_real.get().height, object_real.get().face, 0);
-                Server.getGlobalObjects().add_door(theobject);
 
-//                GlobalObject theobject = new GlobalObject(object_real.get().id, object_real.get().x, object_real.get().y, object_real.get().height, object_real.get().face, object_real.get().type);
-//                Server.getGlobalObjects().add(theobject);
-//                Server.getGlobalObjects().remove(theobject);
-               // Server.getGlobalObjects().updateObject(theobject, object_real.get().id);
-
+                Server.getGlobalObjects().remove(object2);
                 d.doorX = d.originalX;
                 d.doorY = d.originalY;
             }
@@ -193,10 +161,7 @@ GlobalObject theobject = new GlobalObject( object_real.get().id, object_real.get
                 }
             }
 
-            //     Server.getGlobalObjects().add(new GlobalObject(d.doorId, d.doorX, d.doorY, d.doorZ, getNextFace(d), 0));
             Server.getGlobalObjects().add(new GlobalObject(d.doorId, d.doorX, d.doorY, d.doorZ, getNextFace(d), 0));
-
-            //System.out.println("the face it should be: "+getNextFace(d));
 
 
         }  return false;
@@ -265,6 +230,7 @@ GlobalObject theobject = new GlobalObject( object_real.get().id, object_real.get
 
 
     public void load() {
+
         long start = System.currentTimeMillis();
         try {
             singleton.processLineByLine();
@@ -284,6 +250,17 @@ GlobalObject theobject = new GlobalObject( object_real.get().id, object_real.get
             scanner.close();
         }
     }
+    public final void processLineByLine_toload() throws FileNotFoundException {
+        Scanner scanner = new Scanner(new FileReader(doorFile));
+        try {
+            while(scanner.hasNextLine()) {
+                loadalldoors(scanner.nextLine());
+            }
+           // System.out.println("loaded doors!");
+        } finally {
+            scanner.close();
+        }
+    }
 
     protected void processLine(String line){
         Scanner scanner = new Scanner(line);
@@ -297,6 +274,26 @@ GlobalObject theobject = new GlobalObject( object_real.get().id, object_real.get
                 int z = Integer.parseInt(scanner.next());
                 int t = Integer.parseInt(scanner.next());
                 doors.add(new Doors(id,x,y,z,f,t,alreadyOpen(id)?1:0));//a door that starts as open is 1
+            }
+        } finally {
+            scanner.close();
+        }
+    }
+    public void loadalldoors(String line){
+        Scanner scanner = new Scanner(line);
+        scanner.useDelimiter(" ");
+        try {
+            while(scanner.hasNextLine()) {
+                int id = Integer.parseInt(scanner.next());
+                int x = Integer.parseInt(scanner.next());
+                int y = Integer.parseInt(scanner.next());
+                int f = Integer.parseInt(scanner.next());
+                int z = Integer.parseInt(scanner.next());
+                int t = Integer.parseInt(scanner.next());
+Server.getGlobalObjects().add(new GlobalObject(id,x,y,z,f,t));
+//if(id == 1540)
+//System.out.println("here!");
+                //      doors.add(new Doors(id,x,y,z,f,t,alreadyOpen(id)?1:0));//a door that starts as open is 1
             }
         } finally {
             scanner.close();

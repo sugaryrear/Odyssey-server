@@ -1656,7 +1656,7 @@ int to =0;
 			c.getOutStream().writeByte(endHeight);
 			c.getOutStream().writeUnsignedWord(time);
 			c.getOutStream().writeUnsignedWord(speed);
-			c.getOutStream().writeByte(16);
+			c.getOutStream().writeByte(10);
 			c.getOutStream().writeByte(64);
 			c.flushOutStream();
 		}

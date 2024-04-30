@@ -213,6 +213,8 @@ return !projectile && entity.getRegionProvider().canMove(attacker.getX(), attack
             reset();
             return;
         }
+
+
         attacker.getPA().setFollowingEntity(targetEntity, true);
 
         if (targetEntity.isNPC() && !attacker.usingClickCast) {
@@ -269,7 +271,7 @@ return !projectile && entity.getRegionProvider().canMove(attacker.getX(), attack
         attacker.weaponUsedOnAttack = attacker.playerEquipment[Player.playerWeapon];
         attacker.arrowUsedOnAttack = attacker.playerEquipment[Player.playerArrows];
 
-        handleItemChangesOnAttack(targetEntity);
+        handleItemChangesOnAttack(targetEntity);//like degrading
         attacker.attackTimer = getAttackDelay() + (Spores.isInfected(attacker) ? 1 : 0);
         attacker.hitDelay = MeleeData.getHitDelay(attacker);
         attacker.faceEntity(targetEntity);
@@ -474,12 +476,13 @@ return !projectile && entity.getRegionProvider().canMove(attacker.getX(), attack
                 attacker.attackTimer--;
             }
         }
-
-        if (targetEntity.getAnimationTimer().isFinished()) {
-            if (targetEntity.hasBlockAnimation()) {
-                targetEntity.startAnimation(targetEntity.getBlockAnimation());
-            }
-        }
+//System.out.println("timer: "+targetEntity.getAnimationTimer());
+        //this is where the block animation officially occurs.
+      //  if (targetEntity.getAnimationTimer().isFinished()) {
+//            if (targetEntity.hasBlockAnimation()) {
+//                targetEntity.startAnimation(targetEntity.getBlockAnimation());
+//            }
+       // }
 
         // Reset spell id after attack and end attacking if click casting
         if (special == null && getCombatType() == CombatType.MAGE) {
@@ -735,6 +738,8 @@ return !projectile && entity.getRegionProvider().canMove(attacker.getX(), attack
             attacker.getPA().createPlayersProjectile(pX, pY, offX, offY, 50, RangeData.getProjectileSpeed(attacker),
                     RangeData.getRangeProjectileGFX(attacker), 35, 35,
                     Projectile.getLockon(entity), 45);
+
+
         } else if (attacker.weaponUsedOnAttack == 30051) {
             System.out.println("using handcannon firerangeProjecilte");  // 2030 gfx ball..  2029 gfx shoot
             attacker.getPA().createPlayersProjectile(pX, pY, offX, offY, 50, RangeData.getProjectileSpeed(attacker),
@@ -745,11 +750,16 @@ return !projectile && entity.getRegionProvider().canMove(attacker.getX(), attack
 //                    RangeData.getRangeProjectileGFX(attacker), 37, 41,
 //                    Projectile.getLockon(entity), RangeData.getProjectileShowDelay(attacker,
 //                            getRangedWeaponType().noArrows()));
-
             attacker.getPA().createPlayersProjectile(pX, pY, offX, offY, 50, RangeData.getProjectileSpeed(attacker),
-                    RangeData.getRangeProjectileGFX(attacker), 43, 43,
+                    RangeData.getRangeProjectileGFX(attacker), 43, 31,
                     Projectile.getLockon(entity), RangeData.getProjectileShowDelay(attacker,
                             getRangedWeaponType().noArrows()));
+          //  RangeData.fireProjectileNpc(player, (NPC) target, 50, 70, 249, 43, 31, 37, 10);
+
+//            attacker.getPA().createPlayersProjectile(pX, pY, offX, offY, 50, RangeData.getProjectileSpeed(attacker),
+//                    RangeData.getRangeProjectileGFX(attacker), 43, 43,
+//                    Projectile.getLockon(entity), RangeData.getProjectileShowDelay(attacker,
+//                            getRangedWeaponType().noArrows()));
 //                attacker.getPA().createPlayersProjectile(pX, pY, offX, offY, 50, speed, projectile,
 //                                    CombatSpellData.getStartHeight(attacker), CombatSpellData.getEndHeight(attacker),
 //                                    Projectile.getLockon(entity), 50);

@@ -189,6 +189,7 @@ Server.getGlobalObjects().add(new GlobalObject((player.objectId == 4875 || playe
 	}
 
 	public List<NPC> getNearbyGuards(Player player,int npcId) {
+		//TODO: optimize this to make it "faster"
 		List<NPC> possibleTargets = Arrays.stream(NPCHandler.npcs).filter(npc -> npc != null && !npc.isDead
 				&& npc.distance(player.getPosition()) <= 6         && npc.getNpcId() == npcId
 				&& player.attacking.attackEntityCheck(npc, false)

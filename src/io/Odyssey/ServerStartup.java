@@ -90,8 +90,8 @@ public class ServerStartup {
         GlobalDropsHandler.initialize();
        DiscordIntegration.loadConnectedAccounts();
 
-        Server.getWorld().discordBot = new Bot();
-        Server.getWorld().discordBot.init();
+       // Server.getWorld().discordBot = new Bot();
+      //  Server.getWorld().discordBot.init();
         try {
             ItemWeight.init();
         } catch (Exception e) {
@@ -111,8 +111,9 @@ public class ServerStartup {
         Server.getEventHandler().submit(new LeaderboardUpdateEvent());
         Server.getEventHandler().submit(new GlobalDropsHandler());
         Listing.init();
-     Wogw.init();
+        Wogw.init();
         PollTab.init();
+
 
         Doors.getSingleton().load();
         DoubleDoors.getSingleton().load();
@@ -155,7 +156,7 @@ public class ServerStartup {
 //        if (Server.isPublic()) {
 //            PlayerSaveBackup.start(Configuration.PLAYER_SAVE_TIMER_MILLIS, Configuration.PLAYER_SAVE_BACKUP_EVERY_X_SAVE_TICKS);
 //        }
-
+        Doors.getSingleton().processLineByLine_toload();//has to be here.
         Reflection.getMethodsAnnotatedWith(PostInit.class).forEach(method -> {
             try {
                 method.invoke(null);

@@ -568,7 +568,8 @@ public boolean deserttreasure;
         if (Boundary.isIn(this,Boundary.WARRIORS_GUILD)) {
             getRegionProvider().removeClip(RegionProvider.NPC_TILE_FLAG,2854,3546, getHeight());
             getRegionProvider().removeClip(RegionProvider.NPC_TILE_FLAG,2855,3546, getHeight());
-        }      if (Boundary.isIn(this,Boundary.NEX_ENCAMPMENT)) {
+        }
+        if (Boundary.isIn(this,Boundary.NEX_ENCAMPMENT)) {
             //[11/4/23, 12:12 AM]: new Position(2902, 5200, 0),
             //[11/4/23, 12:12 AM]: new Position(2906, 5202, 0),
             for (int x = 2902; x < 2906; x++) {
@@ -578,29 +579,29 @@ public boolean deserttreasure;
                 }
             }
         }
-        if (Boundary.isIn(this,Boundary.HOME_ISLAND)) {
-            getRegionProvider().removeClip(RegionProvider.NPC_TILE_FLAG,2004,3620, getHeight());
-            getRegionProvider().removeClip(RegionProvider.NPC_TILE_FLAG,2004,3625, getHeight());
-            getRegionProvider().removeClip(RegionProvider.NPC_TILE_FLAG,2004,3626, getHeight());
-            getRegionProvider().removeClip(RegionProvider.NPC_TILE_FLAG,2012,3656, getHeight());
-            getRegionProvider().removeClip(RegionProvider.NPC_TILE_FLAG,2014,3639, getHeight());
-
-            getRegionProvider().removeClip(RegionProvider.NPC_TILE_FLAG,2012,3630, getHeight());
-            getRegionProvider().removeClip(RegionProvider.NPC_TILE_FLAG,2012,3626, getHeight());
-            getRegionProvider().removeClip(RegionProvider.NPC_TILE_FLAG,2014,3626, getHeight());
-
-            getRegionProvider().removeClip(RegionProvider.NPC_TILE_FLAG,2009,3648, getHeight());
-            getRegionProvider().removeClip(RegionProvider.NPC_TILE_FLAG,2008,3598, getHeight());
-
-            getRegionProvider().removeClip(RegionProvider.NPC_TILE_FLAG,2012,3652, getHeight());
-            getRegionProvider().removeClip(RegionProvider.NPC_TILE_FLAG,2035, 3676, getHeight());
-            getRegionProvider().removeClip(RegionProvider.NPC_TILE_FLAG,2030,3677, getHeight());
-            getRegionProvider().removeClip(RegionProvider.NPC_TILE_FLAG,2034,3678, getHeight());
-
-            getRegionProvider().removeClip(RegionProvider.NPC_TILE_FLAG,2034,3667, getHeight());
-            getRegionProvider().removeClip(RegionProvider.NPC_TILE_FLAG,2014,3624, getHeight());
-            getRegionProvider().removeClip(RegionProvider.NPC_TILE_FLAG,2016, 3649, getHeight());
-        }
+//        if (Boundary.isIn(this,Boundary.HOME_ISLAND)) {
+//            getRegionProvider().removeClip(RegionProvider.NPC_TILE_FLAG,2004,3620, getHeight());
+//            getRegionProvider().removeClip(RegionProvider.NPC_TILE_FLAG,2004,3625, getHeight());
+//            getRegionProvider().removeClip(RegionProvider.NPC_TILE_FLAG,2004,3626, getHeight());
+//            getRegionProvider().removeClip(RegionProvider.NPC_TILE_FLAG,2012,3656, getHeight());
+//            getRegionProvider().removeClip(RegionProvider.NPC_TILE_FLAG,2014,3639, getHeight());
+//
+//            getRegionProvider().removeClip(RegionProvider.NPC_TILE_FLAG,2012,3630, getHeight());
+//            getRegionProvider().removeClip(RegionProvider.NPC_TILE_FLAG,2012,3626, getHeight());
+//            getRegionProvider().removeClip(RegionProvider.NPC_TILE_FLAG,2014,3626, getHeight());
+//
+//            getRegionProvider().removeClip(RegionProvider.NPC_TILE_FLAG,2009,3648, getHeight());
+//            getRegionProvider().removeClip(RegionProvider.NPC_TILE_FLAG,2008,3598, getHeight());
+//
+//            getRegionProvider().removeClip(RegionProvider.NPC_TILE_FLAG,2012,3652, getHeight());
+//            getRegionProvider().removeClip(RegionProvider.NPC_TILE_FLAG,2035, 3676, getHeight());
+//            getRegionProvider().removeClip(RegionProvider.NPC_TILE_FLAG,2030,3677, getHeight());
+//            getRegionProvider().removeClip(RegionProvider.NPC_TILE_FLAG,2034,3678, getHeight());
+//
+//            getRegionProvider().removeClip(RegionProvider.NPC_TILE_FLAG,2034,3667, getHeight());
+//            getRegionProvider().removeClip(RegionProvider.NPC_TILE_FLAG,2014,3624, getHeight());
+//            getRegionProvider().removeClip(RegionProvider.NPC_TILE_FLAG,2016, 3649, getHeight());
+//        }
     }
 
     public int NOTIFICATION_BROADCASTS = 1456;
@@ -2825,7 +2826,7 @@ getPA().setspellbook(playerMagicBook);
     public boolean firsttimetutorial = false;
     public void checkcompletedtutorial() {
         if(!firsttimetutorial){
-            sendMessage("You have not completed ffthe server tutorial! Claim your free 450k gold by talking to");
+            sendMessage("You have not completed the server tutorial! Claim your free 450k gold by talking to");
             sendMessage("to the Runescape guide!");
         }
 

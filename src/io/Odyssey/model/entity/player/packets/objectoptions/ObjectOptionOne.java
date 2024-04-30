@@ -96,6 +96,8 @@ import static io.Odyssey.model.Items.*;
  */
 
 public class ObjectOptionOne {
+	static final int[] BARROWS_DOORS_EW = new int[] { 20687,20686, 20706, 20696, 20715, 20710, 20691, 20702,20683, 20700, 20681, 20701, 20682, 20703, 20684, 20687,20705,20687, 20706,
+			20688, 20707, 20690, 20709, 20685, 20704, 20708, 20689, 20711, 20692, 20714, 20695, 20693, 20712, 20713, 20694, 20705};
 
 	static int[] barType = { 2363, 2361, 2359, 2353, 2351, 2349 };
 
@@ -169,7 +171,7 @@ public class ObjectOptionOne {
 		if (c.getLighthouse().execute(c, objectType)) {
 			return;
 		}
-		Doors.getSingleton().handleDoor(object,objectType,obX,obY,c.heightLevel);
+		Doors.getSingleton().handleDoor(objectType,obX,obY,c.heightLevel);
 		ObjectDef def = ObjectDef.getObjectDef(objectType);
 		if ((def != null ? def.name : null) != null && def.name.equalsIgnoreCase("bank chest")) {
 			c.getPA().c.itemAssistant.openUpBank();
@@ -213,8 +215,8 @@ public class ObjectOptionOne {
 
 
 
-		final int[] BARROWS_DOORS_EW = new int[] { 20687,20686, 20706, 20696, 20715, 20710, 20691, 20702,20683, 20700, 20681, 20701, 20682, 20703, 20684, 20687,20705,20687, 20706,
-				20688, 20707, 20690, 20709, 20685, 20704, 20708, 20689, 20711, 20692, 20714, 20695, 20693, 20712, 20713, 20694, 20705};
+
+
 		if (IntStream.of(BARROWS_DOORS_EW).anyMatch(id -> objectType == id)) {
 			Barrows barrows = c.getBarrows();
 			if (barrows == null) {

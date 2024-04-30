@@ -117,7 +117,7 @@ public class GlobalObjects {
      */
     public void remove(GlobalObject object) {
         if (!objects.contains(object)) {
-         //  System.out.println("Trying to remove an object:  id: "+object.getObjectId()+" obj: x: "+object.getX()+"  y:"+object.getY()+" ");
+      System.out.println("Trying to remove an object:  id: "+object.getObjectId()+" obj: x: "+object.getX()+"  y:"+object.getY()+" ");
             return;
         }
         updateObject(object, -1);

@@ -91,11 +91,12 @@ public abstract class HitExecutor {
         }
 
         if (damage.getCombatType() != null) {
-            if (defender.attackTimer > 3) {
+           // System.out.println("timer: "+defender.attackTimer);
+            //if (defender.attackTimer > 3) {//how often the npc attacks?
                 if (defender.hasBlockAnimation()) {
                     defender.startAnimation(defender.getBlockAnimation());
                 }
-            }
+          //  }
 
             switch (damage.getCombatType()) {
                 case MELEE:

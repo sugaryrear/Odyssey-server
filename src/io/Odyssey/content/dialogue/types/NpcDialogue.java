@@ -37,7 +37,7 @@ public class NpcDialogue extends DialogueObject {
         int startDialogueChildId = NPC_DIALOGUE_ID[text.length - 1];
         int headChildId = startDialogueChildId - 2;
         player.getPA().sendNpcHeadOnInterface(npcId, headChildId);
-      //  player.getPA().sendInterfaceAnimation(headChildId, expression.getAnimation());
+        player.getPA().sendInterfaceAnimation(headChildId, expression.getAnimation());
         player.getPA().sendString(startDialogueChildId - 1, NpcDef.forId(npcId) != null ? NpcDef.forId(npcId).getName().replaceAll("_", " ") : "");
         for (int i = 0; i < text.length; i++) {
             player.getPA().sendString(startDialogueChildId + i, text[i]);

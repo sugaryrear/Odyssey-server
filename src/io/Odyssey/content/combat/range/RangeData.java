@@ -267,25 +267,42 @@ public class RangeData {
 		return 60;
 	}
 
-	public static int getProjectileShowDelay(Player c, boolean weapon) {
-		int itemId = weapon ? c.playerEquipment[Player.playerWeapon] : c.playerEquipment[Player.playerArrows];
-		int weaponId = c.playerEquipment[Player.playerWeapon];
-		if (weaponId == 22634 || weaponId == 22804)
-			return 25;
-		if (weaponId == 20849)
-			return 20;
-		Optional<Integer> original = PoisonedWeapon.getOriginal(itemId);
-		int ammo = original.orElse(itemId);
-		int[] data = {806, 806, 808, 809, 810, 811, 10033, 10034, 11959, 11230,};
-		int str = 60;
-		for (int i = 0; i < data.length; i++) {
-			if (ammo == data[i]) {
-				str = 60;
-			}
+//	public static int getProjectileShowDelay(Player c, boolean weapon) {
+//		int itemId = weapon ? c.playerEquipment[Player.playerWeapon] : c.playerEquipment[Player.playerArrows];
+//		int weaponId = c.playerEquipment[Player.playerWeapon];
+//		if (weaponId == 22634 || weaponId == 22804)
+//			return 25;
+//		if (weaponId == 20849)
+//			return 20;
+//		Optional<Integer> original = PoisonedWeapon.getOriginal(itemId);
+//		int ammo = original.orElse(itemId);
+//		int[] data = {806, 806, 808, 809, 810, 811, 10033, 10034, 11959, 11230,};
+//		int str = 60;
+//		for (int i = 0; i < data.length; i++) {
+//			if (ammo == data[i]) {
+//				str = 60;
+//			}
+//		}
+//		return str;
+//	}
+public static int getProjectileShowDelay(Player c, boolean weapon) {
+	int itemId = weapon ? c.playerEquipment[Player.playerWeapon] : c.playerEquipment[Player.playerArrows];
+	int weaponId = c.playerEquipment[Player.playerWeapon];
+	if (weaponId == 22634 || weaponId == 22804)
+		return 25;
+	if (weaponId == 20849)
+		return 20;
+	Optional<Integer> original = PoisonedWeapon.getOriginal(itemId);
+	int ammo = original.orElse(itemId);
+	int[] data = { 806, 806, 808, 809, 810, 811, 10033, 10034, 11959, 11230, };
+	int str = 53;
+	for (int i = 0; i < data.length; i++) {
+		if (ammo == data[i]) {
+			str = 32;
 		}
-		return str;
 	}
-
+	return str;
+}
 	public static void createCombatGraphic(Entity entity, int graphic, boolean height100) {
 		if (entity instanceof Player) {
 			Player target = (Player) entity;

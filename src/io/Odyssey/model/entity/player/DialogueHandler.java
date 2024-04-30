@@ -3470,12 +3470,12 @@ public class DialogueHandler {
 
 
 	public void sendNpcChat1(String s, int ChatNpc, String name) {
-		//c.getPA().sendFrame200(4883, 591);
+
 		c.getPA().sendFrame126(name, 4884);
 		c.getPA().sendFrame126(s, 4885);
 		c.getPA().sendNpcHeadOnInterface(ChatNpc, 4883);
 
-		sendNpcDialogueAnimation(4885, DialogueExpression.ANGER_4);
+		sendNpcDialogueAnimation(4885, DialogueExpression.SPEAKING_CALMLY);
 		c.getPA().sendChatboxInterface(4882);
 	}
 	public void sendNpcChat_onmainscreen(int ChatNpc) {

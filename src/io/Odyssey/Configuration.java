@@ -25,9 +25,9 @@ public class Configuration {
 	public static final long INTERFACE_TELE_LENGTH= 15_000;// 15sec?
 
 	public static final long INF_RUN_ENERGY_LENGTH= 60_000 * 60 ;// 60 sec?
-	public static final int DEFAULT_SKILL_EXPERIENCE_RATE = 5;
-	public static final int DEFAULT_SKILL_EXPERIENCE_RATE_SLAYER = 3;
-	public static final int DEFAULT_COMBAT_EXPERIENCE_RATE = 5;
+	public static final int DEFAULT_SKILL_EXPERIENCE_RATE = 1;
+	public static final int DEFAULT_SKILL_EXPERIENCE_RATE_SLAYER = 1;
+	public static final int DEFAULT_COMBAT_EXPERIENCE_RATE = 1;
 	public static String SERVER_NAME = "Runescape";
 	public static final int PORT_DEFAULT = 43594;
 	public static final int PORT_TEST = 43595;
