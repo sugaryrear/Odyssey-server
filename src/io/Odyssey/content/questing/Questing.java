@@ -39,13 +39,14 @@ public class Questing {
         for (int index = 0; index < questList.size(); index++)
         {
             Quest quest = questList.get(index);
-            player.getPA().sendString( getQuestLineColor(quest)+ quest.getName(), QUEST_LIST_INTERFACE_IDS.get(index));
+           // player.getPA().sendString( quest.getName(), QUEST_LIST_INTERFACE_IDS.get(index));
         }
         player.getPA().sendString("Quest Points: "+player.totalqp, 620);
     }
 
     private String getQuestLineColor(Quest quest) {
-        return quest.getStage() == 0 ? "" : quest.getStage() == quest.getCompletionStage() ? "@gre@" : "@yel@";
+       // return quest.getStage() == 0 ? "" : quest.getStage() == quest.getCompletionStage() ? "@gre@" : "@yel@";
+        return "";
     }
 
     private void openQuestJournal(Quest quest) {

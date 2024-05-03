@@ -215,7 +215,7 @@ public class DialogueBuilder {
     }
 
     public DialogueBuilder player(String...text) {
-        return player(DialogueExpression.CALM, text);
+        return player(DialogueExpression.SPEAKING_CALMLY, text);
     }
 
     public DialogueBuilder player(DialogueExpression expression, String...text) {

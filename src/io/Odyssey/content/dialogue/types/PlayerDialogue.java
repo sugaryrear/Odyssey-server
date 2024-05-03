@@ -34,7 +34,7 @@ public class PlayerDialogue extends DialogueObject {
         int startDialogueChildId = PLAYER_DIALOGUE_ID[text.length - 1];
         int headChildId = startDialogueChildId - 2;
         player.getPA().sendPlayerHeadOnInterface(headChildId);
-    //    player.getPA().sendInterfaceAnimation(headChildId, expression.getAnimation());
+      player.getPA().sendInterfaceAnimation(headChildId, expression.getAnimation());
         player.getPA().sendString(startDialogueChildId - 1, player.getDisplayName());
         for (int i = 0; i < text.length; i++) {
             player.getPA().sendString(startDialogueChildId + i, text[i]);

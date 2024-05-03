@@ -48,7 +48,7 @@ public class MacDialogue extends DialogueBuilder {
             option(WHO_ARE_YOU, WHATS_IN_SACK, WHY_YOU_DIRTY, BYE);
         }
     }
-
+//nice way for fast dialogues
     private static void whoAreYou(Player player) {
         DialogueBuilder builder = new DialogueBuilder(player).setNpcId(NPC);
         builder.player("Who are you?");

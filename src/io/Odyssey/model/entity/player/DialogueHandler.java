@@ -3636,8 +3636,8 @@ public class DialogueHandler {
 	}
 
 	public void sendNpcDialogueAnimation(int interfaceId, DialogueExpression expression) {
-//		int headChildId = interfaceId - 2;//comment out both of these to make npc heads show up .
-//		c.getPA().sendInterfaceAnimation(headChildId, expression.getAnimation());
-//		System.out.println("anim: "+headChildId+" exp: "+expression.getAnimation());
+		//int headChildId = interfaceId - 2;//comment out both of these to make npc heads show up .
+		//c.getPA().sendInterfaceAnimation(headChildId, expression.getAnimation());
+		//System.out.println("anim: "+headChildId+" exp: "+expression.getAnimation().getId());
 	}
 }
