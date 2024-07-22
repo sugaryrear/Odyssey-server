@@ -108,30 +108,9 @@ public class ShopHandler {
 					  shopItemsRestock[i][j] = System.currentTimeMillis();
 					//  System.out.println("curss: "+shopItemsRestock[i][j] );
 					  DidUpdate = true;
-					  //} else {
-					  //		for (int i = 0; i <= ShopHandler.ShopItemsStandard[c.myShopId]; i++) {
-					  //					if (itemID == (ShopHandler.ShopItems[c.myShopId][i] - 1) || c.myShopId == 2) {
-					  //						IsIn = true;
-					  //						break;
-					  //					}
-					  //				}
-//							ShopItemsN[i][j] += 1;
-//							ShopItemsDelay[i][j] = 1;
-//							ShopItemsDelay[i][j] = 0;
-//							DidUpdate = true;
-					  //}
-					  //	if(ShopItemsStandard[i] != ShopItems)
-					  //if the item isnt part of the original stock
-				  } else if( ShopItemsSN[i][j] == -1){//i guess this is the solution
-//					  ShopHandler.ShopItemsN[c.myShopId][fromSlot] -= amount;
-//					  ShopHandler.ShopItemsDelay[c.myShopId][fromSlot] = 0;
-//					  ShopHandler.shopItemsRestock[c.myShopId][fromSlot] = 300000;
-//					  if ((fromSlot + 1) > ShopHandler.ShopItemsStandard[c.myShopId]) {
-//						  ShopHandler.ShopItems[c.myShopId][fromSlot] = 0;
-//					  }
-					  				//	  if ((fromSlot + 1) > ShopHandler.ShopItemsStandard[c.myShopId]) {
 
-					 // }
+				  } else if( ShopItemsSN[i][j] == -1){//i guess this is the solution
+
 					  ShopItemsN[i][j] -= 1;
 					  ShopItemsDelay[i][j] = 1;
 					  ShopItemsDelay[i][j] = 0;
@@ -139,9 +118,6 @@ public class ShopHandler {
 					  if( ShopItemsN[i][j] ==0)
 						  ShopItems[i][j] = 0;
 
-					  //ShopItems[i][j] = 0;
-					  //shopItemsRestock[i][j] = System.currentTimeMillis();
-//					  DidUpdate = true;
 						} else if (ShopItemsDelay[i][j] >= MaxSpecShowDelay) {
 
 						ShopItemsDelay[i][j] = 0;

@@ -223,7 +223,7 @@ public boolean unlockedallteles;
 public void walkthroughalkharidgate(){
 getItems().deleteItem(995,10);
 
-        getPA().object(44599, 3268, 3227, 1, 0);
+        getPA().object(44599, 3268, 3227, 3, 0);
         getPA().object(44598, 3268, 3228, 1, 0);
 
 
@@ -509,16 +509,9 @@ getPA().showInterface(96500);
     }
 public void startDiscordIntegration() {
     new DialogueBuilder(this).statement("To link your account go to the #discordintegration channel", "And type !connect", "after that press continue here.")
-            .option(new DialogueOption("Open discord channel", p -> p.getPA().sendFrame126("https://discord.com/channels/704482178729508886/1149123147006758922", 12000)),
+            .option(new DialogueOption("Open discord channel", p -> p.getPA().sendFrame126("https://discord.com/", 12000)),
                     new DialogueOption("I have received my code", plr -> plr.getPA().sendEnterString("Enter the code",DiscordIntegration::integrateAccount))).send();
-//            .exit(plr -> plr.getPA().sendEnterString("Enter the code",DiscordIntegration::integrateAccount))
-//            .send();
-   //getPA().sendEnterString("Change Display Name", (ChangeDisplayName::trySetDisplayName));
 
-//               new DialogueBuilder(player).option(
-//                                    new DialogueOption("Personal", plr -> player.getCollectionLog().openInterface(plr)),
-//            new DialogueOption("Group", group::openInterface)
-//                            ).send();
 }
 
     @Getter
@@ -554,17 +547,19 @@ public boolean deserttreasure;
 
 
     public void customclips() {
+
+        //todo: make this only in barrows
         if (Boundary.isIn(this,Barrows.TUNNEL)) {
             if (!Server.getEventHandler().isRunning(this, "barrows_tunnel_regular")) {
                 Server.getEventHandler().submit(new TunnelEvent_regular("barrows_tunnel_regular", this, 30));
             }
         }
-        if (Boundary.isIn(this,Boundary.TAVELRY_DUNGEON)) {
-            getRegionProvider().removeClip(RegionProvider.NPC_TILE_FLAG,2907,9698, getHeight());
-            getRegionProvider().removeClip(RegionProvider.NPC_TILE_FLAG,2908,9698, getHeight());
-            getRegionProvider().removeClip(RegionProvider.NPC_TILE_FLAG,2907,9697, getHeight());
-            getRegionProvider().removeClip(RegionProvider.NPC_TILE_FLAG,2908,9697, getHeight());
-        }
+//        if (Boundary.isIn(this,Boundary.TAVELRY_DUNGEON)) {
+//            getRegionProvider().removeClip(RegionProvider.NPC_TILE_FLAG,2907,9698, getHeight());
+//            getRegionProvider().removeClip(RegionProvider.NPC_TILE_FLAG,2908,9698, getHeight());
+//            getRegionProvider().removeClip(RegionProvider.NPC_TILE_FLAG,2907,9697, getHeight());
+//            getRegionProvider().removeClip(RegionProvider.NPC_TILE_FLAG,2908,9697, getHeight());
+//        }
         if (Boundary.isIn(this,Boundary.WARRIORS_GUILD)) {
             getRegionProvider().removeClip(RegionProvider.NPC_TILE_FLAG,2854,3546, getHeight());
             getRegionProvider().removeClip(RegionProvider.NPC_TILE_FLAG,2855,3546, getHeight());
@@ -2736,7 +2731,6 @@ public int questsCompleted=0;
         DiscordIntegration.setIntegration(this);
         checkpackyackslots();
         checkcurses();
-        checkcompletedtutorial();
         getDL().LoggedIn();
         getPA().hidestufffrompanels();
         loginScreen();

@@ -15,7 +15,7 @@ import java.util.Objects;
 
 public class Bot extends ListenerAdapter {
 
-    private static String TOKEN = "OTY1Nzk5NjQ1NTU5Mjc5NjY3.G8zgT0.afCMY2jPb6LUvPl7NUcBOg7j3rWOKbrs6rxbCE";
+    private static String TOKEN = "";
     public static String PREFIX = "::";
     public static String OWNER_ROLE = "707331223382523932";
     public static String MANAGER_ROLE = "829070710243983400";
@@ -41,7 +41,7 @@ public class Bot extends ListenerAdapter {
         }
     }
 
-    public long channelLong = 1149123147006758922L;
+    public long channelLong = 1149123147006758922L;//
     @Override
     public void onMessageReceived(MessageReceivedEvent e) {
 

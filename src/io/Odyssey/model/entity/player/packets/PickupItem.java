@@ -144,7 +144,7 @@ public class PickupItem implements PacketType {
         }
 
         Server.itemHandler.removeGroundItem(c, c.itemId, c.itemX, c.itemY, c.heightLevel, true);
-        c.getPA().sendSound(2582);
+        c.getPA().sendSound(356);
     }
 
 }

@@ -34,8 +34,7 @@ public class WearItem implements PacketType {
 			return;
 		}
 		c.interruptActions();
-		int wearId = c.wearId;
-		wearId = c.getInStream().readUnsignedWord();
+		int wearId = c.getInStream().readUnsignedWord();
 		c.wearSlot = c.getInStream().readUnsignedWordA();
 		c.wearItemInterfaceId = c.getInStream().readUnsignedWordA();
 		c.alchDelay = System.currentTimeMillis();

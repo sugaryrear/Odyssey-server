@@ -86,7 +86,7 @@ public class Prayer {
 		player.getPA().addSkillXPMultiplied(bone.getExperience() * (Boundary.isIn(player, Boundary.LAVA_DRAGON_ISLE) && bone.getItemId() == 11943 ? 4 : 1), Skill.PRAYER.getId(), true);
 		player.getItems().deleteItem2(bone.getItemId(), 1);
 		player.startAnimation(827);
-		player.getPA().sendSound(2738);
+		player.getPA().sendSound(380);
 		lastAction.reset();
 		lastAction.start();
 		onBonesBuriedOrCrushed(bone, false);

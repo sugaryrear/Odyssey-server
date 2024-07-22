@@ -341,7 +341,7 @@ public class DropItem implements PacketType {
 				c.playerItemsN[itemSlot], c.getIndex());
 		c.getItems().deleteItem(itemId, itemSlot, c.playerItemsN[itemSlot]);
 		c.getPA().removeAllWindows();
-		c.getPA().sendSound(2739);
+		c.getPA().sendSound(376);
 
 		// Gim drop log
 		GroupIronmanRepository.getGroupForOnline(c).ifPresent(group -> group.addDropItemLog(c, new GameItem(itemId, itemSlot)));

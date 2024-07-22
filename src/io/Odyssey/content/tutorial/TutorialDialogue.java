@@ -81,7 +81,7 @@ public class TutorialDialogue extends DialogueBuilder {
         //    System.out.println("here>");
         player.setMovementState(PlayerMovementState.getDefault());
         if(!player.firsttimetutorial){
-            player.getItems().addItem(995,450_000);
+           // player.getItems().addItem(995,450_000);
         }
         player.firsttimetutorial=true;
         player.getPA().closeAllWindows();

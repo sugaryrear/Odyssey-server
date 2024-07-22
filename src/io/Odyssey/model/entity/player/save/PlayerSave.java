@@ -179,19 +179,6 @@ public class PlayerSave {
             throw new RuntimeException(e);
         }
     }
-//    private static void loadSaved_gwdkc(Player p){
-//        try {
-//            fromJson_godwarskc(p);
-//        } catch (FileNotFoundException e) {
-//            throw new RuntimeException(e);
-//        }
-//    }
-//    private static void fromJson(Player p) throws FileNotFoundException {
-//        Gson gson = new Gson();
-//        List<SpecificTeleport> newlist = gson.fromJson(new FileReader(getSaveDirectory_FAVS() + p.getLoginName() + ".json"), ArrayList.class);
-//
-//        p.setnewtelefavs(newlist);
-//    }
 
     private static void fromJson(Player p) throws FileNotFoundException {
         Gson gson = new Gson();

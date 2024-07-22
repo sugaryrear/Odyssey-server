@@ -61,39 +61,6 @@ public class DiscordIntegration {
     }
 
 
-//    public static void sendPMS(String content) {
-//
-//        System.out.println("sending discord pms");
-//
-//        Guild guild = Bot.discord.getGuildById(707331223374266378L);
-//        for (Entry<String, Long> entry : DiscordIntegration.connectedAccounts.entrySet()) {
-//            Optional<Player> player = World.getWorld().getPlayerByName(entry.getKey());
-//            if (player == null)
-//                continue;
-//            Member member = guild.getMemberById(entry.getValue());
-//            if (member == null) {
-//                continue;
-//            }
-//            if (disableMessage.contains(entry.getValue()))
-//                continue;
-//
-//            User user = member.getUser();
-//
-//            if (user != null) {
-//                ErrorHandler handler = new ErrorHandler().handle(ErrorResponse.CANNOT_SEND_TO_USER, (error) -> {
-//                    // c.sendMessage(user.getAsMention() + " You must enable your private messages first!").queue();
-//                });
-//
-//                user.openPrivateChannel().queue((channel) -> {
-//                    channel.sendMessage("A new update has just released on Lunite!").queue(null, handler);
-//                });
-//                user.openPrivateChannel().queue((channel) -> {
-//                    channel.sendMessage("https://lunite.io/updates/33.php").queue(null, handler);
-//                });
-//            }
-//        }
-//    }
-
     public static void integrateAccount(Player player, String code) {
 
         if (player.getDiscordUser() > 0L) {

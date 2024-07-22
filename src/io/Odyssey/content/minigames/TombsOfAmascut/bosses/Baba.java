@@ -154,7 +154,7 @@ public class Baba extends TombsOfAmascutBoss {
                 // boulder attack
                 new NPCAutoAttackBuilder()
                         .setSelectAutoAttack(attack -> Misc.trueRand(4) == 0)
-                        .setAnimation(new Animation(9518))
+                        .setAnimation(new Animation(9744))
                         .setCombatType(CombatType.RANGE)
                         .setDistanceRequiredForAttack(17)
                         .setProjectile(new ProjectileBaseBuilder()

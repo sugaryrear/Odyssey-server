@@ -110,7 +110,7 @@ public class WoodcuttingEvent extends Event<Player> {
 			attachment.getEventCalendar().progress(EventChallenge.CUT_DOWN_X_MAGIC_LOGS);
 			attachment.getPA().addSkillXPMultiplied((int)osrsExperience, Skill.WOODCUTTING.getId(), true);
 			Achievements.increase(attachment, AchievementType.WOODCUT, 1);
-			attachment.getPA().sendSound(2734);
+			attachment.getPA().sendSound(471);
 			handleRewards();
 
 			super.stop();

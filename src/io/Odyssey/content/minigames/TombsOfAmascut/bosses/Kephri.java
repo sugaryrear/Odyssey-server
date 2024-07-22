@@ -52,6 +52,7 @@ public class Kephri extends TombsOfAmascutBoss {
 
                 if (container.getTotalExecutions() == 2) {
                     Server.playerHandler.sendStillGfx(new StillGraphic(GREEN_SPLAT_STILL_GFX[Misc.trueRand(GREEN_SPLAT_STILL_GFX.length)], 0, position), getInstance());
+               //player.getPA().stillGfx(1177, itemX, itemY, height, 5);
                 }
 
                 if (container.getTotalExecutions() == 18) {

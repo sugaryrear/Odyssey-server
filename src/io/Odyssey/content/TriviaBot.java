@@ -16,7 +16,7 @@ import java.util.concurrent.TimeUnit;
 
 
 /*
- * @author C.T for Koranes
+ * This is just a really good way to make something on a timer
  */
 public class TriviaBot {
 

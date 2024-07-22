@@ -1567,7 +1567,7 @@ public class ItemAssistant {
 				player.updateGodItems();
 			}
 
-			player.getPA().sendSound(Sounds.getEquipItemSound(wearID));
+			//player.getPA().sendSound(Sounds.getEquipItemSound(wearID));
 			this.addContainerUpdate(ContainerUpdate.EQUIPMENT);
 			this.addContainerUpdate(ContainerUpdate.INVENTORY);
 			return true;
@@ -1686,7 +1686,7 @@ public class ItemAssistant {
 					player.getOutStream().writeByte(0);
 					player.flushOutStream();
 				}
-				player.getPA().sendSound(Sounds.getEquipItemSound(wearID));
+				//player.getPA().sendSound(Sounds.getEquipItemSound(wearID));
 				player.setUpdateRequired(true);
 				player.setAppearanceUpdateRequired(true);
 				player.getItems().setEquipmentUpdateTypes();

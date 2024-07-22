@@ -531,7 +531,7 @@ public class AttackAnimation extends NPCHandler {
 			case 1612:
 				return 198;
 			case 2805:
-				return 5849;
+				return 5387;
 			case Zulrah.SNAKELING:
 				return 1741;
 			case 6600:

@@ -32,7 +32,7 @@ public class PriceChecker {
             if (c.price2[x] > 0)
                 withdrawItem(c, c.price2[x], x, c.priceN[x]);
         }
-
+c.isChecking = false;
         c.getItems().resetItems(5064);
         c.getItems().resetTempItems();
     }

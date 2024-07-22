@@ -20,7 +20,10 @@ public class StillGraphic extends Graphic {
         super(id);
         this.position = position;
     }
-
+    public StillGraphic(int id, Position position, int time) {
+        super(id);
+        this.position = position;
+    }
     public Position getPosition() {
         return position;
     }

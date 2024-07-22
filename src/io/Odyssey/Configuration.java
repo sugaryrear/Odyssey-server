@@ -242,7 +242,7 @@ public class Configuration {
 			new GameItem(MIND_RUNE, 100), new GameItem(BODY_RUNE, 100), new GameItem(AIR_RUNE, 100), new GameItem(EARTH_RUNE, 100), new GameItem(WATER_RUNE, 100),
 			//Food (trout, noted)
 			new GameItem(316,25),
-			new GameItem(995, 750_000),
+			new GameItem(995, 25),
 			new GameItem(31014, 1),
 		 new GameItem(LUMBRIDGE_TELEPORT,2)
 

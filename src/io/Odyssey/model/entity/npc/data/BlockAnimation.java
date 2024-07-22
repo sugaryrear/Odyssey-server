@@ -36,6 +36,8 @@ public class BlockAnimation {
                 return 1340;
             case 2585:
             return 2188;
+            case 5842:
+                return 5783;
             case 2584:
                 return 2182;
             case 2586:
@@ -435,6 +437,8 @@ public class BlockAnimation {
             case 6277:
             case 6278:
                 return 4322;
+            case 2805:
+                return 5388;
             case 6279:
             case 6280:
                 return 6183;

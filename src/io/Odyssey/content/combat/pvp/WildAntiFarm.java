@@ -18,7 +18,7 @@ public class WildAntiFarm {
     private static Logger logger = LoggerFactory.getLogger(WildAntiFarm.class);
 
     private static final String RECENT_KILLED_LIST_ATTRIBUTE = "recent_killed_players";
-    private static final long MINUTES = 30;
+    private static final long MINUTES = 2;
 
     @SuppressWarnings("unchecked")
     private static List<RecentKilled> getRecentKilled(Player player) {

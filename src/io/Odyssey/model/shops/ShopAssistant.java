@@ -135,94 +135,7 @@ public class ShopAssistant {
 		c.getPA().sendInterfaceHidden(1, 65017);
 		c.getPA().sendInterfaceHidden(1, 65020);
 		c.getPA().sendInterfaceHidden(1, 65023);
-//		if (IntStream.of(shop2buttons).anyMatch(id -> id == ShopID)) {
-//
-//
-//			c.getPA().sendInterfaceHidden(0, 65017);
-//			c.getPA().sendInterfaceHidden(0, 65020);
-//			c.sendMessage("moveshop##1");
-//			if (IntStream.of(meleeshop).anyMatch(id -> id == ShopID)) {
-//				c.getPA().sendFrame126("Weapons", 65019);
-//				c.getPA().sendFrame126("Armor", 65022);
-//
-//				//now lets select options based on i.
-//				if(ShopID == meleeshop[0]) {
-//					//System.out.println("here?");
-//					c.getPA().setConfig(1391, 0);//0 means ON = red
-//					c.getPA().setConfig(1392, 1);
-//
-//				}
-//				if(ShopID == meleeshop[1]) {
-//					//System.out.println("here2?");
-//					c.getPA().setConfig(1391, 1);
-//					c.getPA().setConfig(1392, 0);
-//
-//				}
-//			}
-//
-//		} else 	if (IntStream.of(shop3buttons).anyMatch(id -> id == ShopID)) {
-//			c.getPA().sendInterfaceHidden(0, 65017);
-//			c.getPA().sendInterfaceHidden(0, 65020);
-//			c.getPA().sendInterfaceHidden(0, 65023);
-//			c.sendMessage("moveshop##1");
-//
-//			if (IntStream.of(mageshop).anyMatch(id -> id == ShopID)) {
-//				c.getPA().sendFrame126("Runes", 65019);
-//				c.getPA().sendFrame126("Weapons", 65022);
-//				c.getPA().sendFrame126("Armor", 65025);
-//
-//
-//				//now lets select options based on it.
-//				if (ShopID == mageshop[0]) {
-//
-//					c.getPA().setConfig(1391, 0);//0 means ON = red
-//					c.getPA().setConfig(1392, 1);
-//					c.getPA().setConfig(1393, 1);
-//				}
-//				if (ShopID == mageshop[1]) {
-//
-//					c.getPA().setConfig(1391, 1);
-//					c.getPA().setConfig(1392, 0);
-//					c.getPA().setConfig(1393, 1);
-//				}
-//				if (ShopID == mageshop[2]) {
-//
-//					c.getPA().setConfig(1391, 1);
-//					c.getPA().setConfig(1392, 1);
-//					c.getPA().setConfig(1393, 0);
-//				}
-//			}
-//			if (IntStream.of(rangeshop).anyMatch(id -> id == ShopID)) {
-//				c.getPA().sendFrame126("Ammo", 65019);
-//				c.getPA().sendFrame126("Weapons", 65022);
-//				c.getPA().sendFrame126("Armor", 65025);
-//				//now lets select options based on it.
-//				if(ShopID == rangeshop[0]) {
-//					//System.out.println("here?");
-//					c.getPA().setConfig(1391, 0);//0 means ON = red
-//					c.getPA().setConfig(1392, 1);
-//					c.getPA().setConfig(1393, 1);
-//				}
-//				if(ShopID == rangeshop[1]) {
-//					//System.out.println("here2?");
-//					c.getPA().setConfig(1391, 1);
-//					c.getPA().setConfig(1392, 0);
-//					c.getPA().setConfig(1393, 1);
-//				}
-//				if(ShopID == rangeshop[2]) {
-//					//System.out.println("here3?");
-//					c.getPA().setConfig(1391, 1);
-//					c.getPA().setConfig(1392, 1);
-//					c.getPA().setConfig(1393, 0);
-//				}
-//			}
-//
-//		} else {
-//				c.getPA().sendInterfaceHidden(1, 65017);
-//				c.getPA().sendInterfaceHidden(1, 65020);
-//				c.getPA().sendInterfaceHidden(1, 65023);
-//				c.sendMessage("moveshop##0");
-//		}
+
 
 		if (c.getOutStream() != null) {
 			c.getOutStream().createFrameVarSizeWord(53);
@@ -1164,24 +1077,16 @@ String amt = ShopValue <= 0 ? "1" : Misc.insertCommas(ShopValue);
 					}
 
 					double buysatprice = 40.0;//perfect
-					//the 40.0 needs to be changed BASED ON WHAT STORE WE ARE SELLING TO! GENERAL STORE (2) = 40.0 - buys at 40% of the value!
-			//todo bandit general store has HIGHER VALUE
-
-//				if(c.myShopId == 2)
-//					buysatprice = 40.0;
 
 		ShopValue = ((buysatprice - 3.0 * Math.min(instock,10)) / 100.0) * ShopValue;
 if(ShopValue ==0)
 	ShopValue = 1;
-			//	}
-//			if (c.myShopId == 29 || c.myShopId == 241)
-//				c.sendMessage(ItemAssistant.getItemName(removeId) + ": shop will buy for " + ShopValue + " tokkul" + ShopAdd);
-//			else
+
 			String coinsorsomethingelse = c.myShopId == 29 || c.myShopId == 241 ? "Tokkul" : "coins";
 				c.sendMessage(ItemAssistant.getItemName(removeId) + ": shop will buy for " + Misc.insertCommas((int) ShopValue) + " "+coinsorsomethingelse+"" + ShopAdd + ".");
-		//	}
+
 		}
-//	}
+
 
 	/**
 	 * Selling items back to a store

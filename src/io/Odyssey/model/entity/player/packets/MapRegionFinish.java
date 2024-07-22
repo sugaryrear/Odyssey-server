@@ -25,8 +25,8 @@ public class MapRegionFinish implements PacketType {
 		}
 		if(c.getBarrows().getActive().isPresent())
 		c.getBarrows().getActive().get().setActive(false);
-		//check for region unlocks
-	//	c.checkforregionunlocks();
+
+
 	}
 
 }

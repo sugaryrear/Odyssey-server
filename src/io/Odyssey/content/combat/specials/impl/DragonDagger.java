@@ -17,6 +17,7 @@ public class DragonDagger extends Special {
 	public void activate(Player player, Entity target, Damage damage) {
 		player.gfx100(252);
 		player.startAnimation(1062);
+		player.getPA().sendSound(385);
 		HitDispatcher.getHitEntity(player, target).playerHitEntity(CombatType.MELEE, SecondSpecialHit.DRAGON_DAGGER_HIT_2);
 	}
 

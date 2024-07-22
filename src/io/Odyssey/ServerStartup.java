@@ -88,10 +88,10 @@ public class ServerStartup {
         NpcStats.load();
         ItemStats.load();
         GlobalDropsHandler.initialize();
-       DiscordIntegration.loadConnectedAccounts();
+        DiscordIntegration.loadConnectedAccounts();
 
-       // Server.getWorld().discordBot = new Bot();
-      //  Server.getWorld().discordBot.init();
+     //  Server.getWorld().discordBot = new Bot();
+      // Server.getWorld().discordBot.init();
         try {
             ItemWeight.init();
         } catch (Exception e) {
@@ -141,7 +141,7 @@ public class ServerStartup {
         if (Server.isDebug()) {
             PlayerFactory.createTestPlayers();
         }
-        ReferralCode.load();
+      //  ReferralCode.load();
      DailyRewardContainer.load();
       DailyRewardsRecords.load();
        WorldEventContainer.getInstance().initialise();

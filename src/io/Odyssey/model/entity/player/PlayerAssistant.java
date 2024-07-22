@@ -597,19 +597,19 @@ int to =0;
     }
 
     public void sendSound(int soundId, SoundType soundType, Entity source) {
-//		if (c.getOutStream() != null) {
-//			if (c.debugMessage) {
-//				c.sendMessage("Sent sound " + soundId);
-//			}
-//			c.getOutStream().createFrame(12);
-//			c.getOutStream().writeUnsignedWord(soundId);
-//			c.getOutStream().writeByte(soundType.ordinal());
-//			int index = 0;
-//			if (source != null) {
-//				index = source.getIndex() + (source.isPlayer() ? Short.MAX_VALUE : 0);
-//			}
-//			c.getOutStream().writeUnsignedWord(index);
-//		}
+		if (c.getOutStream() != null) {
+			if (c.debugMessage) {
+				c.sendMessage("Sent sound " + soundId);
+			}
+			c.getOutStream().createFrame(12);
+			c.getOutStream().writeUnsignedWord(soundId);
+			c.getOutStream().writeByte(soundType.ordinal());
+			int index = 0;
+			if (source != null) {
+				index = source.getIndex() + (source.isPlayer() ? Short.MAX_VALUE : 0);
+			}
+			c.getOutStream().writeUnsignedWord(index);
+		}
     }
 
     public void destroyInterface(ItemToDestroy itemToDestroy) {

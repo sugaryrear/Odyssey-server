@@ -290,7 +290,7 @@ public class Doors {
                 int f = Integer.parseInt(scanner.next());
                 int z = Integer.parseInt(scanner.next());
                 int t = Integer.parseInt(scanner.next());
-Server.getGlobalObjects().add(new GlobalObject(id,x,y,z,f,t));
+                Server.getGlobalObjects().add(new GlobalObject(id,x,y,z,f,t));//thats why theres a curtain lmao
 //if(id == 1540)
 //System.out.println("here!");
                 //      doors.add(new Doors(id,x,y,z,f,t,alreadyOpen(id)?1:0));//a door that starts as open is 1

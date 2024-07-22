@@ -369,7 +369,7 @@ public class ClickingButtons implements PacketType {
 			case 14570:
 //				if(c.instatspanel)
 //					return;
-c.openmailbox();
+//c.openmailbox();
 				break;
 				case 47466:
 c.sendMessage("changetomembershipbenefits##0");
@@ -1463,6 +1463,7 @@ c.sendMessage("changetomembershipbenefits##0");
 			case 162030:
 			case 164018:
 			case 160042:
+			case 41105:
 				c.getPA().removeAllWindows();
 				break;
 			case 251246:

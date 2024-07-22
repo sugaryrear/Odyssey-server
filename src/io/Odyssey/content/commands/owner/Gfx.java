@@ -15,7 +15,9 @@ public class Gfx extends Command {
 	public void execute(Player c, String commandName, String input) {
 
 		String[] args = input.split(" ");
-		
+				c.getPA().stillGfx(2185, c.getX()+1, c.getY(), 0, 0);
+				c.getPA().stillGfx(2185, c.getX()-1, c.getY(), 0, 10);
+				c.getPA().stillGfx(2185, c.getX(), c.getY()+1, 0, 20);
 		if (Integer.parseInt(args[0]) > 4500) {
 			c.sendMessage("Max graphic id is: 4500");
 			return;

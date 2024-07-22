@@ -1136,6 +1136,7 @@ public class Commands implements PacketType {
                     c.sendMessage(NO_ACCESS);
                     return;
                 }
+               // c.getPA().sendSound(398);
                 String[] split = playerCommand.split(" ");
                 int soundId = Integer.parseInt(split[1]);
                 if (split.length >= 3) {

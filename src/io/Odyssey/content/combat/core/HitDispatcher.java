@@ -144,7 +144,7 @@ public abstract class HitDispatcher {
 
             usingSythe = ScytheOfVitur.SCYTHE_EFFECT.activateSpecialEffect(attacker, defender);
 
-            usingSythe = HolyScytheOfVitur.SCYTHE_EFFECT.activateSpecialEffect(attacker, defender);
+           // usingSythe = HolyScytheOfVitur.SCYTHE_EFFECT.activateSpecialEffect(attacker, defender);
 
             damage = isMaxHitDummy ? maximumDamage : Misc.random((int) maximumDamage);
 
@@ -227,29 +227,30 @@ public abstract class HitDispatcher {
             hitmark1 = damage > 0 ? Hitmark.HIT : Hitmark.MISS;
             hitmark2 = damage2 > 0 ? Hitmark.HIT : Hitmark.MISS;
             hitmark3 = damage3 > 0 ? Hitmark.HIT : Hitmark.MISS;
-
+            if(attacker.getItems().isWearingItem(4151))
+                attacker.getPA().sendSound(1080);
             if (gainExperience) {
                 addCombatXP(CombatType.MELEE, damage + Math.max(0, damage2) + Math.max(0, damage3));
             }
-            boolean hasDarkHealerVersion = attacker.petSummonId == 30118 || attacker.petSummonId == 29966;
-            int healerChance = hasDarkHealerVersion ? 10 : 20;
-            if (damage > 0 && attacker.hasFollower && ((attacker.petSummonId == 30018 || attacker.petSummonId == 30022) || hasDarkHealerVersion) && Misc.random(healerChance) == 1) {
-                attacker.getHealth().increase(damage);
-                if (attacker.playerLevel[3] > attacker.getPA().getLevelForXP(attacker.playerXP[3])) {
-                    attacker.playerLevel[3] = attacker.getPA().getLevelForXP(attacker.playerXP[3]);
-                }
-                attacker.getPA().refreshSkill(3);
-            }
-            boolean hasDarkPrayerVersion = attacker.petSummonId == 30119 || attacker.petSummonId == 29966;
-            int prayerChance = hasDarkPrayerVersion ? 10 : 20;
-            if (damage > 0 && attacker.hasFollower && ((attacker.petSummonId == 30019 || attacker.petSummonId == 30022) || hasDarkPrayerVersion) && Misc.random(prayerChance) == 1) {
-                int halfDamage = (int) (damage / 2);
-                attacker.playerLevel[5] += (halfDamage);
-                if (attacker.playerLevel[5] > attacker.getPA().getLevelForXP(attacker.playerXP[5])) {
-                    attacker.playerLevel[5] = attacker.getPA().getLevelForXP(attacker.playerXP[5]);
-                }
-                attacker.getPA().refreshSkill(5);
-            }
+//            boolean hasDarkHealerVersion = attacker.petSummonId == 30118 || attacker.petSummonId == 29966;
+//            int healerChance = hasDarkHealerVersion ? 10 : 20;
+//            if (damage > 0 && attacker.hasFollower && ((attacker.petSummonId == 30018 || attacker.petSummonId == 30022) || hasDarkHealerVersion) && Misc.random(healerChance) == 1) {
+//                attacker.getHealth().increase(damage);
+//                if (attacker.playerLevel[3] > attacker.getPA().getLevelForXP(attacker.playerXP[3])) {
+//                    attacker.playerLevel[3] = attacker.getPA().getLevelForXP(attacker.playerXP[3]);
+//                }
+//                attacker.getPA().refreshSkill(3);
+//            }
+//            boolean hasDarkPrayerVersion = attacker.petSummonId == 30119 || attacker.petSummonId == 29966;
+//            int prayerChance = hasDarkPrayerVersion ? 10 : 20;
+//            if (damage > 0 && attacker.hasFollower && ((attacker.petSummonId == 30019 || attacker.petSummonId == 30022) || hasDarkPrayerVersion) && Misc.random(prayerChance) == 1) {
+//                int halfDamage = (int) (damage / 2);
+//                attacker.playerLevel[5] += (halfDamage);
+//                if (attacker.playerLevel[5] > attacker.getPA().getLevelForXP(attacker.playerXP[5])) {
+//                    attacker.playerLevel[5] = attacker.getPA().getLevelForXP(attacker.playerXP[5]);
+//                }
+//                attacker.getPA().refreshSkill(5);
+//            }
 
             /**
              * Ranged attack style
@@ -495,26 +496,26 @@ public abstract class HitDispatcher {
             if (gainExperience) {
                 addCombatXP(CombatType.MAGE, damage + Math.max(damage2, 0));
             }
-            boolean hasDarkHealerVersion = attacker.petSummonId == 30118 || attacker.petSummonId == 29966;
-            int healerChance = hasDarkHealerVersion ? 10 : 20;
-            if (damage > 0 && attacker.hasFollower && (attacker.petSummonId == 30018 || attacker.petSummonId == 30022 || hasDarkHealerVersion) && Misc.random(healerChance) == 1) {
-                attacker.getHealth().increase(damage);
-                if (attacker.playerLevel[3] > attacker.getPA().getLevelForXP(attacker.playerXP[3])) {
-                    attacker.playerLevel[3] = attacker.getPA().getLevelForXP(attacker.playerXP[3]);
-                }
-                attacker.getPA().refreshSkill(3);
-
-            }
-            boolean hasDarkPrayerVersion = attacker.petSummonId == 30119 || attacker.petSummonId == 29966;
-            int prayerChance = hasDarkPrayerVersion ? 10 : 20;
-            if (damage > 0 && attacker.hasFollower && (attacker.petSummonId == 30019 || attacker.petSummonId == 30022 || hasDarkPrayerVersion) && Misc.random(prayerChance) == 1) {
-                int halfDamage = (damage / 2);
-                attacker.playerLevel[5] += (halfDamage);
-                if (attacker.playerLevel[5] > attacker.getPA().getLevelForXP(attacker.playerXP[5])) {
-                    attacker.playerLevel[5] = attacker.getPA().getLevelForXP(attacker.playerXP[5]);
-                }
-                attacker.getPA().refreshSkill(5);
-            }
+//            boolean hasDarkHealerVersion = attacker.petSummonId == 30118 || attacker.petSummonId == 29966;
+//            int healerChance = hasDarkHealerVersion ? 10 : 20;
+//            if (damage > 0 && attacker.hasFollower && (attacker.petSummonId == 30018 || attacker.petSummonId == 30022 || hasDarkHealerVersion) && Misc.random(healerChance) == 1) {
+//                attacker.getHealth().increase(damage);
+//                if (attacker.playerLevel[3] > attacker.getPA().getLevelForXP(attacker.playerXP[3])) {
+//                    attacker.playerLevel[3] = attacker.getPA().getLevelForXP(attacker.playerXP[3]);
+//                }
+//                attacker.getPA().refreshSkill(3);
+//
+//            }
+//            boolean hasDarkPrayerVersion = attacker.petSummonId == 30119 || attacker.petSummonId == 29966;
+//            int prayerChance = hasDarkPrayerVersion ? 10 : 20;
+//            if (damage > 0 && attacker.hasFollower && (attacker.petSummonId == 30019 || attacker.petSummonId == 30022 || hasDarkPrayerVersion) && Misc.random(prayerChance) == 1) {
+//                int halfDamage = (damage / 2);
+//                attacker.playerLevel[5] += (halfDamage);
+//                if (attacker.playerLevel[5] > attacker.getPA().getLevelForXP(attacker.playerXP[5])) {
+//                    attacker.playerLevel[5] = attacker.getPA().getLevelForXP(attacker.playerXP[5]);
+//                }
+//                attacker.getPA().refreshSkill(5);
+//            }
 
             doMagicEffects();
         }
@@ -772,6 +773,8 @@ public abstract class HitDispatcher {
                     if (type == CombatType.MELEE) {
                         attacker.getPA().addSkillXPMultiplied(standardExperience, Skill.ATTACK.getId(),
                                 !pvpExperienceDrops);
+
+                        //put stab sound here
                     } else if (type == CombatType.RANGE) {
                         attacker.getPA().addSkillXPMultiplied(standardExperience, Skill.RANGED.getId(),
                                 !pvpExperienceDrops);
