@@ -10,7 +10,7 @@ import java.net.URL;
 import javax.swing.JFrame;
 
 public class Loader extends JFrame {
-        public static final String CACHE_NAME = "zodianXv1";
+        public static final String CACHE_NAME = "";
 	public static final String CACHE_PATH = System.getProperty("user.home") + System.getProperty("file.separator") + CACHE_NAME + System.getProperty("file.separator");
         public static final String DIRECT_CLIENT_LINK = "DIRECT DOWNLOAD LINK GOES HERE";
 

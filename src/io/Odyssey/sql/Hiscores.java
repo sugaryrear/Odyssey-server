@@ -6,10 +6,10 @@ import io.Odyssey.model.entity.player.Right;
 public class Hiscores extends Database {
 
 
-    static final String HOST = "198.12.12.226";
-    static final String USER = "zodianx2_user1";
+    static final String HOST = "";
+    static final String USER = "rspsx2_user1";
     static final String PASS = "thepassword12345";
-    static final String DATABASE = "zodianx2_hiscores";
+    static final String DATABASE = "rspsx2_hiscores";
 
     static String generateQuery() {
         StringBuilder sb = new StringBuilder();

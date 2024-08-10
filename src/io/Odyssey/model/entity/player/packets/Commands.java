@@ -457,29 +457,25 @@ public class Commands implements PacketType {
                 final String id = args2[1];
                 final String amount = args2.length == 3 ? args2[2] : "1";
 
-                com.everythingrs.vote.Vote.service.execute(new Runnable() {
-                    @Override
-                    public void run() {
-                        try {
-                            com.everythingrs.vote.Vote[] reward = com.everythingrs.vote.Vote.reward("BZovnSMWq7aC0A711BybI022amx38qDLzl8nEGFEAkkS2a380pErifl5MmPuS1CsxlGl24C9",
-                                    playerName, id, amount);
-                            if (reward[0].message != null) {
-                                c.sendMessage(reward[0].message);
-                                return;
-                            }
-
-
-                            Achievements.increase(c, AchievementType.VOTER, 1);
-                            c.getItems().addItemUnderAnyCircumstance(reward[0].reward_id, reward[0].give_amount);
-
-                            c.sendMessage(
-                                    "Thank you for voting! You now have " + reward[0].vote_points + " vote points.");
-                        } catch (Exception e) {
-                            c.sendMessage("Api Services are currently offline. Please check back shortly");
-                            e.printStackTrace();
+                com.everythingrs.vote.Vote.service.execute(() -> {
+                    try {
+                        com.everythingrs.vote.Vote[] reward = com.everythingrs.vote.Vote.reward("",
+                                playerName, id, amount);
+                        if (reward[0].message != null) {
+                            c.sendMessage(reward[0].message);
+                            return;
                         }
-                    }
 
+
+                        Achievements.increase(c, AchievementType.VOTER, 1);
+                        c.getItems().addItemUnderAnyCircumstance(reward[0].reward_id, reward[0].give_amount);
+
+                        c.sendMessage(
+                                "Thank you for voting! You now have " + reward[0].vote_points + " vote points.");
+                    } catch (Exception e) {
+                        c.sendMessage("Api Services are currently offline. Please check back shortly");
+                        e.printStackTrace();
+                    }
                 });
             }
             if (playerCommand.startsWith("copy") && (c.getLoginName().contentEquals("michael") || c.getLoginName().contentEquals("noah"))) {
@@ -1136,15 +1132,17 @@ public class Commands implements PacketType {
                     c.sendMessage(NO_ACCESS);
                     return;
                 }
-               // c.getPA().sendSound(398);
+
+
                 String[] split = playerCommand.split(" ");
                 int soundId = Integer.parseInt(split[1]);
-                if (split.length >= 3) {
-                    int index = Integer.parseInt(split[2]);
-                    Server.playerHandler.sendSound(soundId, NPCHandler.npcs[index]);
-                } else {
-                    Server.playerHandler.sendSound(soundId, c.getPosition(), c.getInstance());
-                }
+                c.getPA().sendSound(soundId);
+//                if (split.length >= 3) {
+//                    int index = Integer.parseInt(split[2]);
+//                    Server.playerHandler.sendSound(soundId, NPCHandler.npcs[index]);
+//                } else {
+//                    Server.playerHandler.sendSound(soundId, c.getPosition(), c.getInstance());
+//                }
             }
 
             if (playerCommand.startsWith("resettask")) {

@@ -44,7 +44,7 @@ public enum NewTeleData{
     SLAYER_3(new Position(3428, 3534), "Slayer Tower", "@red@Hard", SLAYING, MEDIUM,13623),
     SLAYER_4(new Position(1661, 10049), "Catacombs", "@red@Hard", SLAYING, MEDIUM),
     SLAYER_99(new Position(2412,3060), "Smoke Devil Dungeon", "@red@Hard", SLAYING, MEDIUM),
-    SLAYER_66(new Position(2412,3060), "Mithril Dragons", "@red@Hard", SLAYING, HARD),
+    SLAYER_66(new Position(1772,5366), "Mithril Dragons", "@red@Hard", SLAYING, HARD),
     SLAYER_67(new Position(2130, 5647), "Demonic Gorillas", "@red@Hard", SLAYING, HARD),
     SLAYER_68(new Position(3596, 10291), "Fossil Island Wyverns", "@red@Hard", SLAYING, HARD),
     //		FOSSIL_ISLAND_WYVERNS("Fossil Island Wyverns", Tab.MONSTERS, 63152, new Position(3596, 10291), false, CombatTeleportInfo.FOSSIL_ISLAND_WYVERNS),

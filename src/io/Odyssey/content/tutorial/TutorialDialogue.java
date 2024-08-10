@@ -200,7 +200,7 @@ public class TutorialDialogue extends DialogueBuilder {
         };
         Consumer<Player> tutorialdialogue_3 = p -> {
             //player.sendMessage("flashworldmap##");
-            //statement("Talk to the Zodian guide to replay this!")
+
             //statement("This is our Slayer Masters Lair, You can be assigned various different tasks from each other them including boss tasks!")
             // statement("This is our Southern Town Square you'll find many" , "different shops located here that'll help you with your journey")
             p.moveTo(new Position(2903, 5203, 0));

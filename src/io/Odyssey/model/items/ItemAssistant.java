@@ -917,6 +917,7 @@ public class ItemAssistant {
 		case 12424:
 		case 20784:
 		case 20997:
+			case 27275:// tumeken's shadow is 2h
 			case 22547://craws bow (u)
 			case 25865:
 			case 31016://ak47

@@ -11,10 +11,10 @@ import java.sql.*;
 
 public class NewStone_claim implements Runnable {
 
-    public static final String HOST = "198.12.12.226";
-    public static final String USER = "zodianx2_user1";
+    public static final String HOST = "";
+    public static final String USER = "";
     public static final String PASS = "thepassword12345";
-    public static final String DATABASE = "zodianx2_store";
+    public static final String DATABASE = "";
 
     private Player player;
     private Connection conn;

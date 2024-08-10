@@ -40,6 +40,7 @@ public class WildernessDitch {
 		}
 		c.stopPlayerPacket = true;
 		c.startAnimation(EMOTE);
+		c.getPA().sendSound(455);
 		CycleEventHandler.getSingleton().addEvent(c, new CycleEvent() {
 			@Override
 			public void execute(CycleEventContainer container) {

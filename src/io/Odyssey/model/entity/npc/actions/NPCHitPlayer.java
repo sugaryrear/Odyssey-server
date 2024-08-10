@@ -186,6 +186,7 @@ public class NPCHitPlayer {
         }
 
         if (damage > 0) {
+            c.getPA().sendSound(816);
             MeleeExtras.appendVengeanceNPC(c, damage + (Math.max(secondDamage, 0)), npc);
             MeleeExtras.applyRecoilNPC(c, damage + (Math.max(secondDamage, 0)), npc);
         }
@@ -1076,10 +1077,12 @@ public class NPCHitPlayer {
                     c.addDamageTaken(npc, secondDamage);
                 }
                 if (damage > 0 || secondDamage > 0) {
+                    //lets throw the sound here
+                    c.getPA().sendSound(816);
                     MeleeExtras.appendVengeanceNPC(c, damage + (Math.max(secondDamage, 0)), npc);
                     MeleeExtras.applyRecoilNPC(c, damage + (Math.max(secondDamage, 0)), npc);
                 }
-                if (damage > 0 || secondDamage > 0) {
+               // if (damage > 0 || secondDamage > 0) {
                   //  if (CombatPrayer.isPrayerOn(c, CombatPrayer.DEFLECT_MELEE)){
 
 //                        if (defender.isNPC()) {
@@ -1089,7 +1092,7 @@ public class NPCHitPlayer {
 //                        }
 
                   // }
-                }
+               // }
                 int rol = c.getHealth().getCurrentHealth();
                 if (rol > 0 && rol < c.getHealth().getMaximumHealth() / 10) {
                     context.ringOfLife(c);

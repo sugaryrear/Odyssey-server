@@ -134,6 +134,7 @@ public abstract class HitExecutor {
                         if (attacker.oldSpellId > -1) {
                             defender.startGraphic(new Graphic(CombatSpellData.MAGIC_SPELLS[attacker.oldSpellId][5],
                                     CombatSpellData.getEndGfxHeight(attacker) == 100 ? Graphic.GraphicHeight.MIDDLE : Graphic.GraphicHeight.LOW));
+                            //put successful magic spells here
                             switch (CombatSpellData.MAGIC_SPELLS[attacker.oldSpellId][0]) {
                                 case 12939://smoke spells
                                 case 12963:
@@ -168,6 +169,7 @@ public abstract class HitExecutor {
                         }
                     } else {
                      //   defender.addCombatXP(CombatType.MAGE, 1);
+                        attacker.getPA().sendSound(165);
                         attacker.getPA().addSkillXPMultiplied(CombatSpellData.MAGIC_SPELLS[attacker.oldSpellId][7], Skill.MAGIC.getId(), true);
                         defender.startGraphic(new Graphic(85, Graphic.GraphicHeight.MIDDLE));//splash!
                     }

@@ -12,8 +12,8 @@ import java.util.Optional;
 import java.util.stream.Collectors;
 
 /**
- * Collection box is just a place to put items that the player couldn't claim because they didn't have enough space or other reasons.
- */
+* really good way of making a container of shit you want to store
+ * */
 public class CollectionBox {
 
     private final Inventory inventory = new Inventory(128);

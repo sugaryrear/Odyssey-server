@@ -418,6 +418,8 @@ return !projectile && entity.getRegionProvider().canMove(attacker.getX(), attack
 
                 attacker.oldSpellId = attacker.getSpellId();
                 if (attacker.getSpellId() > -1) {
+                    //put casting sound here
+                    attacker.getPA().sendSound(161);
                     int animationId = CombatSpellData.MAGIC_SPELLS[attacker.getSpellId()][2];
                     int animationDelay = AnimationLength.getFrameLength(animationId) + 1;
                     attacker.getAnimationTimer().setDuration(animationDelay);
@@ -426,20 +428,22 @@ return !projectile && entity.getRegionProvider().canMove(attacker.getX(), attack
                 fireMageProjectile(targetEntity);
             } else {
                 int animationId = MeleeData.getWepAnim(attacker);
+                int soundId = MeleeData.getWepSound(attacker);
                 int animationDelay = AnimationLength.getFrameLength(animationId) + 1;
                 attacker.getAnimationTimer().setDuration(animationDelay);
                 attacker.startAnimation(new Animation(animationId, 0, AnimationPriority.HIGH));
-
+                attacker.getPA().sendSound(soundId);
                 if (getCombatType() == CombatType.RANGE) {
                     if (attacker.usingOtherRangeWeapons || attacker.usingBow || attacker.usingCross || attacker.usingBallista) {
                         if (attacker.getCombatConfigs().getWeaponMode().getAttackStyle() == AttackStyle.AGGRESSIVE) {
                             attacker.attackTimer--;
                         }
-                        if (!PetHandler.hasHealingPet(attacker)){
-                            attacker.attackTimer-=attacker.modifierforrangepet;
-                        }
+//                        if (!PetHandler.hasHealingPet(attacker)){
+//                            attacker.attackTimer-=attacker.modifierforrangepet;
+//                        }
                     }
-
+//if(attacker.usingBow)
+   // attacker.getPA().sendSound(soundId);
                     if (attacker.playerEquipment[Player.playerWeapon] != Items.TOXIC_BLOWPIPE ||
                             (attacker.playerEquipment[Player.playerWeapon] != Items.HAND_CANNON))
                         attacker.gfx100(RangeData.getRangeStartGFX(attacker));
@@ -926,6 +930,7 @@ return !projectile && entity.getRegionProvider().canMove(attacker.getX(), attack
             for (int bowId : RangeData.BOWS) {
                 if (attacker.playerEquipment[Player.playerWeapon] == bowId && System.currentTimeMillis() - attacker.switchDelay >= 600) {
                     attacker.usingBow = true;
+
                     if (bowId == Items.HEAVY_BALLISTA || bowId == Items.LIGHT_BALLISTA) {
                         attacker.usingBow = false;
                         attacker.usingBallista = true;

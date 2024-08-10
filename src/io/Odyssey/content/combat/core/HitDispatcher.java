@@ -227,8 +227,7 @@ public abstract class HitDispatcher {
             hitmark1 = damage > 0 ? Hitmark.HIT : Hitmark.MISS;
             hitmark2 = damage2 > 0 ? Hitmark.HIT : Hitmark.MISS;
             hitmark3 = damage3 > 0 ? Hitmark.HIT : Hitmark.MISS;
-            if(attacker.getItems().isWearingItem(4151))
-                attacker.getPA().sendSound(1080);
+
             if (gainExperience) {
                 addCombatXP(CombatType.MELEE, damage + Math.max(0, damage2) + Math.max(0, damage3));
             }

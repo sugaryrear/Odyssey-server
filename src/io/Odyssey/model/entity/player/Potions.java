@@ -55,7 +55,7 @@ public class Potions {
 		if (c.getPotionTimer().elapsed() >= 2) {
 			c.getPotionTimer().reset();
 			c.getFoodTimer().reset();
-			c.getPA().sendSound(2401);
+			c.getPA().sendSound(334);
 			applyPotion(itemId, slot);
 		}
 	}

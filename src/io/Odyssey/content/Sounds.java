@@ -11,11 +11,11 @@ public class Sounds {
 
     private static final SoundId[] EQUIP_ITEM_SOUNDS = {
             // Equipment
-           new SoundId(2241, "d'hide"),
-            new SoundId(2239, "chainbody", "platebody"),
-            new SoundId(2440, "helm"),
-            new SoundId(2442, "platelegs", "plateskirt"),
-            new SoundId(2237, "boots"),
+//           new SoundId(2241, "d'hide"),
+//            new SoundId(2239, "chainbody", "platebody"),
+//            new SoundId(2440, "helm"),
+//            new SoundId(2442, "platelegs", "plateskirt"),
+//            new SoundId(2237, "boots"),
 
             // Weapons/ammo
             new SoundId(2248, "sword", "scimitar", "mace", "flail", "axe", "pickaxe", "battleaxe", "greataxe"),

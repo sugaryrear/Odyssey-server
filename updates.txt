@@ -413,7 +413,7 @@
 - Soulsplit will now heal you properly against NPCs 
 - warriors guild basement token drain rate corrected
 - Barbarian Agility (oldschool.runescape.wiki/w/Barbarian_Outpost_Agility_Course)
-- Zodian's first full quest: Horror From the Deep! Travel to the lighthouse in Rellekka to see whats up. (You can auto complete the quest for 5 donation points but I suggest you do it at least once cuz I worked hard on it)
+- first full quest: Horror From the Deep! Travel to the lighthouse in Rellekka to see whats up. (You can auto complete the quest for 5 donation points but I suggest you do it at least once cuz I worked hard on it)
 - Proper aggression added: some npcs will now be "unaggressive" towards you after 15 minutes until you leave the area and then come back in
 - Some rock crabs will start out as "rocks" and will transform when you move near them
 - King Black Dragon: oldschool.runescape.wiki/w/King_Black_Dragon/Strategies)
@@ -450,7 +450,7 @@
 - route to morytania / canifis added
 - attackable NPC names will now be in red in the NPC names runelite plugin
 - Varrock sewers and Bryophyta added
-- World teleports scroll added to Zodian store
+- World teleports scroll added to dono store to unlock all teleports
 - Resource mystery box added to all gathering activities
 - God wars dungeon with proper obstacles, npc agression fixed, zaros encampment and Nex
 `
@@ -504,7 +504,7 @@ Bosses fixed and readded with proper drops and mechanics:
 - Battlepass: You can now purchase a battlepass from the donation store for 10 points. You earn "battlepass xp" by doing skilling / pvm activities and the XP varies. Level up to the next tier to receive that tiers rewards. Resets every month.
 - added dice bag to the donation store for 5 points and made home area diceable
 - Daily rewards! Login and talk to Daily Rewards npc at home island inn. Some minor , some very OP rewards , depends what day you login. 
-- Referrals! Talk to the zodian guide to fill out a referral
+- Referrals! Talk to the rsps guide to fill out a referral
 - Leaderboard: Server wide leaderboard that tracks various statistics (most xp per week, most boss points per week, most pk's per week, etc). Every week (on sunday 12 AM eastern time) the leaderboard resets and top 3 in each category receive a prize!
 `
 

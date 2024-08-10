@@ -216,13 +216,13 @@ return;
 			case 62357:
 				c.getPA().closeAllWindows();
 
-				if(!Boundary.isIn(c, Boundary.HOME_ISLAND)){
-					if(!c.getRights().isOrInherits(Right.REGULAR_DONATOR)){
-						c.sendMessage("You can only switch prayer books at home.");
-						return;
-					}
-
-				}
+//				if(!Boundary.isIn(c, Boundary.HOME_ISLAND)){
+//					if(!c.getRights().isOrInherits(Right.REGULAR_DONATOR)){
+//						c.sendMessage("You can only switch prayer books at home.");
+//						return;
+//					}
+//
+//				}
 
 				c.sendMessage("You change to the regular prayer book.");
 				c.usingcurseprayers = false;
@@ -237,13 +237,13 @@ return;
 					c.sendMessage("You need a prayer level of at least 56 to switch to the Curses prayerbook.");
 					return;
 				}//			if (c.getRights().isOrInherits(Right.ONYX_CLUB)) {
-				if(!Boundary.isIn(c, Boundary.HOME_ISLAND)){
-					if(!c.getRights().isOrInherits(Right.REGULAR_DONATOR)){
-						c.sendMessage("You can only switch prayer books at home.");
-						return;
-					}
-
-				}
+//				if(!Boundary.isIn(c, Boundary.HOME_ISLAND)){
+//					if(!c.getRights().isOrInherits(Right.REGULAR_DONATOR)){
+//						c.sendMessage("You can only switch prayer books at home.");
+//						return;
+//					}
+//
+//				}
 				CombatPrayer.resetPrayers(c);
 				c.sendMessage("@pur@An ancient knowledge fills your mind...");
 				c.usingcurseprayers = true;

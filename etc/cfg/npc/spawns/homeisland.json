@@ -301,7 +301,7 @@
     },
     "walkingType": "FACE_SOUTH"
   },
-  //zodian guide
+  //rsps guide
   {
     "id": 306,
     "position": {
@@ -463,8 +463,18 @@
   {
     "id": 7204,
     "position": {
-      "x": 2008,
-      "y": 3654,
+      "x": 3213,
+      "y": 3223,
+      "height": 0
+    },
+    "walkingType": "FACE_EAST"
+  },
+  //prestige
+  {
+    "id": 2989,
+    "position": {
+      "x": 3213,
+      "y": 3219,
       "height": 0
     },
     "walkingType": "FACE_EAST"

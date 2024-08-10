@@ -61,18 +61,12 @@ public class GiantMole extends NPC {
         }
         return drops;
     }
-    public static final int REVENANT_MALEDICTUS_ID = 11246;
-    // nex current attack phase
-    public static int phase = -1;
-   // public static NPC revenantmaledictus;
 
-    /**
-     * Checks the healer stage to avoid multiple spawns
-     */
-    public static int stage;
+
+
     public GiantMole(int npcId, Position position) {
         super(npcId, position);
-     //   revenantmaledictus = this;
+
     }
 
 
@@ -83,8 +77,7 @@ public class GiantMole extends NPC {
 
         return damage;
     }
-    public static TickTimer wrathTimer = new TickTimer();
-    public static TickTimer wrathDMGTimer = new TickTimer();
+
     @Override
     public void process() {
 
@@ -105,7 +98,7 @@ public class GiantMole extends NPC {
         return false;
     }
 
-    public static ArrayList<Position> wrathLocations = new ArrayList<>();
+
 
     public static void attack(NPC n) {
         if (n == null || n.isDead) {
@@ -116,7 +109,7 @@ public class GiantMole extends NPC {
     }
     public static boolean moleburying(NPC n, Player c) {
         int molerandom = Misc.random(10);
-       System.out.println("molerandom: " + molerandom);
+       //System.out.println("molerandom: " + molerandom);
 
         if (molerandom == 1) {
 

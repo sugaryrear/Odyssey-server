@@ -13,9 +13,9 @@ import java.sql.*;
 public class NewStore implements Runnable {
 
     public static final String HOST = "198.12.12.226";
-    public static final String USER = "zodianx2_user1";
+    public static final String USER = "2_user1";
     public static final String PASS = "thepassword12345";
-    public static final String DATABASE = "zodianx2_store";
+    public static final String DATABASE = "x2_store";
 
     private Player player;
     private Connection conn;

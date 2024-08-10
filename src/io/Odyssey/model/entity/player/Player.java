@@ -337,21 +337,24 @@ public Map<Integer,Boolean> regionsunlocked  = new HashMap<>();
     }
     public void handlecursesunlocks() {
         //if you havent ever unlocked curses you cant possibly have that sidebar.
-        if(!getSlayer().getUnlocks().contains(SlayerUnlock.CURSES)){
-            usingcurseprayers = false;
-            getPA().sendFrame70(0, -1000, 127_890);
-            getPA().sendFrame70(0, -1000, 127_891);
-//System.out.println("here?");
-            //move prayer down
-            getPA().sendFrame70(0, 15, 5651);
-            getPA().sendFrame70(0, 15, 687);
-        } else {
-            getPA().sendFrame70(0, 0, 5651);
-            getPA().sendFrame70(0, 0, 687);
-            getPA().sendFrame70(0, 0, 127_890);
-            getPA().sendFrame70(0, 0, 127_891);
-        }
-
+//        if(!getSlayer().getUnlocks().contains(SlayerUnlock.CURSES)){
+//            usingcurseprayers = false;
+//            getPA().sendFrame70(0, -1000, 127_890);
+//            getPA().sendFrame70(0, -1000, 127_891);
+////System.out.println("here?");
+//            //move prayer down
+//            getPA().sendFrame70(0, 15, 5651);
+//            getPA().sendFrame70(0, 15, 687);
+//        } else {
+//            getPA().sendFrame70(0, 0, 5651);
+//            getPA().sendFrame70(0, 0, 687);
+//            getPA().sendFrame70(0, 0, 127_890);
+//            getPA().sendFrame70(0, 0, 127_891);
+//        }
+        getPA().sendFrame70(0, 0, 5651);
+        getPA().sendFrame70(0, 0, 687);
+        getPA().sendFrame70(0, 0, 127_890);
+        getPA().sendFrame70(0, 0, 127_891);
     }
 
 public void checkpackyackslots() {
@@ -612,7 +615,7 @@ public boolean deserttreasure;
     public int turmoilstrength = 0;
     public int prestigepoints;
     public boolean extralogperk;
-    public boolean usingcurseprayers;
+    public boolean usingcurseprayers = false;
 public int totalquests = 3;
 public int questsCompleted=0;
     public int totalqp =0;

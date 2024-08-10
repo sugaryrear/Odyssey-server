@@ -170,7 +170,7 @@ public class DialogueHandler {
 				c.nextChat = -1;
 				break;
 			case 1337:
-				sendNpcChat("Sup");
+				sendNpcChat("Welcome to Runescape!");
 				c.nextChat = -1;
 				break;
 
@@ -3187,9 +3187,7 @@ public class DialogueHandler {
 			c.dialogueAction = 11889;
 			break;
 
-		/*
-		 * zodian guide
-		 */
+
 			case 710:
 				sendNpcChat("Welcome to Runescape! How many I help you?");
 				c.nextChat = 7110;

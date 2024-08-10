@@ -395,7 +395,7 @@ c.sendMessage("changetomembershipbenefits##0");
 				break;
 			case 14670:
 				new DialogueBuilder(c).option(
-						new DialogueOption("Zodian Wiki", plr -> plr.getPA().sendFrame126("https://Runescape.com/", 12000)),
+						new DialogueOption("OSRS Wiki", plr -> plr.getPA().sendFrame126("https://Runescape.com/", 12000)),
 						new DialogueOption("Cancel", plr -> plr.getPA().closeAllWindows())
 				).send();
 				break;
@@ -685,6 +685,7 @@ c.sendMessage("changetomembershipbenefits##0");
 			case 41105:
 			case 183155:
 			case 39503:
+			case 213239:
 				c.getPA().closeAllWindows();
 				break;
 			case 88005-65536://favorite

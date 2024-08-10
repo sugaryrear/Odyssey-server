@@ -76,7 +76,9 @@ public class CombatSpellData {
 		//11 = rune2 amount
 		//12 = rune3
 		//13 = rune3 amount
-
+			//TODO:
+//14 - sound it makes when casting
+			//15 - sound it makes when hit
 		// Modern Spells
 		{ 1152, 1, 711, 90, 91, 92, 2, 5, 556, 1, 558, 1, 0, 0, 0, 0 }, // wind strike
 		{ 1154, 5, 711, 93, 94, 95, 4, 7, 555, 1, 556, 1, 558, 1, 0, 0 }, // water strike

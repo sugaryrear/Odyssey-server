@@ -3,9 +3,7 @@ package io.Odyssey.content.combat.melee;
 import io.Odyssey.content.combat.magic.CombatSpellData;
 import io.Odyssey.content.combat.weapon.AttackStyle;
 import io.Odyssey.content.combat.weapon.CombatStyle;
-import io.Odyssey.content.commands.owner.Gfx;
 import io.Odyssey.model.CombatType;
-import io.Odyssey.model.Graphic;
 import io.Odyssey.model.Items;
 import io.Odyssey.model.definitions.ItemDef;
 import io.Odyssey.model.entity.player.Player;
@@ -192,6 +190,17 @@ public class MeleeData {
 		}
 
 		switch (weaponId) {
+
+			case 27275:
+				c.playerStandIndex = 1713;
+				c.playerWalkIndex = 1703;
+				c.playerRunIndex = 1707; //1707
+				c.playerTurnIndex = 1713;
+				c.playerTurn180Index = 1705;
+				c.playerTurn90CWIndex = 1706;  //1702
+				c.playerTurn90CCWIndex = 1702;
+
+				break;
 		case Items.DRAGON_HUNTER_LANCE:
 			c.playerStandIndex = 813;
 			c.playerWalkIndex = 1205;
@@ -285,8 +294,36 @@ public class MeleeData {
 			break;
 		}
 	}
+	public static int getWepSound(Player c) {
+		String weaponName = ItemAssistant.getItemName(c.playerEquipment[Player.playerWeapon]).toLowerCase();
+		if (c.playerEquipment[Player.playerWeapon] <= 0) {
 
+					return 417;
+
+		}
+
+		if (weaponName.contains("scimitar") || weaponName.contains("sword")) {
+			switch (c.getCombatConfigs().getWeaponMode().getCombatStyle()) {
+				case STAB:
+					return 398;
+				case SLASH:
+					return 396;
+			}
+		}
+		else if (weaponName.contains("bow")) {
+			return 396;
+		}
+		else if (weaponName.contains("whip")) {
+			return 1080;
+		}
+		else if (weaponName.contains("staff")) {
+			return 394;
+		}
+		return -1;
+	}
+//just do the same thing for sounds!
 	public static int getWepAnim(Player c) {
+		//System.out.println("Style: "+c.getCombatConfigs().getWeaponMode().getCombatStyle());
 		String weaponName = ItemAssistant.getItemName(c.playerEquipment[Player.playerWeapon]).toLowerCase();
 		if (c.playerEquipment[Player.playerWeapon] <= 0) {
 			switch (c.getCombatConfigs().getWeaponMode().getAttackStyle()) {
@@ -424,7 +461,12 @@ public class MeleeData {
 			return 400;
 		}
 		if (weaponName.contains("scim")) {
-				return 390;
+			switch (c.getCombatConfigs().getWeaponMode().getCombatStyle()) {
+				case STAB:
+					return 412;
+				default:
+					return 390;
+			}
 			}//add wep animations here
 		switch (c.playerEquipment[Player.playerWeapon]) { // if you don't want to use strings
 
