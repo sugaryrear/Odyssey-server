@@ -52,7 +52,7 @@ public class PlayerDeath {
 
     private static void beforeDeath(Player c) {
         TourneyManager.setFog(c, false, 0);
-        c.getPA().sendFrame126(":quicks:off", -1);
+       // c.getPA().sendFrame126(":quicks:off", -1);
         c.getItems().setEquipmentUpdateTypes();
         c.getPA().requestUpdates();
         c.respawnTimer = 15;

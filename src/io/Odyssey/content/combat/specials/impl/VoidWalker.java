@@ -13,21 +13,17 @@ import io.Odyssey.model.entity.player.Player;
 import io.Odyssey.util.Misc;
 
 public class VoidWalker extends Special {
-//    public void activate(Player player, Entity target, Damage damage) {
-//        player.startAnimation(9489);
-//        target.startGraphic(new Graphic(2363));
+
     public VoidWalker() {
         super(2.5, 20.00, 7.25, new int[] { 27_690 });
     }
 
     @Override
     public void activate(Player player, Entity target, Damage damage) {
-        player.usingMagic = true;
-        player.startAnimation(9489);
+
+        player.startAnimation(1378);
         target.startGraphic(new Graphic(2363));
-        Server.getEventHandler().stop(player, "void_walker");
-//        Server.getEventHandler().submit(new StaffOfTheDeadEvent(player));
-        player.usingMagic = false;
+
     }
 
     @Override

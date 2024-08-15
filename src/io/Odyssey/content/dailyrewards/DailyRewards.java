@@ -41,7 +41,7 @@ public class DailyRewards {
     }
 
     public void onLogin() {
-      //  notifyWhenReady(true);
+        notifyWhenReady(true);
     }
 
     public void notifyWhenReady(boolean login) {

@@ -686,6 +686,7 @@ c.sendMessage("changetomembershipbenefits##0");
 			case 183155:
 			case 39503:
 			case 213239:
+				case 117035:
 				c.getPA().closeAllWindows();
 				break;
 			case 88005-65536://favorite

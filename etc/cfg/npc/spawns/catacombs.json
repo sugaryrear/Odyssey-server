@@ -1560,15 +1560,7 @@
     },
     "walkingType": "WALK"
   },
-  {
-    "id": 2827,
-    "position": {
-      "x": 1548,
-      "y": 3777,
-      "height": 0
-    },
-    "walkingType": "WALK"
-  },
+
   {
     "id": 3019,
     "position": {
@@ -1637,15 +1629,6 @@
     "position": {
       "x": 1576,
       "y": 3801,
-      "height": 0
-    },
-    "walkingType": "WALK"
-  },
-  {
-    "id": 2827,
-    "position": {
-      "x": 1549,
-      "y": 3776,
       "height": 0
     },
     "walkingType": "WALK"

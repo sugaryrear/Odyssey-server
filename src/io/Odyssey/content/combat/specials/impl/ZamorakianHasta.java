@@ -17,7 +17,7 @@ public class ZamorakianHasta extends Special {
 		player.gfx100(253);
 		if (target instanceof Player) {
 			Player other = (Player) target;
-			if (player.playerAttackingIndex > 0) {
+			if (player.playerAttackingIndex > 0) {//if attacking a player
 				other.getPA().getSpeared(player.absX, player.absY, 1);
 				other.gfx0(80);
 			}

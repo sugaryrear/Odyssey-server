@@ -351,8 +351,8 @@ public Map<Integer,Boolean> regionsunlocked  = new HashMap<>();
 //            getPA().sendFrame70(0, 0, 127_890);
 //            getPA().sendFrame70(0, 0, 127_891);
 //        }
-        getPA().sendFrame70(0, 0, 5651);
-        getPA().sendFrame70(0, 0, 687);
+        getPA().sendFrame70(15, 0, 5651);//the prayer icon
+        getPA().sendFrame70(15, 0, 687);
         getPA().sendFrame70(0, 0, 127_890);
         getPA().sendFrame70(0, 0, 127_891);
     }
@@ -2465,7 +2465,7 @@ public int questsCompleted=0;
         }
 
         if (Calendar.getInstance().get(Calendar.DAY_OF_WEEK) == Calendar.SATURDAY || Calendar.getInstance().get(Calendar.DAY_OF_WEEK) == Calendar.SUNDAY || Calendar.getInstance().get(Calendar.DAY_OF_WEEK) == Calendar.FRIDAY) {
-            sendMessage("@gre@It's Bonus XP Weekend!");
+            sendMessage("@blu@It's Bonus XP Weekend!");
         }
         if (bonusXpTime > 0) {
             getPA().sendGameTimer(ClientGameTimer.BONUS_XP, TimeUnit.MINUTES, VotePanelManager.getBonusXPTimeInMinutes(this));
@@ -2738,6 +2738,7 @@ public int questsCompleted=0;
         getPA().hidestufffrompanels();
         loginScreen();
         handlecursesunlocks();
+        getBattlePass().loginAlert(this);
 getPA().setspellbook(playerMagicBook);
 //fixautocast();
     }

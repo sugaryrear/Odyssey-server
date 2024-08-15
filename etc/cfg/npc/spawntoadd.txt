@@ -1,0 +1,12 @@
+//Undead Lumberjack
+{ "id":5651, 
+ "position": {"x":3224, "y": 3222,"height":0},
+ "walkingType": "WALK " },
+//Undead Lumberjack
+{ "id":5651, 
+ "position": {"x":3224, "y": 3222,"height":0},
+ "walkingType": "WALK " },
+//Bartender
+{ "id":687, 
+ "position": {"x":3224, "y": 3222,"height":0},
+ "walkingType": "WALK " },

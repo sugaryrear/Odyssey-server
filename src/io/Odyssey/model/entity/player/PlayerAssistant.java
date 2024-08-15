@@ -599,7 +599,7 @@ int to =0;
     public void sendSound(int soundId, SoundType soundType, Entity source) {
 		if (c.getOutStream() != null) {
 			if (c.debugMessage) {
-				c.sendMessage("Sent sound " + soundId);
+				c.sendMessage("debug: Sent sound " + soundId);
 			}
 			c.getOutStream().createFrame(12);
 			c.getOutStream().writeUnsignedWord(soundId);

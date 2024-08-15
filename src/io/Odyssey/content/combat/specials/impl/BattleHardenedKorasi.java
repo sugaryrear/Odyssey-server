@@ -21,7 +21,6 @@ public class BattleHardenedKorasi extends Special {
         player.gfx100(1731);
         player.startAnimation(9489);
         target.startAnimation(new Animation(3170));
-        target.startAnimation(new Animation(3170));
         target.startGraphic(new Graphic(1732));
 
 

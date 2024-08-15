@@ -39,7 +39,7 @@ public class DoubleDoors {
 
     public boolean handleDoor( int id, int x, int y, int z) {
         DoubleDoors doorClicked = getDoor(id, x, y, z);
-
+        GlobalObject object2 = Server.getGlobalObjects().get(id,x,y,z);
         if (doorClicked == null) {
             return true;
         }
@@ -162,10 +162,10 @@ public class DoubleDoors {
         }
         if (xAdjustment != 0 || yAdjustment != 0) {
        //     Server.getGlobalObjects().add(new GlobalObject(-1, d.x, d.y, d.z, 0, 0));
-            GlobalObject theobject = new GlobalObject(d.doorId, d.x, d.y, d.z, 0, 0);
-            Server.getGlobalObjects().add(theobject);
-            Server.getGlobalObjects().remove(theobject);
-            Server.getGlobalObjects().updateObject(theobject, -1);
+//            GlobalObject theobject = new GlobalObject(d.doorId, d.x, d.y, d.z, 0, 0);
+//            Server.getGlobalObjects().add(theobject);
+//            Server.getGlobalObjects().remove(theobject);
+//            Server.getGlobalObjects().updateObject(theobject, -1);
             //GameEngine.objectHandler.placeObject(new Objects(-1, d.x, d.y, d.z, 0, 0, 0));
         }
         if (d.x == d.originalX && d.y == d.originalY) {
@@ -173,10 +173,10 @@ public class DoubleDoors {
             d.y += yAdjustment;
         } else {
           //  Server.getGlobalObjects().add(new GlobalObject(-1, d.x, d.y, d.z, 0, 0, 0));
-            GlobalObject theobject = new GlobalObject(d.doorId, d.x, d.y, d.z, 0, 0);
-            Server.getGlobalObjects().add(theobject);
-            Server.getGlobalObjects().remove(theobject);
-            Server.getGlobalObjects().updateObject(theobject, -1);
+//            GlobalObject theobject = new GlobalObject(d.doorId, d.x, d.y, d.z, 0, 0);
+//            Server.getGlobalObjects().add(theobject);
+//            Server.getGlobalObjects().remove(theobject);
+//            Server.getGlobalObjects().updateObject(theobject, -1);
             //GameEngine.objectHandler.placeObject(new Objects(-1, d.x, d.y, d.z, 0, 0, 0));
             d.x = d.originalX;
             d.y = d.originalY;
@@ -267,10 +267,11 @@ public class DoubleDoors {
         } else {
            // Server.getGlobalObjects().add(new GlobalObject(-1, d.x, d.y, d.z, 0, 0, 0));
             //GameEngine.objectHandler.placeObject(new Objects(-1, d.x, d.y, d.z, 0, 0, 0));
-            GlobalObject theobject = new GlobalObject(d.doorId, d.x, d.y, d.z, 0, 0);
-            Server.getGlobalObjects().add(theobject);
-            Server.getGlobalObjects().remove(theobject);
-            Server.getGlobalObjects().updateObject(theobject, -1);
+//            GlobalObject theobject = new GlobalObject(d.doorId, d.x, d.y, d.z, 0, 0);
+//            Server.getGlobalObjects().add(theobject);
+//            Server.getGlobalObjects().remove(theobject);
+//            Server.getGlobalObjects().updateObject(theobject, -1);
+          //  Server.getGlobalObjects().remove(object2);
             d.x = d.originalX;
             d.y = d.originalY;
         }
@@ -363,13 +364,13 @@ public class DoubleDoors {
     };
 
     public void load() {
-        //long start = System.currentTimeMillis();
+        long start = System.currentTimeMillis();
         try {
             singleton.processLineByLine();
         } catch (FileNotFoundException e) {
             e.printStackTrace();
         }
-        //System.out.println("Loaded "+ doors.size() +" Double doors in "+ (System.currentTimeMillis() - start) +"ms.");
+        System.out.println("Loaded "+ doors.size() +" Double doors in "+ (System.currentTimeMillis() - start) +"ms.");
     }
 
     private final void processLineByLine() throws FileNotFoundException {

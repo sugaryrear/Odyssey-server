@@ -967,7 +967,7 @@ public class BattlePass {
         return 0;
     }
     public void loginAlert (Player player) {
-        if (player.boughtBP == false) {
+        if (!player.boughtBP) {
             return;
         }
         int tiersLeft = 30 - player.currentTier;

@@ -266,7 +266,7 @@ public class NpcOptionOne {
 			case 2148:
 			case 1600:
 			case 2633:
-				player.getPA().c.itemAssistant.openUpBank();
+				//player.getPA().c.itemAssistant.openUpBank();
 				break;
 		case 5293:
 			player.getShops().openShop(175);
@@ -470,7 +470,7 @@ public class NpcOptionOne {
 			player.start(new DialogueBuilder(player)
 					.setNpcId(6987)
 					.option(new DialogueOption("Create Dragonfire shield for 1.25M gold", option1),
-							new DialogueOption("Start at last wave (1M gp)", option2))
+							new DialogueOption("Nevermind.", option2))
 			);
 
 			break;
@@ -905,7 +905,7 @@ public class NpcOptionOne {
 		case 2568: // Banker
 		case 2569: // Banker
 		case 2570: // Banker
-			player.getPA().c.itemAssistant.openUpBank();
+		//	player.getPA().c.itemAssistant.openUpBank();
 			break;
 		case 1986:
 			player.getDH().sendDialogues(2244, player.npcType);

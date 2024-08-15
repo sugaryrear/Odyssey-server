@@ -79,7 +79,7 @@ public class PakYak extends ArrayList<GameItem> {
 //            return;
 //        }
       //  reset();
-        depositopen = true;
+       // depositopen = true;
         updateItemContainers();
         player.getPA().sendTabAreaOverlayInterface(95000);
 

@@ -670,7 +670,7 @@ public abstract class HitDispatcher {
 //        if(type == RangedWeaponType.THROWN)
 //            dropArrow_mainhand(itemId);
 //        else
-//        dropArrow(itemId);
+       dropArrow(itemId);
         if (type == RangedWeaponType.DOUBLE_SHOT) {
             dropArrow(itemId);
         }
@@ -692,20 +692,20 @@ public abstract class HitDispatcher {
         if (attacker.playerEquipment[Player.playerWeapon] == 12926) {
             return;
         }
-        int arrow = arrowId;
-        int stock = attacker.playerEquipmentN[attacker.playerArrows];
-        int slot = attacker.playerArrows;
-
-        if (stock > 1) {
-            attacker.getItems().setEquipment(arrow, stock - 1, slot,false);
-        } else if (stock == 1) {
-            attacker.getItems().unequipItem(arrow, slot);
-        }
+//        int arrow = arrowId;
+//        int stock = attacker.playerEquipmentN[attacker.playerArrows];
+//        int slot = attacker.playerArrows;
+//
+//        if (stock > 1) {
+//            attacker.getItems().setEquipment(arrow, stock - 1, slot,false);
+//        } else if (stock == 1) {
+//            attacker.getItems().unequipItem(arrow, slot);
+//        }
 
         int enemyX = defender.getX();
         int enemyY = defender.getY();
         int height = defender.getHeight();
-        if (Misc.trueRand(3) == 0) {
+       if (Misc.trueRand(3) == 0) {
             Server.itemHandler.createGroundItem(attacker, arrowId, enemyX, enemyY, height, 1, attacker.getIndex());
         }
     }

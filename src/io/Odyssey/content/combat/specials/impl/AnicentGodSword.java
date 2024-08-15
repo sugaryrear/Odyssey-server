@@ -32,13 +32,7 @@ public class AnicentGodSword extends Special {
     public void activate(Player player, Entity target, Damage damage) {
         player.startAnimation(9171);
         player.gfx0(1996);
-        //player.gfx0(2363);
-        //damage.setAmount((MeleeCombatFormula.get().getMaxHit(player, player) * Misc.random((int) 0.5, (int) 1.5)));
-        //int damage2 = damage.getAmount();
-        //if (damage.getAmount() > 0) {
-        // player.getDamageQueue().add(new Damage(target, damage.setAmount(25), 8, player.playerEquipment, Hitmark.HIT, CombatType.MAGE));
-        // player.getPA().addXpDrop(new PlayerAssistant.XpDrop(damage2, Skill.ATTACK.getId()));
-        // }
+
     }
     @Override
     public void hit(Player player, Entity target, Damage damage) {
